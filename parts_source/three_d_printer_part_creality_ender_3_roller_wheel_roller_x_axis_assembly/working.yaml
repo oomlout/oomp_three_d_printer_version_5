@@ -1,0 +1,26 @@
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+name_proper: Ender-3 Roller X-Axis assembly
+oomp_id: three_d_printer_part_creality_ender_3_roller_wheel_roller_x_axis_assembly
+source_checked: '2026-11-18'
+sources:
+  Creality original mechanical design: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/ASM%20Roller%20X-Axis.SLDASM
+specifications:
+  cad_file: ASM Roller X-Axis.SLDASM
+  reference_kind: Mechanical design reference
+  reference_name: Roller X-Axis assembly
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: roller_wheel
+taxonomy_5: roller_x_axis_assembly
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

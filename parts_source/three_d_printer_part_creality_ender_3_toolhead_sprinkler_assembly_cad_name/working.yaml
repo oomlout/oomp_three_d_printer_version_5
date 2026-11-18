@@ -1,0 +1,26 @@
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+name_proper: Ender-3 Sprinkler assembly (CAD name)
+oomp_id: three_d_printer_part_creality_ender_3_toolhead_sprinkler_assembly_cad_name
+source_checked: '2026-11-18'
+sources:
+  Creality original mechanical design: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/Sprinkler%20assembly.SLDASM
+specifications:
+  cad_file: Sprinkler assembly.SLDASM
+  reference_kind: Mechanical design reference
+  reference_name: Sprinkler assembly (CAD name)
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: toolhead
+taxonomy_5: sprinkler_assembly_cad_name
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

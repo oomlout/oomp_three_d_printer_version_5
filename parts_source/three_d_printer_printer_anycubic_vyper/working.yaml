@@ -1,0 +1,25 @@
+name_proper: Anycubic Vyper
+oomp_id: three_d_printer_printer_anycubic_vyper
+source_checked: '2026-11-18'
+sources:
+  Anycubic Vyper user manual: https://media.elv.com/file/252518_um.pdf
+specifications:
+  build_volume_mm:
+  - 245
+  - 245
+  - 260
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: anycubic
+taxonomy_15: vyper
+taxonomy_2: printer
+taxonomy_3: ''
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

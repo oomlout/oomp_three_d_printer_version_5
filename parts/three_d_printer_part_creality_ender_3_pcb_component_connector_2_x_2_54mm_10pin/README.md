@@ -1,0 +1,268 @@
+<!-- oomp-documentation:start -->
+# Ender-3 Connector 2 X 2.54mm 10pin
+
+## Summary
+
+Ender-3 Connector 2 X 2.54mm 10pin
+
+## Details
+
+OOMP ID `three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin`
+
+| Specification | Value |
+| --- | --- |
+| Pcba bom items | 37, 42 |
+| Pcba quantities pcs | 1, 1 |
+| Reference name | Connector 2 X 2.54mm 10pin |
+| Source name | Wafer |
+| Source specification | 2 X 2.54mm 10pin |
+
+Sources checked 2026-11-18.
+
+- [Creality Ender-3 PCBA bill of materials](https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx)
+
+| Taxonomy slot | Value |
+| --- | --- |
+| 1 | `three_d_printer` |
+| 2 | `part` |
+| 3 | `creality_ender_3` |
+| 4 | `pcb_component` |
+| 5 | `connector_2_x_2_54mm_10pin` |
+
+## Labels
+
+| Layout | Stock (mm) | Files |
+| --- | --- | --- |
+| OOMP inventory | 76.2 × 50.8 | [SVG](label_oomp.svg) · [Print PDF](label_oomp.pdf) |
+| Stock | 76.2 × 50.8 | [SVG](label_stock_3x2.svg) · [Print PDF](label_stock_3x2.pdf) |
+| Stock | 38.1 × 25.4 | [SVG](label_stock_1_5x1.svg) · [Print PDF](label_stock_1_5x1.pdf) |
+| Drawer | 38.1 × 25.4 | [SVG](label_drawer.svg) · [Print PDF](label_drawer.pdf) |
+| Compact barcode | 30 × 15 | [SVG](label_30x15.svg) · [Print PDF](label_30x15.pdf) |
+
+## Parts
+
+[Browse this category](../../navigation/part/creality_ender_3/pcb_component/README.md) · [Canonical metadata](working.yaml) · [Catalogue](../../README.md)
+
+Confirmed printer models in this catalogue
+
+- [Creality Ender-3](../three_d_printer_printer_creality_ender_3/)
+
+## Assembly
+
+Use the model-specific manufacturer documentation linked above for setup or service.
+
+<details>
+<summary>Full OOMP metadata</summary>
+
+```yaml
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+name_proper: Ender-3 Connector 2 X 2.54mm 10pin
+oomp_id: three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 PCBA bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx
+specifications:
+  pcba_bom_items:
+  - 37
+  - 42
+  pcba_quantities_pcs:
+  - 1
+  - 1
+  reference_name: Connector 2 X 2.54mm 10pin
+  source_name: Wafer
+  source_specification: 2 X 2.54mm 10pin
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: pcb_component
+taxonomy_5: connector_2_x_2_54mm_10pin
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+taxonomy_1_upper: THREE_D_PRINTER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TH
+taxonomy_1_upper_length_3: THR
+taxonomy_1_upper_length_4: THRE
+taxonomy_1_upper_length_5: THREE
+taxonomy_1_length_1: t
+taxonomy_1_length_2: th
+taxonomy_1_length_3: thr
+taxonomy_1_length_4: thre
+taxonomy_1_length_5: three
+taxonomy_1_capital: Three D Printer
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_3_upper: CREALITY_ENDER_3
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CR
+taxonomy_3_upper_length_3: CRE
+taxonomy_3_upper_length_4: CREA
+taxonomy_3_upper_length_5: CREAL
+taxonomy_3_length_1: c
+taxonomy_3_length_2: cr
+taxonomy_3_length_3: cre
+taxonomy_3_length_4: crea
+taxonomy_3_length_5: creal
+taxonomy_3_capital: Creality Ender 3
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_4_upper: PCB_COMPONENT
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PC
+taxonomy_4_upper_length_3: PCB
+taxonomy_4_upper_length_4: PCB_
+taxonomy_4_upper_length_5: PCB_C
+taxonomy_4_length_1: p
+taxonomy_4_length_2: pc
+taxonomy_4_length_3: pcb
+taxonomy_4_length_4: pcb_
+taxonomy_4_length_5: pcb_c
+taxonomy_4_capital: Pcb Component
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_5_upper: CONNECTOR_2_X_2_54MM_10PIN
+taxonomy_5_upper_length_1: C
+taxonomy_5_upper_length_2: CO
+taxonomy_5_upper_length_3: CON
+taxonomy_5_upper_length_4: CONN
+taxonomy_5_upper_length_5: CONNE
+taxonomy_5_length_1: c
+taxonomy_5_length_2: co
+taxonomy_5_length_3: con
+taxonomy_5_length_4: conn
+taxonomy_5_length_5: conne
+taxonomy_5_capital: Connector 2 x 2.54mm 10Pin
+taxonomy_5_first_letter: c
+taxonomy_5_first_letter_upper: C
+id: three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+id_no_class: three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+id_no_type: three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+id_no_size: three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+oomp_key: oomp_three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+directory: parts/three_d_printer_part_creality_ender_3_pcb_component_connector_2_x_2_54mm_10pin
+name: Three D Printer Part Creality Ender 3 Pcb Component Connector 2 X 2 54Mm 10Pin
+name_no_class: Three D Printer Part Creality Ender 3 Pcb Component Connector 2 X 2
+  54Mm 10Pin
+name_no_type: Three D Printer Part Creality Ender 3 Pcb Component Connector 2 X 2
+  54Mm 10Pin
+name_no_size: Three D Printer Part Creality Ender 3 Pcb Component Connector 2 X 2
+  54Mm 10Pin
+md5: 9e3c405dbf663c9e99623daaf4efbb8a
+md5_5: 9e3c4
+md5_5_upper: 9E3C4
+md5_6: 9e3c40
+md5_6_upper: 9E3C40
+md5_6_alpha: 669mo
+md5_6_alpha_upper: 669MO
+md5_10: 9e3c405dbf
+md5_10_upper: 9E3C405DBF
+bip_39_full_array:
+- owner
+- tilt
+- blast
+- learn
+- glow
+- exercise
+- grain
+- element
+- priority
+- polar
+- upon
+- best
+bip_39_full_space: owner tilt blast learn glow exercise grain element priority polar
+  upon best
+bip_39_full_no_space: ownertiltblastlearnglowexercisegrainelementprioritypolaruponbest
+bip_39_full_underscore: owner_tilt_blast_learn_glow_exercise_grain_element_priority_polar_upon_best
+bip_39_2_word_array:
+- owner
+- tilt
+bip_39_2_word_space: owner tilt
+bip_39_2_word_no_space: ownertilt
+bip_39_2_word_underscore: owner_tilt
+bip_39_3_word_array:
+- owner
+- tilt
+- blast
+bip_39_3_word_space: owner tilt blast
+bip_39_3_word_no_space: ownertiltblast
+bip_39_3_word_underscore: owner_tilt_blast
+label_title: Connector 2 X 2.54mm 10pin
+label_barcode: M0,0h34v760h-34z M136,0h34v760h-34z M204,0h102v760h-102z M340,0h102v760h-102z
+  M476,0h34v760h-34z M544,0h34v760h-34z M612,0h102v760h-102z M816,0h102v760h-102z
+  M952,0h34v760h-34z M1020,0h34v760h-34z M1088,0h34v760h-34z M1156,0h102v760h-102z
+  M1360,0h102v760h-102z M1496,0h34v760h-34z M1564,0h34v760h-34z M1632,0h34v760h-34z
+  M1700,0h102v760h-102z M1904,0h34v760h-34z M1972,0h102v760h-102z M2108,0h34v760h-34z
+  M2176,0h102v760h-102z M2312,0h102v760h-102z M2448,0h34v760h-34z M2516,0h34v760h-34z
+  M2652,0h34v760h-34z M2720,0h102v760h-102z M2856,0h34v760h-34z M2924,0h102v760h-102z
+  M3060,0h34v760h-34z M3196,0h34v760h-34z M3264,0h34v760h-34z M3400,0h34v760h-34z
+  M3468,0h102v760h-102z M3604,0h102v760h-102z M3740,0h34v760h-34z
+label_barcode_width: 3774
+label_maker: Unspecified
+label_family: Pcb Component
+label_detail: PCBA component
+label_variant: Creality Ender 3
+label_context: Creality Ender-3
+inventory_title_size: 8.19252432155658
+stock_title_size: 2.487016311901104
+drawer_title_size: 1.6092458488771852
+compact_title_size: 1.9749835418038182
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/template_jinja_label_oomlout_76_2_mm_50_8_mm/working.svg.j2
+    file_output: label_oomp.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/3x2.svg.j2
+    file_output: label_stock_3x2.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/1_5x1.svg.j2
+    file_output: label_stock_1_5x1.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_drawer/working.svg.j2
+    file_output: label_drawer.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_printer_30x15/working.svg.j2
+    file_output: label_30x15.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  file_test: ''
+  retries_until_complete: 0
+  action_name: step_0_jinja_template_label_oomp.svg
+```
+
+</details>
+<!-- oomp-documentation:end -->

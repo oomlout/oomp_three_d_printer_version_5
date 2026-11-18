@@ -1,0 +1,35 @@
+name_proper: Polymaker PolyLite PLA Black
+oomp_id: three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
+source_checked: '2026-11-18'
+sources:
+  Manufacturer SKU table: https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf
+  Polymaker product, printing settings and price: https://shop.polymaker.com/products/polylite-pla/
+specifications:
+  bed_temperature_c:
+  - 25
+  - 60
+  colour_name: Black
+  filament_diameter_mm: 1.75
+  manufacturer_part_number: PA02001
+  net_filament_mass_g: 1000
+  nozzle_temperature_c:
+  - 190
+  - 230
+  product_line: PolyLite PLA
+  reference_price: About USD 20 per 1 kg spool, Polymaker US listed price.
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: polymaker
+taxonomy_15: pa02001
+taxonomy_2: filament
+taxonomy_3: pla
+taxonomy_4: 1_75_mm
+taxonomy_5: black
+taxonomy_6: black
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+worked_example: true

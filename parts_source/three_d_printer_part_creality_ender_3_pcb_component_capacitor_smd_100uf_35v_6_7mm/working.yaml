@@ -1,0 +1,30 @@
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+name_proper: Ender-3 Capacitor-SMD 100UF/35V 6*7mm
+oomp_id: three_d_printer_part_creality_ender_3_pcb_component_capacitor_smd_100uf_35v_6_7mm
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 PCBA bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx
+specifications:
+  pcba_bom_items:
+  - 24
+  pcba_quantities_pcs:
+  - 6
+  reference_name: Capacitor-SMD 100UF/35V 6*7mm
+  source_name: Capacitance-SMD
+  source_specification: 100UF/35V 6*7mm
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: pcb_component
+taxonomy_5: capacitor_smd_100uf_35v_6_7mm
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

@@ -1,0 +1,49 @@
+name_proper: Bambu Lab P1S
+oomp_id: three_d_printer_printer_bambu_lab_p1s
+photo:
+  caption: Bambu Lab P1S with the original AMS on top.
+  changes: Original photograph, unchanged.
+  creator: Pineapplefish77
+  file: source_file/p1s_with_ams.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://commons.wikimedia.org/wiki/File:P1s_with_ams.jpg
+  title: P1s with ams.jpg
+source_checked: '2026-11-18'
+sources:
+  Global store price listing: https://bambu-lab-global.myshopify.com/collections/3d-printer
+  Manufacturer launch announcement: https://forum.bambulab.com/t/the-bambu-lab-p1s-is-launched/19959
+  P1S technical specifications: https://store.bblcdn.com/s5/default/78c105c0c92642a99e64b4b0b0f3ca6a.pdf
+specifications:
+  announcement_date: '2023-07-13'
+  build_volume_mm:
+  - 256
+  - 256
+  - 256
+  filament_diameter_mm: 1.75
+  machine_dimensions_mm:
+  - 389
+  - 389
+  - 458
+  max_bed_c: 100
+  max_hotend_c: 300
+  net_mass_kg: 12.95
+  reference_price: USD 599–699, Bambu Lab Global starting and comparison prices for
+    the printer.
+  stock_nozzle_mm: 0.4
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: bambu_lab
+taxonomy_15: p1s
+taxonomy_2: printer
+taxonomy_3: ''
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+worked_example: true

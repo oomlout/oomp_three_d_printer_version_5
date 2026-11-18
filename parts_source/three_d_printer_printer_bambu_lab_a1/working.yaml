@@ -1,0 +1,26 @@
+name_proper: Bambu Lab A1
+oomp_id: three_d_printer_printer_bambu_lab_a1
+source_checked: '2026-11-18'
+sources:
+  A1 specifications: https://store.bblcdn.eu/s8/default/29c02564a6374ed5be971523eb9193e2/A1_Spec_EN_1214.pdf
+specifications:
+  build_volume_mm:
+  - 256
+  - 256
+  - 256
+  stock_nozzle_mm: 0.4
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: bambu_lab
+taxonomy_15: a1
+taxonomy_2: printer
+taxonomy_3: ''
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

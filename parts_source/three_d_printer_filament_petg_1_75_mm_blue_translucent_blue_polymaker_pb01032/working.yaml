@@ -1,0 +1,38 @@
+name_proper: Polymaker PolyLite PETG Translucent Blue
+oomp_id: three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
+source_checked: '2026-11-18'
+sources:
+  Manufacturer SKU table: https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf
+  PolyLite PETG technical data sheet: https://wiki.polymaker.com/polymaker-products/more-about-our-products/documents/technical-data-sheets/petg-pet/polylite-tm-petg
+  Polymaker product, printing settings and price: https://shop.polymaker.com/products/polylite-translucent-petg/
+specifications:
+  bed_temperature_c:
+  - 70
+  - 80
+  colour_name: Translucent Blue
+  filament_diameter_mm: 1.75
+  manufacturer_part_number: PB01032
+  net_filament_mass_g: 1000
+  nozzle_temperature_c:
+  - 230
+  - 260
+  product_line: PolyLite Translucent PETG
+  reference_price: About USD 20 per 1 kg spool, Polymaker US listed price.
+  temperature_note: PolyLite PETG datasheet range for a 0.4 mm nozzle. The retail
+    page also shows a narrower 230–240 °C quick reference.
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: polymaker
+taxonomy_15: pb01032
+taxonomy_2: filament
+taxonomy_3: petg
+taxonomy_4: 1_75_mm
+taxonomy_5: blue
+taxonomy_6: translucent_blue
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+worked_example: true

@@ -1,0 +1,298 @@
+<!-- oomp-documentation:start -->
+# Ender-3 Bowden PTFE tube
+
+## Summary
+
+Ender-3 Bowden PTFE tube
+
+## Details
+
+OOMP ID `three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013`
+
+| Specification | Value |
+| --- | --- |
+| Identifier basis | Creality machine BOM part code. Retail ordering code unverified. |
+| Machine bom quantity pcs | 1 |
+| Machine bom row | 124 |
+| Manufacturer part number | 400407013 |
+| Reference name | Bowden PTFE tube |
+| Source name | D4 Teflon tube |
+| Source specification | D4-d2-L400mm |
+
+Sources checked 2026-11-18.
+
+- [Creality Ender-3 machine bill of materials](https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS)
+
+| Taxonomy slot | Value |
+| --- | --- |
+| 1 | `three_d_printer` |
+| 2 | `part` |
+| 3 | `creality_ender_3` |
+| 4 | `filament_guide` |
+| 5 | `bowden_ptfe_tube` |
+| 14 | `creality` |
+| 15 | `400407013` |
+
+## Labels
+
+| Layout | Stock (mm) | Files |
+| --- | --- | --- |
+| OOMP inventory | 76.2 × 50.8 | [SVG](label_oomp.svg) · [Print PDF](label_oomp.pdf) |
+| Stock | 76.2 × 50.8 | [SVG](label_stock_3x2.svg) · [Print PDF](label_stock_3x2.pdf) |
+| Stock | 38.1 × 25.4 | [SVG](label_stock_1_5x1.svg) · [Print PDF](label_stock_1_5x1.pdf) |
+| Drawer | 38.1 × 25.4 | [SVG](label_drawer.svg) · [Print PDF](label_drawer.pdf) |
+| Compact barcode | 30 × 15 | [SVG](label_30x15.svg) · [Print PDF](label_30x15.pdf) |
+
+## Parts
+
+[Browse this category](../../navigation/part/creality_ender_3/filament_guide/README.md) · [Canonical metadata](working.yaml) · [Catalogue](../../README.md)
+
+Confirmed printer models in this catalogue
+
+- [Creality Ender-3](../three_d_printer_printer_creality_ender_3/)
+
+## Assembly
+
+Use the model-specific manufacturer documentation linked above for setup or service.
+
+<details>
+<summary>Full OOMP metadata</summary>
+
+```yaml
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+name_proper: Ender-3 Bowden PTFE tube
+oomp_id: three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 1
+  machine_bom_row: 124
+  manufacturer_part_number: '400407013'
+  reference_name: Bowden PTFE tube
+  source_name: D4 Teflon tube
+  source_specification: D4-d2-L400mm
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '400407013'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: filament_guide
+taxonomy_5: bowden_ptfe_tube
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+taxonomy_1_upper: THREE_D_PRINTER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TH
+taxonomy_1_upper_length_3: THR
+taxonomy_1_upper_length_4: THRE
+taxonomy_1_upper_length_5: THREE
+taxonomy_1_length_1: t
+taxonomy_1_length_2: th
+taxonomy_1_length_3: thr
+taxonomy_1_length_4: thre
+taxonomy_1_length_5: three
+taxonomy_1_capital: Three D Printer
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_3_upper: CREALITY_ENDER_3
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CR
+taxonomy_3_upper_length_3: CRE
+taxonomy_3_upper_length_4: CREA
+taxonomy_3_upper_length_5: CREAL
+taxonomy_3_length_1: c
+taxonomy_3_length_2: cr
+taxonomy_3_length_3: cre
+taxonomy_3_length_4: crea
+taxonomy_3_length_5: creal
+taxonomy_3_capital: Creality Ender 3
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_4_upper: FILAMENT_GUIDE
+taxonomy_4_upper_length_1: F
+taxonomy_4_upper_length_2: FI
+taxonomy_4_upper_length_3: FIL
+taxonomy_4_upper_length_4: FILA
+taxonomy_4_upper_length_5: FILAM
+taxonomy_4_length_1: f
+taxonomy_4_length_2: fi
+taxonomy_4_length_3: fil
+taxonomy_4_length_4: fila
+taxonomy_4_length_5: filam
+taxonomy_4_capital: Filament Guide
+taxonomy_4_first_letter: f
+taxonomy_4_first_letter_upper: F
+taxonomy_5_upper: BOWDEN_PTFE_TUBE
+taxonomy_5_upper_length_1: B
+taxonomy_5_upper_length_2: BO
+taxonomy_5_upper_length_3: BOW
+taxonomy_5_upper_length_4: BOWD
+taxonomy_5_upper_length_5: BOWDE
+taxonomy_5_length_1: b
+taxonomy_5_length_2: bo
+taxonomy_5_length_3: bow
+taxonomy_5_length_4: bowd
+taxonomy_5_length_5: bowde
+taxonomy_5_capital: Bowden Ptfe Tube
+taxonomy_5_first_letter: b
+taxonomy_5_first_letter_upper: B
+taxonomy_14_upper: CREALITY
+taxonomy_14_upper_length_1: C
+taxonomy_14_upper_length_2: CR
+taxonomy_14_upper_length_3: CRE
+taxonomy_14_upper_length_4: CREA
+taxonomy_14_upper_length_5: CREAL
+taxonomy_14_length_1: c
+taxonomy_14_length_2: cr
+taxonomy_14_length_3: cre
+taxonomy_14_length_4: crea
+taxonomy_14_length_5: creal
+taxonomy_14_capital: Creality
+taxonomy_14_first_letter: c
+taxonomy_14_first_letter_upper: C
+taxonomy_15_upper: '400407013'
+taxonomy_15_upper_length_1: '4'
+taxonomy_15_upper_length_2: '40'
+taxonomy_15_upper_length_3: '400'
+taxonomy_15_upper_length_4: '4004'
+taxonomy_15_upper_length_5: '40040'
+taxonomy_15_length_1: '4'
+taxonomy_15_length_2: '40'
+taxonomy_15_length_3: '400'
+taxonomy_15_length_4: '4004'
+taxonomy_15_length_5: '40040'
+taxonomy_15_capital: '400407013'
+taxonomy_15_first_letter: '4'
+taxonomy_15_first_letter_upper: '4'
+id: three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+id_no_class: three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+id_no_type: three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+id_no_size: three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+oomp_key: oomp_three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+directory: parts/three_d_printer_part_creality_ender_3_filament_guide_bowden_ptfe_tube_creality_400407013
+name: Three D Printer Part Creality Ender 3 Filament Guide Bowden Ptfe Tube Creality
+  400407013
+name_no_class: Three D Printer Part Creality Ender 3 Filament Guide Bowden Ptfe Tube
+  Creality 400407013
+name_no_type: Three D Printer Part Creality Ender 3 Filament Guide Bowden Ptfe Tube
+  Creality 400407013
+name_no_size: Three D Printer Part Creality Ender 3 Filament Guide Bowden Ptfe Tube
+  Creality 400407013
+md5: 0ba8056f805d2e818d1d6e806693f79e
+md5_5: 0ba80
+md5_5_upper: 0BA80
+md5_6: 0ba805
+md5_6_upper: 0BA805
+md5_6_alpha: gdfp
+md5_6_alpha_upper: GDFP
+md5_10: 0ba8056f80
+md5_10_upper: 0BA8056F80
+bip_39_full_array:
+- arm
+- dizzy
+- fossil
+- absent
+- spray
+- dolphin
+- crucial
+- punch
+- lesson
+- cruel
+- worth
+- diesel
+bip_39_full_space: arm dizzy fossil absent spray dolphin crucial punch lesson cruel
+  worth diesel
+bip_39_full_no_space: armdizzyfossilabsentspraydolphincrucialpunchlessoncruelworthdiesel
+bip_39_full_underscore: arm_dizzy_fossil_absent_spray_dolphin_crucial_punch_lesson_cruel_worth_diesel
+bip_39_2_word_array:
+- arm
+- dizzy
+bip_39_2_word_space: arm dizzy
+bip_39_2_word_no_space: armdizzy
+bip_39_2_word_underscore: arm_dizzy
+bip_39_3_word_array:
+- arm
+- dizzy
+- fossil
+bip_39_3_word_space: arm dizzy fossil
+bip_39_3_word_no_space: armdizzyfossil
+bip_39_3_word_underscore: arm_dizzy_fossil
+label_title: Bowden PTFE tube
+label_barcode: M0,0h34v760h-34z M136,0h34v760h-34z M204,0h102v760h-102z M340,0h102v760h-102z
+  M476,0h34v760h-34z M544,0h34v760h-34z M612,0h34v760h-34z M680,0h34v760h-34z M816,0h102v760h-102z
+  M952,0h102v760h-102z M1088,0h34v760h-34z M1156,0h34v760h-34z M1224,0h102v760h-102z
+  M1428,0h34v760h-34z M1496,0h102v760h-102z M1632,0h34v760h-34z M1700,0h102v760h-102z
+  M1836,0h102v760h-102z M2040,0h34v760h-34z M2108,0h34v760h-34z M2176,0h34v760h-34z
+  M2244,0h102v760h-102z M2380,0h102v760h-102z M2516,0h34v760h-34z M2652,0h34v760h-34z
+  M2720,0h34v760h-34z M2856,0h34v760h-34z M2924,0h102v760h-102z M3060,0h102v760h-102z
+  M3196,0h34v760h-34z
+label_barcode_width: 3230
+label_maker: Creality
+label_family: Filament Guide
+label_detail: '400407013'
+label_variant: Creality Ender 3
+label_context: Creality Ender-3
+inventory_title_size: 12.291483757682178
+stock_title_size: 3.7313432835820897
+drawer_title_size: 2.4143985952589992
+compact_title_size: 2.8
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/template_jinja_label_oomlout_76_2_mm_50_8_mm/working.svg.j2
+    file_output: label_oomp.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/3x2.svg.j2
+    file_output: label_stock_3x2.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/1_5x1.svg.j2
+    file_output: label_stock_1_5x1.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_drawer/working.svg.j2
+    file_output: label_drawer.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_printer_30x15/working.svg.j2
+    file_output: label_30x15.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  file_test: ''
+  retries_until_complete: 0
+  action_name: step_0_jinja_template_label_oomp.svg
+```
+
+</details>
+<!-- oomp-documentation:end -->

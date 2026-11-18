@@ -1,0 +1,55 @@
+aliases:
+- AMS 1
+- original AMS
+compatible_printers:
+- three_d_printer_printer_bambu_lab_p1s
+- three_d_printer_printer_bambu_lab_p1p
+name_proper: Bambu Lab AMS
+oomp_id: three_d_printer_ams_bambu_lab_ams
+photo:
+  caption: Bambu Lab P1S with the original AMS on top.
+  changes: Original photograph, unchanged.
+  creator: Pineapplefish77
+  file: source_file/p1s_with_ams.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://commons.wikimedia.org/wiki/File:P1s_with_ams.jpg
+  title: P1s with ams.jpg
+source_checked: '2026-11-18'
+sources:
+  AMS specifications and price: https://bambu-lab-global.myshopify.com/products/ams-multicolor-printing
+  P1 series compatibility: https://bambu-lab-global.myshopify.com/collections/p1-series
+  Standalone retail announcement: https://forum.bambulab.com/t/bambu-lab-ams-and-ams-hub-are-now-in-stock/846
+specifications:
+  filament_diameter_mm: 1.75
+  housing: Enclosed, with desiccant
+  machine_dimensions_mm:
+  - 368
+  - 283
+  - 224
+  net_mass_kg: 2.5
+  reference_price: USD 349, Bambu Lab Global, standalone unit before tax.
+  spool_outer_diameter_mm:
+  - 197
+  - 202
+  spool_positions: 4
+  spool_width_mm:
+  - 50
+  - 68
+  standalone_store_availability: '2022-11-07'
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: bambu_lab
+taxonomy_15: ams
+taxonomy_2: ams
+taxonomy_3: ''
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+worked_example: true

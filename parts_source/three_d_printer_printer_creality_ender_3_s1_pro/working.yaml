@@ -1,0 +1,26 @@
+name_proper: Creality Ender-3 S1 Pro
+oomp_id: three_d_printer_printer_creality_ender_3_s1_pro
+source_checked: '2026-11-18'
+sources:
+  Creality model reference: https://store.creality.com/ca/blogs/all/ender-series-3d-printers-parameter-comparison
+specifications:
+  build_volume_mm:
+  - 220
+  - 220
+  - 270
+  release_month: 2022-02
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: ender_3_s1_pro
+taxonomy_2: printer
+taxonomy_3: ''
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

@@ -1,0 +1,25 @@
+name_proper: Creality Ender-3 V4
+oomp_id: three_d_printer_printer_creality_ender_3_v4
+source_checked: '2026-11-18'
+sources:
+  Creality model reference: https://www.creality.com/products/ender-3-v4-3d-printer
+specifications:
+  build_volume_mm:
+  - 220
+  - 220
+  - 235
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: ender_3_v4
+taxonomy_2: printer
+taxonomy_3: ''
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

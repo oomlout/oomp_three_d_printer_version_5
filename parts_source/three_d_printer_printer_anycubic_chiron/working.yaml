@@ -1,0 +1,28 @@
+name_proper: Anycubic Chiron
+oomp_id: three_d_printer_printer_anycubic_chiron
+source_checked: '2026-11-18'
+sources:
+  Anycubic Chiron specifications: https://www.anycubic.es/pages/especificaciones-de-chiron
+specifications:
+  build_volume_mm:
+  - 400
+  - 400
+  - 450
+  max_bed_c: 100
+  max_hotend_c: 260
+  stock_nozzle_mm: 0.4
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: anycubic
+taxonomy_15: chiron
+taxonomy_2: printer
+taxonomy_3: ''
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

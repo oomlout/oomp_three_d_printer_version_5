@@ -1,0 +1,14 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="38.1mm" height="25.4mm" viewBox="0 0 38.1 25.4">
+<title>ENDER 3 V2 · 7E6QH</title>
+<rect width="38.1" height="25.4" fill="white"/>
+<g font-family="Arial, sans-serif" font-weight="700" fill="black">
+<rect x="0.8" y="0.8" width="36.5" height="5" rx="0.6"/>
+<text x="1.8" y="4.25" font-size="2.6" fill="white">Printer</text>
+<text x="1.8" y="9.4" font-size="2.45">Creality</text>
+<text x="1.8" y="16.2" font-size="5.3">ENDER 3 V2</text>
+<text x="1.8" y="20" font-size="1.9">220 x 220 x 250</text>
+<path d="M1.8 21.6H36.3" stroke="black" stroke-width="0.2"/>
+<text x="1.8" y="24.1" font-size="1.65">rural age flee</text>
+<text x="36.3" y="24.1" text-anchor="end" font-size="1.9">7E6QH</text>
+</g></svg>

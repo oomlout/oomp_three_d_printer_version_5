@@ -1,0 +1,30 @@
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+name_proper: Ender-3 Y belt adjustment block
+oomp_id: three_d_printer_part_creality_ender_3_belt_tensioner_y_belt_adjustment_block_creality_400101007
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 1
+  machine_bom_row: 16
+  manufacturer_part_number: '400101007'
+  reference_name: Y belt adjustment block
+  source_name: Y Adjustment Block
+  source_specification: 3mm
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '400101007'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: belt_tensioner
+taxonomy_5: y_belt_adjustment_block
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
