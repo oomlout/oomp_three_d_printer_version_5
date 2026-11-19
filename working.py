@@ -1,4 +1,7 @@
 import copy
+from time import monotonic
+
+from build_progress import stage
 
 def main(**kwargs):
     run_oomp_populate = kwargs.get("run_oomp_populate", True)
@@ -27,7 +30,8 @@ def main(**kwargs):
     run(**kwargs)
 
 def run(**kwargs):
-
+    start = monotonic()
+    print(f"[build] Catalogue filter {kwargs.get('filter') or '*'}", flush=True)
     import working_cad
     selected_solidcraft = working_cad.solidcraft_mode(kwargs.get("run_solidcraft", False))
     native_context = dict(kwargs.pop("solidcraft_context", None) or {})
@@ -46,37 +50,33 @@ def run(**kwargs):
 
 
     if kwargs.get("run_oomp_populate", False):
-        import working_oomp_populate
-        working_oomp_populate.main(**kwargs_2)
+        stage("population", "working_oomp_populate", **kwargs_2)
 
     if kwargs.get("run_oomp", False):
-        import working_oomp
         oomp_kwargs = copy.deepcopy(kwargs_2)
         if kwargs.get("run_solidcraft", False):
             oomp_kwargs["wait_for_completion"] = True
-        working_oomp.main(**oomp_kwargs)
+        stage("canonical records", "working_oomp", **oomp_kwargs)
 
     if kwargs.get("run_scad", False):        
         kwargs2 = copy.deepcopy(kwargs_2)
         if kwargs.get("generate_stl", False):
             kwargs2["typ"] = "all"
-        import working_scad
-        working_scad.main(**kwargs2)
+        stage("SCAD", "working_scad", **kwargs2)
 
     #add run_svg
     if kwargs.get("run_svg", False):        
-        import working_svg
-        working_svg.main(**kwargs_2)
+        stage("SVG and PDF labels", "working_svg", **kwargs_2)
 
 
     if kwargs.get("run_action", False):
-        import working_action
-        working_action.main(**kwargs)    
+        stage("catalogue actions", "working_action", **kwargs)
 
     # Opt-in native route runs after legacy actions/OOMP regeneration.
     if kwargs.get("run_solidcraft", False):
-        import working_solidcraft
-        working_solidcraft.main(solidcraft_context=native_context)
+        stage("SolidCraft", "working_solidcraft", solidcraft_context=native_context)
+
+    print(f"[build] Complete in {monotonic() - start:.1f}s", flush=True)
 
 
 

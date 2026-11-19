@@ -1,0 +1,271 @@
+assembly_path:
+- frame
+- uprights
+- profile_2040
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: right_z_upright_2040
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+name_proper: Ender-3 Right Z upright (2040)
+oomp_id: three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+previous_id: three_d_printer_part_creality_ender_3_frame_right_z_upright_2040_creality_400102068
+previous_label: 78F3Z
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+spare_type: frame
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 1
+  machine_bom_row: 21
+  manufacturer_part_number: '400102068'
+  reference_name: Right Z upright (2040)
+  source_name: 2040 Right Profile
+  source_specification: 20*40-L400
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '400102068'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: frame
+taxonomy_5: uprights
+taxonomy_6: profile_2040
+taxonomy_7: right_z_upright_2040
+taxonomy_8: ''
+taxonomy_9: ''
+taxonomy_1_upper: THREE_D_PRINTER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TH
+taxonomy_1_upper_length_3: THR
+taxonomy_1_upper_length_4: THRE
+taxonomy_1_upper_length_5: THREE
+taxonomy_1_length_1: t
+taxonomy_1_length_2: th
+taxonomy_1_length_3: thr
+taxonomy_1_length_4: thre
+taxonomy_1_length_5: three
+taxonomy_1_capital: Three D Printer
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_3_upper: CREALITY_ENDER_3
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CR
+taxonomy_3_upper_length_3: CRE
+taxonomy_3_upper_length_4: CREA
+taxonomy_3_upper_length_5: CREAL
+taxonomy_3_length_1: c
+taxonomy_3_length_2: cr
+taxonomy_3_length_3: cre
+taxonomy_3_length_4: crea
+taxonomy_3_length_5: creal
+taxonomy_3_capital: Creality Ender 3
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_4_upper: FRAME
+taxonomy_4_upper_length_1: F
+taxonomy_4_upper_length_2: FR
+taxonomy_4_upper_length_3: FRA
+taxonomy_4_upper_length_4: FRAM
+taxonomy_4_upper_length_5: FRAME
+taxonomy_4_length_1: f
+taxonomy_4_length_2: fr
+taxonomy_4_length_3: fra
+taxonomy_4_length_4: fram
+taxonomy_4_length_5: frame
+taxonomy_4_capital: Frame
+taxonomy_4_first_letter: f
+taxonomy_4_first_letter_upper: F
+taxonomy_5_upper: UPRIGHTS
+taxonomy_5_upper_length_1: U
+taxonomy_5_upper_length_2: UP
+taxonomy_5_upper_length_3: UPR
+taxonomy_5_upper_length_4: UPRI
+taxonomy_5_upper_length_5: UPRIG
+taxonomy_5_length_1: u
+taxonomy_5_length_2: up
+taxonomy_5_length_3: upr
+taxonomy_5_length_4: upri
+taxonomy_5_length_5: uprig
+taxonomy_5_capital: Uprights
+taxonomy_5_first_letter: u
+taxonomy_5_first_letter_upper: U
+taxonomy_6_upper: PROFILE_2040
+taxonomy_6_upper_length_1: P
+taxonomy_6_upper_length_2: PR
+taxonomy_6_upper_length_3: PRO
+taxonomy_6_upper_length_4: PROF
+taxonomy_6_upper_length_5: PROFI
+taxonomy_6_length_1: p
+taxonomy_6_length_2: pr
+taxonomy_6_length_3: pro
+taxonomy_6_length_4: prof
+taxonomy_6_length_5: profi
+taxonomy_6_capital: Profile 2040
+taxonomy_6_first_letter: p
+taxonomy_6_first_letter_upper: P
+taxonomy_7_upper: RIGHT_Z_UPRIGHT_2040
+taxonomy_7_upper_length_1: R
+taxonomy_7_upper_length_2: RI
+taxonomy_7_upper_length_3: RIG
+taxonomy_7_upper_length_4: RIGH
+taxonomy_7_upper_length_5: RIGHT
+taxonomy_7_length_1: r
+taxonomy_7_length_2: ri
+taxonomy_7_length_3: rig
+taxonomy_7_length_4: righ
+taxonomy_7_length_5: right
+taxonomy_7_capital: Right Z Upright 2040
+taxonomy_7_first_letter: r
+taxonomy_7_first_letter_upper: R
+taxonomy_14_upper: CREALITY
+taxonomy_14_upper_length_1: C
+taxonomy_14_upper_length_2: CR
+taxonomy_14_upper_length_3: CRE
+taxonomy_14_upper_length_4: CREA
+taxonomy_14_upper_length_5: CREAL
+taxonomy_14_length_1: c
+taxonomy_14_length_2: cr
+taxonomy_14_length_3: cre
+taxonomy_14_length_4: crea
+taxonomy_14_length_5: creal
+taxonomy_14_capital: Creality
+taxonomy_14_first_letter: c
+taxonomy_14_first_letter_upper: C
+taxonomy_15_upper: '400102068'
+taxonomy_15_upper_length_1: '4'
+taxonomy_15_upper_length_2: '40'
+taxonomy_15_upper_length_3: '400'
+taxonomy_15_upper_length_4: '4001'
+taxonomy_15_upper_length_5: '40010'
+taxonomy_15_length_1: '4'
+taxonomy_15_length_2: '40'
+taxonomy_15_length_3: '400'
+taxonomy_15_length_4: '4001'
+taxonomy_15_length_5: '40010'
+taxonomy_15_capital: '400102068'
+taxonomy_15_first_letter: '4'
+taxonomy_15_first_letter_upper: '4'
+id: three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+id_no_class: three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+id_no_type: three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+id_no_size: three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+oomp_key: oomp_three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+directory: parts/three_d_printer_part_creality_ender_3_frame_uprights_profile_2040_right_z_upright_2040_creality_400102068
+name: Three D Printer Part Creality Ender 3 Frame Uprights Profile 2040 Right Z Upright
+  2040 Creality 400102068
+name_no_class: Three D Printer Part Creality Ender 3 Frame Uprights Profile 2040 Right
+  Z Upright 2040 Creality 400102068
+name_no_type: Three D Printer Part Creality Ender 3 Frame Uprights Profile 2040 Right
+  Z Upright 2040 Creality 400102068
+name_no_size: Three D Printer Part Creality Ender 3 Frame Uprights Profile 2040 Right
+  Z Upright 2040 Creality 400102068
+md5: 0425901470ed093c68379304e907583f
+md5_5: 04259
+md5_5_upper: 04259
+md5_6: 042590
+md5_6_upper: 042590
+md5_6_alpha: 5tow
+md5_6_alpha_upper: 5TOW
+md5_10: 0425901470
+md5_10_upper: 0425901470
+bip_39_full_array:
+- aerobic
+- clutch
+- agree
+- tide
+- spatial
+- owner
+- patch
+- venue
+- agent
+- else
+- stock
+- legal
+bip_39_full_space: aerobic clutch agree tide spatial owner patch venue agent else
+  stock legal
+bip_39_full_no_space: aerobicclutchagreetidespatialownerpatchvenueagentelsestocklegal
+bip_39_full_underscore: aerobic_clutch_agree_tide_spatial_owner_patch_venue_agent_else_stock_legal
+bip_39_2_word_array:
+- aerobic
+- clutch
+bip_39_2_word_space: aerobic clutch
+bip_39_2_word_no_space: aerobicclutch
+bip_39_2_word_underscore: aerobic_clutch
+bip_39_3_word_array:
+- aerobic
+- clutch
+- agree
+bip_39_3_word_space: aerobic clutch agree
+bip_39_3_word_no_space: aerobicclutchagree
+bip_39_3_word_underscore: aerobic_clutch_agree
+label_title: Right Z upright (2040)
+label_barcode: M0,0h34v760h-34z M136,0h34v760h-34z M204,0h102v760h-102z M340,0h102v760h-102z
+  M476,0h34v760h-34z M544,0h102v760h-102z M680,0h34v760h-34z M816,0h102v760h-102z
+  M952,0h34v760h-34z M1020,0h34v760h-34z M1088,0h34v760h-34z M1156,0h34v760h-34z M1224,0h102v760h-102z
+  M1360,0h102v760h-102z M1564,0h34v760h-34z M1632,0h102v760h-102z M1768,0h34v760h-34z
+  M1836,0h102v760h-102z M1972,0h34v760h-34z M2108,0h34v760h-34z M2176,0h102v760h-102z
+  M2380,0h102v760h-102z M2516,0h34v760h-34z M2584,0h34v760h-34z M2652,0h34v760h-34z
+  M2720,0h34v760h-34z M2856,0h34v760h-34z M2924,0h102v760h-102z M3060,0h102v760h-102z
+  M3196,0h34v760h-34z
+label_barcode_width: 3230
+label_maker: Creality
+label_family: Profile 2040
+label_detail: '400102068'
+label_variant: Creality Ender 3
+label_context: Creality Ender-3
+inventory_title_size: 10.838010450938649
+stock_title_size: 3.2901103154635187
+drawer_title_size: 2.128894910005806
+compact_title_size: 2.612734662279853
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/template_jinja_label_oomlout_76_2_mm_50_8_mm/working.svg.j2
+    file_output: label_oomp.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/3x2.svg.j2
+    file_output: label_stock_3x2.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/1_5x1.svg.j2
+    file_output: label_stock_1_5x1.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_drawer/working.svg.j2
+    file_output: label_drawer.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_printer_30x15/working.svg.j2
+    file_output: label_30x15.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  file_test: ''
+  retries_until_complete: 0
+  action_name: step_0_jinja_template_label_oomp.svg

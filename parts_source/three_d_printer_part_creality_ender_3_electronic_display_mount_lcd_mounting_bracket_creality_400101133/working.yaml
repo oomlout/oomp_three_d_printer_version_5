@@ -1,0 +1,41 @@
+assembly_path:
+- electronic
+- display
+- mount
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: lcd_mounting_bracket
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_electronic_display_mount_lcd_mounting_bracket_creality_400101133
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_electronic_display_mount_lcd_mounting_bracket_creality_400101133
+name_proper: Ender-3 LCD mounting bracket
+oomp_id: three_d_printer_part_creality_ender_3_electronic_display_mount_lcd_mounting_bracket_creality_400101133
+previous_id: three_d_printer_part_creality_ender_3_mount_lcd_mounting_bracket_creality_400101133
+previous_label: 2W76W
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+spare_type: mount
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 1
+  machine_bom_row: 15
+  manufacturer_part_number: '400101133'
+  reference_name: LCD mounting bracket
+  source_name: LCD support
+  source_specification: 2MM
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '400101133'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: electronic
+taxonomy_5: display
+taxonomy_6: mount
+taxonomy_7: lcd_mounting_bracket
+taxonomy_8: ''
+taxonomy_9: ''

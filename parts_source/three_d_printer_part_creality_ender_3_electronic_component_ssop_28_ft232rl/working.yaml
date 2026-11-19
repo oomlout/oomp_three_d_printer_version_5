@@ -1,0 +1,40 @@
+assembly_path:
+- electronic
+- component
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: ssop_28_ft232rl
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_electronic_component_ssop_28_ft232rl
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_electronic_component_ssop_28_ft232rl
+name_proper: Ender-3 SSOP-28 FT232RL
+oomp_id: three_d_printer_part_creality_ender_3_electronic_component_ssop_28_ft232rl
+previous_id: three_d_printer_part_creality_ender_3_pcb_component_ssop_28_ft232rl
+previous_label: 2CUS0
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 PCBA bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx
+spare_type: pcb_component
+specifications:
+  pcba_bom_items:
+  - 30
+  pcba_quantities_pcs:
+  - 1
+  reference_name: SSOP-28 FT232RL
+  source_name: SSOP-28
+  source_specification: FT232RL
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: electronic
+taxonomy_5: component
+taxonomy_6: ssop_28_ft232rl
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

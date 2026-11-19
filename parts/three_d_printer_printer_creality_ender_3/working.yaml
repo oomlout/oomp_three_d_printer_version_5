@@ -1,5 +1,21 @@
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3
+link_source: https://store.creality.com/ca/blogs/all/ender-series-3d-printers-parameter-comparison
+link_web: http://localhost:5703/parts/three_d_printer_printer_creality_ender_3
 name_proper: Creality Ender-3
 oomp_id: three_d_printer_printer_creality_ender_3
+photo:
+  caption: Creality Ender-3 shown on its product page.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Photographer uncredited on Creality product page
+  credit_line: 'Source: Creality product page'
+  file: source_file/images/printer_ender_3_square.jpg
+  license: Product image, reuse permission unverified
+  license_url: https://store.creality.com/products/ender-3-3d-printer
+  original_file: source_file/images/original/printer_ender_3.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0893/0603/8637/files/78b4b1a181b236e46e401c5efe4df976_0fcf48cd-fa4f-4f46-b4c4-5b81466095a1.jpg?v=1762200597
+  source: https://store.creality.com/products/ender-3-3d-printer
+  source_checked: '2026-11-19'
+  title: Creality Ender-3 product image
 source_checked: '2026-11-18'
 sources:
   Creality model reference: https://store.creality.com/ca/blogs/all/ender-series-3d-printers-parameter-comparison
@@ -93,7 +109,6 @@ id_no_type: three_d_printer_printer_creality_ender_3
 id_no_size: three_d_printer_printer_creality_ender_3
 oomp_key: oomp_three_d_printer_printer_creality_ender_3
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3
 directory: parts/three_d_printer_printer_creality_ender_3
 name: Three D Printer Printer Creality Ender 3

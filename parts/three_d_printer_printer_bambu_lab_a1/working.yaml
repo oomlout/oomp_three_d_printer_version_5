@@ -1,5 +1,21 @@
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_a1
+link_source: https://store.bblcdn.eu/s8/default/29c02564a6374ed5be971523eb9193e2/A1_Spec_EN_1214.pdf
+link_web: http://localhost:5703/parts/three_d_printer_printer_bambu_lab_a1
 name_proper: Bambu Lab A1
 oomp_id: three_d_printer_printer_bambu_lab_a1
+photo:
+  caption: Bambu Lab A1 with AMS lite.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Photographer uncredited on Bambu Lab product page
+  credit_line: 'Source: Bambu Lab product page'
+  file: source_file/images/printer_a1_square.jpg
+  license: Product image, reuse permission unverified
+  license_url: https://bambu-lab-global.myshopify.com/products/a1
+  original_file: source_file/images/original/printer_a1.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0574/3116/2995/files/A1.jpg?v=1714960001
+  source: https://bambu-lab-global.myshopify.com/products/a1
+  source_checked: '2026-11-19'
+  title: Bambu Lab A1 product image
 source_checked: '2026-11-18'
 sources:
   A1 specifications: https://store.bblcdn.eu/s8/default/29c02564a6374ed5be971523eb9193e2/A1_Spec_EN_1214.pdf
@@ -94,7 +110,6 @@ id_no_type: three_d_printer_printer_bambu_lab_a1
 id_no_size: three_d_printer_printer_bambu_lab_a1
 oomp_key: oomp_three_d_printer_printer_bambu_lab_a1
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_a1
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_a1
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_a1
 directory: parts/three_d_printer_printer_bambu_lab_a1
 name: Three D Printer Printer Bambu Lab A1

@@ -1,5 +1,21 @@
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_p1p
+link_source: https://public-cdn.bambulab.com/store/bambulab-P1P-tech-specs.pdf
+link_web: http://localhost:5703/parts/three_d_printer_printer_bambu_lab_p1p
 name_proper: Bambu Lab P1P
 oomp_id: three_d_printer_printer_bambu_lab_p1p
+photo:
+  caption: Bambu Lab P1P shown on its product page.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Photographer uncredited on Bambu Lab product page
+  credit_line: 'Source: Bambu Lab product page'
+  file: source_file/images/printer_p1p_square.jpg
+  license: Product image, reuse permission unverified
+  license_url: https://bambu-lab-global.myshopify.com/products/p1p
+  original_file: source_file/images/original/printer_p1p.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0574/3116/2995/files/20230712-092822.jpg?v=1700219906
+  source: https://bambu-lab-global.myshopify.com/products/p1p
+  source_checked: '2026-11-19'
+  title: Bambu Lab P1P product image
 source_checked: '2026-11-18'
 sources:
   P1P technical specifications: https://public-cdn.bambulab.com/store/bambulab-P1P-tech-specs.pdf

@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Bambu Lab AMS lite
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_ams_bambu_lab_ams_lite) · [AMS lite specifications](https://csm.bblcdn.com/hub/0f7d57180a9b462d9c2bf4fa8aeb5958.pdf)
+
 ## Summary
 
 Bambu Lab AMS lite automatic material system with 4 spool positions.
 
-<img src="../../source_file/images/a1_mini_showroom_square.jpg" width="360" alt="Bambu Lab A1 mini on the left and AMS lite with four spools on the right.">
+<img src="catalogue_photo.jpg" width="360" alt="Bambu Lab A1 mini on the left and AMS lite with four spools on the right.">
 
 Bambu Lab A1 mini on the left and AMS lite with four spools on the right. [JD Mall Electronics Showroom, 3D printers, December 2024 (R12S 06)](https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E6%9D%B1%E8%8E%9E%E4%BA%AC%E6%9D%B1%E5%95%86%E5%A0%B4_JD_Mall_Electronics_Showroom_3D_printers_December_2024_R12S_06.jpg) by NAS 238 WMMNO. [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Resized within a square white canvas and credited on the image.
 
@@ -30,7 +32,6 @@ Also indexed as AMS mini (informal search term).
 Sources checked 2026-11-18.
 
 - [A-series compatibility and price](https://bambu-lab-global.myshopify.com/products/ams-lite)
-- [AMS lite specifications](https://csm.bblcdn.com/hub/0f7d57180a9b462d9c2bf4fa8aeb5958.pdf)
 - [EU declaration with model code](https://public-cdn.bambulab.com/portal/euro-compliance/EU_Declaration_of_Conformity_AMS_lite.pdf)
 
 | Taxonomy slot | Value |
@@ -72,6 +73,9 @@ aliases:
 compatible_printers:
 - three_d_printer_printer_bambu_lab_a1
 - three_d_printer_printer_bambu_lab_a1_mini
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams_lite
+link_source: https://csm.bblcdn.com/hub/0f7d57180a9b462d9c2bf4fa8aeb5958.pdf
+link_web: http://localhost:5703/parts/three_d_printer_ams_bambu_lab_ams_lite
 name_proper: Bambu Lab AMS lite
 oomp_id: three_d_printer_ams_bambu_lab_ams_lite
 photo:
@@ -185,7 +189,6 @@ id_no_type: three_d_printer_ams_bambu_lab_ams_lite
 id_no_size: three_d_printer_ams_bambu_lab_ams_lite
 oomp_key: oomp_three_d_printer_ams_bambu_lab_ams_lite
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams_lite
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams_lite
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams_lite
 directory: parts/three_d_printer_ams_bambu_lab_ams_lite
 name: Three D Printer Ams Bambu Lab Ams Lite

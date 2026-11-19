@@ -1,10 +1,8 @@
 <!-- oomp-documentation:start -->
 # Temperature Sensor
 
-[Up one level](../README.md)
+Browse these parts by assembly.
 
-| Record | OOMP code | Manufacturer code |
-| --- | --- | --- |
-| [Ender-3 Bed thermistor](../../../../parts/three_d_printer_part_creality_ender_3_temperature_sensor_bed_thermistor_creality_400303022/README.md) | `6IV28` | 400303022 |
-| [Ender-3 Hotend thermistor](../../../../parts/three_d_printer_part_creality_ender_3_temperature_sensor_hotend_thermistor_creality_400303006/README.md) | `4E5XX` | 400303006 |
+- [motion/y_assembly/carriage/bed/thermistor](../motion/y_assembly/carriage/bed/thermistor/README.md)
+- [motion/z_assembly/x_gantry/carriage/toolhead/hotend/thermistor](../motion/z_assembly/x_gantry/carriage/toolhead/hotend/thermistor/README.md)
 <!-- oomp-documentation:end -->

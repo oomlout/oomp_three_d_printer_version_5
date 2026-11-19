@@ -107,7 +107,7 @@ class PartsCache:
             for part_id, (part_dir, source_parts_dir) in current_dirs.items():
                 previous = self._records.get(part_id, {})
                 catalogue_photo = parts_repository.resolve_catalogue_photo(
-                    source_parts_dir, previous.get("photo_relative_path")
+                    source_parts_dir, previous.get("photo_relative_path"), part_dir
                 )
                 signature = parts_repository.build_part_snapshot(part_dir, catalogue_photo)
                 if self._signatures.get(part_id) == signature:

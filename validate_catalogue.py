@@ -8,7 +8,7 @@ from oomp_populate_helper import build_oomp_id
 from PIL import Image
 from pypdf import PdfReader
 
-from printer_catalogue import LABEL_FORMATS, ROOT, records
+from printer_catalogue import LABEL_FORMATS, PARTS_URL, PART_PHOTO, ROOT, explorer_origin, records
 from working_navigation import branch
 import working_oomp_populate as populate
 
@@ -45,6 +45,8 @@ def main(**kwargs):
     category_doc = check_links(page=ROOT / "PARTS_TAXONOMY.md")
     categories = set(re.findall(r"^\| `([a-z_]+)` \|", category_doc, flags=re.M))
     examples = Counter()
+    previous_ids = set()
+    explorer = explorer_origin()
     machine_rows = []
     pcba_items = []
     pages = {page: check_links(page=page) for page in (ROOT / "navigation").rglob("README.md")}
@@ -55,10 +57,42 @@ def main(**kwargs):
         for record in (part, sources[part_id]):
             if build_oomp_id(record) != part_id or not record["sources"]:
                 raise ValueError(f"Invalid taxonomy or missing research sources: {part_id}")
+            if record.get("link_main") != f"{PARTS_URL}/{part_id}":
+                raise ValueError(f"Incorrect catalogue URL: {part_id}")
+            if record.get("link_web") != f"{explorer}/parts/{part_id}":
+                raise ValueError(f"Incorrect Parts Explorer URL: {part_id}")
+            primary = record.get("link_source", "")
+            if primary not in record["sources"].values() or urlsplit(primary).scheme not in ("https", "http") or not urlsplit(primary).hostname:
+                raise ValueError(f"Invalid primary source URL: {part_id}")
+        for key in ("link_web", "link_source"):
+            if f']({part[key]})' not in visible or f']({part[key]})' not in root_text:
+                raise ValueError(f"Missing visible {key} link: {page}")
         if part_id not in root_text or part["name_proper"] not in visible:
             raise ValueError(f"Missing index entry or page title: {part_id}")
-        if part["taxonomy_2"] == "part" and part["taxonomy_4"] not in categories:
+        if part["taxonomy_2"] == "part" and part["spare_type"] not in categories:
             raise ValueError(f"Unknown standard spare category: {part_id}")
+        if part["taxonomy_2"] == "part":
+            levels = list(part["assembly_path"])
+            if levels[-1] != part["exact_variant"]:
+                levels.append(part["exact_variant"])
+            if [part[f"taxonomy_{i}"] for i in range(4, 14)] != levels + [""] * (10 - len(levels)):
+                raise ValueError(f"Spare identity differs from its assembly path: {part_id}")
+            if old := part.get("previous_id"):
+                if old in canonical or old in previous_ids:
+                    raise ValueError(f"Ambiguous historical spare ID: {old}")
+                previous_ids.add(old)
+                moved = check_links(page=ROOT / "parts" / old / "README.md")
+                if f"../{part_id}/README.md" not in moved or part["previous_label"] not in moved:
+                    raise ValueError(f"Incorrect historical part reference: {old}")
+                if any(f']({part[key]})' not in moved for key in ("link_web", "link_source")):
+                    raise ValueError(f"Missing current links on historical page: {old}")
+                for stem in LABEL_FORMATS:
+                    for extension in ("svg", "pdf"):
+                        if f"../{part_id}/{stem}.{extension}" not in moved:
+                            raise ValueError(f"Missing {stem}.{extension} on historical page: {old}")
+                if part.get("photo") and (f'../{part_id}/{PART_PHOTO}' not in moved or
+                        any(part["photo"][key] not in moved for key in ("source", "creator", "license_url", "changes"))):
+                    raise ValueError(f"Missing historical page photograph or credit: {old}")
         if part.get("worked_example"):
             examples[part["taxonomy_2"]] += 1
         leaf = ROOT / "navigation" / branch(part=part) / "README.md"
@@ -92,6 +126,9 @@ def main(**kwargs):
                 raise ValueError(f"Unexpected print size on {stem}: {part_id}")
         if part.get("photo"):
             photo = part["photo"]
+            local = folder / PART_PHOTO
+            if local.read_bytes() != (ROOT / photo["file"]).read_bytes() or f'src="{PART_PHOTO}"' not in visible:
+                raise ValueError(f"Missing or stale part photograph: {part_id}")
             with Image.open(ROOT / photo["file"]) as picture:
                 if picture.width != picture.height:
                     raise ValueError(f"Photograph is not square: {part_id}")

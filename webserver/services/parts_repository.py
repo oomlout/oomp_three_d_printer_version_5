@@ -10,6 +10,7 @@ from typing import Any
 
 import yaml
 
+from printer_catalogue import PART_PHOTO
 from webserver.config_app import TAXONOMY_FIELD_COUNT, taxonomy_key
 from webserver.services import file_actions, file_previews, image_derivatives
 
@@ -125,6 +126,7 @@ def _search_field_text(field_name: str, record: dict[str, Any]) -> str:
     values: list[str] = []
     if field_name == "id":
         values.append(record.get("id", ""))
+        values.extend(record["data"].get(key, "") for key in ("previous_id", "previous_label"))
     elif field_name == "name":
         values.extend(
             [
@@ -223,7 +225,7 @@ def build_part_snapshot(part_dir: Path, catalogue_photo: Path | None = None) -> 
     }
 
 
-def resolve_catalogue_photo(parts_dir: Path, relative_path: str | None) -> Path | None:
+def resolve_catalogue_photo(parts_dir: Path, relative_path: str | None, part_dir: Path | None = None) -> Path | None:
     if not relative_path:
         return None
     path = Path(relative_path)
@@ -232,9 +234,13 @@ def resolve_catalogue_photo(parts_dir: Path, relative_path: str | None) -> Path 
     base = parts_dir.resolve().parent
     source_root = base / "source_file"
     photo = (base / path).resolve()
-    if source_root in photo.parents and image_derivatives.is_image_path(photo) and photo.is_file():
-        return photo
-    return None
+    if source_root not in photo.parents or not image_derivatives.is_image_path(photo):
+        return None
+    if part_dir is not None:
+        local = (part_dir / PART_PHOTO).resolve()
+        if local.parent == part_dir.resolve() and local.is_file():
+            return local
+    return photo if photo.is_file() else None
 
 
 def _pick_preview_file(
@@ -350,14 +356,20 @@ def load_part_record(
     combined_data.update(working_manual)
 
     part_id = part_dir.name
-    taxonomy_pairs = _taxonomy_pairs(combined_data)
+    browse_data = dict(combined_data)
+    if browse_data.get("taxonomy_2") == "part" and browse_data.get("assembly_path") and "exact_variant" not in browse_data:
+        levels = [*browse_data["assembly_path"], browse_data["taxonomy_5"]]
+        for index, level in enumerate(levels, start=4):
+            browse_data[taxonomy_key(index)] = level
+    taxonomy_pairs = _taxonomy_pairs(browse_data)
     photo = combined_data.get("photo")
     photo_file = photo.get("file") if isinstance(photo, dict) else None
     photo_relative_path = Path(photo_file).as_posix() if isinstance(photo_file, str) and photo_file else None
-    catalogue_photo = resolve_catalogue_photo(parts_dir, photo_relative_path)
+    catalogue_photo = resolve_catalogue_photo(parts_dir, photo_relative_path, part_dir)
     snapshot = build_part_snapshot(part_dir, catalogue_photo)
     image_relative_paths = list(snapshot["image_relative_paths"])
     if catalogue_photo:
+        image_relative_paths = [path for path in image_relative_paths if path != PART_PHOTO]
         preview_file = photo_relative_path
         if photo_relative_path not in image_relative_paths:
             image_relative_paths.insert(0, photo_relative_path)
@@ -418,7 +430,7 @@ def populate_part_assets(
         file_record["actions"] = file_actions.describe_file_actions(source_path, part_dir)
         files.append(file_record)
     photo_relative_path = part.get("photo_relative_path")
-    catalogue_photo = resolve_catalogue_photo(Path(part["source_parts_dir"]), photo_relative_path)
+    catalogue_photo = resolve_catalogue_photo(Path(part["source_parts_dir"]), photo_relative_path, part_dir)
     preview_files = files
     if catalogue_photo:
         width, height = image_derivatives.read_image_dimensions(catalogue_photo)
@@ -429,7 +441,7 @@ def populate_part_assets(
             "width": width,
             "height": height,
         }
-        preview_files = [photo_item, *(file for file in files if file["relative_path"] != photo_relative_path)]
+        preview_files = [photo_item, *(file for file in files if file["relative_path"] not in (photo_relative_path, PART_PHOTO))]
     image_files = [file for file in preview_files if file["is_image"]]
     image_index_by_relative_path = {
         file["relative_path"]: index

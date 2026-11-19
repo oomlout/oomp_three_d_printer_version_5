@@ -1,0 +1,53 @@
+assembly_path:
+- motion
+- z_assembly
+- x_gantry
+- carriage
+- roller_wheel
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: roller_x_axis_assembly
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_roller_wheel_roller_x_axis_assembly
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/ASM%20Roller%20X-Axis.SLDASM
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_roller_wheel_roller_x_axis_assembly
+name_proper: Ender-3 Roller X-Axis assembly
+oomp_id: three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_roller_wheel_roller_x_axis_assembly
+photo:
+  caption: Creality replacement roller with bearing; the complete installed assembly
+    may include additional hardware.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Creator not identified; product image supplied by 3DJake
+  credit_line: 'Source: 3DJake product page'
+  file: source_file/images/creality_replacement_wheel_square.jpg
+  license: Retail product image; reuse permission not established
+  license_url: https://www.3djake.uk/creality-3d-printers-spare-parts/roller-with-bearing?sai=4833
+  original_file: source_file/images/original/creality_replacement_wheel.jpg
+  original_image_url: https://3d.nice-cdn.com/upload/image/product/large/default/6447_3742383e.jpg
+  source: https://www.3djake.uk/creality-3d-printers-spare-parts/roller-with-bearing?sai=4833
+  source_checked: '2026-11-19'
+  title: Creality replacement wheel, 3DJake product image
+previous_id: three_d_printer_part_creality_ender_3_roller_wheel_roller_x_axis_assembly
+previous_label: 21UU1
+source_checked: '2026-11-18'
+sources:
+  Creality original mechanical design: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/ASM%20Roller%20X-Axis.SLDASM
+spare_type: roller_wheel
+specifications:
+  cad_file: ASM Roller X-Axis.SLDASM
+  reference_kind: Mechanical design reference
+  reference_name: Roller X-Axis assembly
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: motion
+taxonomy_5: z_assembly
+taxonomy_6: x_gantry
+taxonomy_7: carriage
+taxonomy_8: roller_wheel
+taxonomy_9: roller_x_axis_assembly

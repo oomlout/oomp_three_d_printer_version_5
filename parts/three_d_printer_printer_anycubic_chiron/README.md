@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Anycubic Chiron
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_printer_anycubic_chiron) · [Anycubic Chiron specifications](https://www.anycubic.es/pages/especificaciones-de-chiron)
+
 ## Summary
 
 Anycubic Chiron filament printer.
 
-<img src="../../source_file/images/anycubic_chiron_square.jpg" width="360" alt="Anycubic Chiron shown with a printed model.">
+<img src="catalogue_photo.jpg" width="360" alt="Anycubic Chiron shown with a printed model.">
 
 Anycubic Chiron shown with a printed model. [Anycubic product image](https://store.anycubic.com/products/anycubic-c-3d-printer) by Anycubic. [Manufacturer product image; reuse permission not established](https://store.anycubic.com/products/anycubic-c-3d-printer). Resized within a square white canvas and credited on the image.
 
@@ -22,7 +24,6 @@ OOMP ID `three_d_printer_printer_anycubic_chiron`
 
 Sources checked 2026-11-18.
 
-- [Anycubic Chiron specifications](https://www.anycubic.es/pages/especificaciones-de-chiron)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -54,6 +55,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_chiron
+link_source: https://www.anycubic.es/pages/especificaciones-de-chiron
+link_web: http://localhost:5703/parts/three_d_printer_printer_anycubic_chiron
 name_proper: Anycubic Chiron
 oomp_id: three_d_printer_printer_anycubic_chiron
 photo:
@@ -157,7 +161,6 @@ id_no_type: three_d_printer_printer_anycubic_chiron
 id_no_size: three_d_printer_printer_anycubic_chiron
 oomp_key: oomp_three_d_printer_printer_anycubic_chiron
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_chiron
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_chiron
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_chiron
 directory: parts/three_d_printer_printer_anycubic_chiron
 name: Three D Printer Printer Anycubic Chiron

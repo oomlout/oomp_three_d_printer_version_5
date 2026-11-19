@@ -4,11 +4,13 @@ import os
 import subprocess
 from tempfile import TemporaryDirectory
 
-from printer_catalogue import ROOT, records
+from build_progress import progress
+from printer_catalogue import PART_PHOTO, ROOT, records
 
 
 def main(**kwargs):
     size = kwargs.get("image_size", 1024)
+    timeout = kwargs.get("image_timeout_seconds", 90)
     pattern = kwargs.get("filter", "*") or "*"
     font_path = Path(kwargs.get("font_file", Path(os.environ.get("WINDIR", "")) / "Fonts" / "arial.ttf"))
     if font_path.is_file():
@@ -17,12 +19,17 @@ def main(**kwargs):
     else:
         font = "font=Arial"
     images = {}
-    for _, part in records(filter=pattern):
+    destinations = {}
+    for path, part in records(filter=pattern, progress_label="Reading photo declarations"):
         photo = part.get("photo")
+        local = path.parent / PART_PHOTO
         if photo and photo.get("original_file"):
             images[photo["file"]] = photo
+            destinations.setdefault(photo["file"], []).append(local)
+        elif not photo:
+            local.unlink(missing_ok=True)
 
-    for file_name, photo in images.items():
+    for file_name, photo in progress(images.items(), "Preparing photo", lambda entry: entry[0]):
         original = ROOT / photo["original_file"]
         target = ROOT / file_name
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -40,15 +47,27 @@ def main(**kwargs):
                 f"drawtext={font}:textfile='{escaped_credit}':expansion=none:"
                 f"fontcolor=black:fontsize=23:x=20:y={size-48}"
             )
-            subprocess.run(
-                ["ffmpeg", "-v", "error", "-y", "-i", str(original),
-                 "-filter_complex", filters, "-frames:v", "1", "-q:v", "2",
-                 "-update", "1", str(output)],
-                check=True,
-            )
-            if not target.exists() or target.read_bytes() != output.read_bytes():
+            try:
+                subprocess.run(
+                    ["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", str(original),
+                     "-filter_complex", filters, "-frames:v", "1", "-q:v", "2",
+                     "-update", "1", str(output)],
+                    check=True, timeout=timeout,
+                )
+            except (OSError, subprocess.SubprocessError) as exc:
+                raise RuntimeError(f"Failed to prepare photograph {original}: {exc}") from exc
+            content = output.read_bytes()
+            if not target.exists() or target.read_bytes() != content:
                 output.replace(target)
-    print(f"Prepared {len(images)} square credited photographs.")
+            for local in destinations[file_name]:
+                if local.is_file() and local.read_bytes() == content:
+                    continue
+                with TemporaryDirectory(dir=local.parent) as staging_dir:
+                    staged = Path(staging_dir) / PART_PHOTO
+                    staged.write_bytes(content)
+                    staged.replace(local)
+    count = sum(map(len, destinations.values()))
+    print(f"Prepared {len(images)} square credited photographs for {count} part folders.", flush=True)
 
 
 if __name__ == "__main__":

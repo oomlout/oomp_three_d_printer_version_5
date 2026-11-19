@@ -1,9 +1,7 @@
 <!-- oomp-documentation:start -->
 # Heater Block
 
-[Up one level](../README.md)
+Browse these parts by assembly.
 
-| Record | OOMP code | Manufacturer code |
-| --- | --- | --- |
-| [Ender-3 Heater block](../../../../parts/three_d_printer_part_creality_ender_3_heater_block_heater_block_creality_400104004/README.md) | `6ZPAA` | 400104004 |
+- [motion/z_assembly/x_gantry/carriage/toolhead/hotend/heater_block](../motion/z_assembly/x_gantry/carriage/toolhead/hotend/heater_block/README.md)
 <!-- oomp-documentation:end -->

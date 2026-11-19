@@ -1,9 +1,15 @@
 <!-- oomp-documentation:start -->
 # Creality Ender-3 V3
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_v3) · [Creality V3 series comparison](https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke)
+
 ## Summary
 
 Creality Ender-3 V3 filament printer.
+
+<img src="catalogue_photo.jpg" width="360" alt="Creality Ender-3 V3 shown on its product page.">
+
+Creality Ender-3 V3 shown on its product page. [Creality Ender-3 V3 product image](https://store.creality.com/products/ender-3-v3-corexz-3d-printer) by Photographer uncredited on Creality product page. [Product image, reuse permission unverified](https://store.creality.com/products/ender-3-v3-corexz-3d-printer). Resized within a square white canvas and credited on the image.
 
 ## Details
 
@@ -22,7 +28,6 @@ OOMP ID `three_d_printer_printer_creality_ender_3_v3`
 
 Sources checked 2026-11-18.
 
-- [Creality V3 series comparison](https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke)
 - [Creality model reference](https://www.creality.com/compare/compare-ender-3-v3-series)
 
 | Taxonomy slot | Value |
@@ -55,8 +60,24 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3
+link_source: https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke
+link_web: http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_v3
 name_proper: Creality Ender-3 V3
 oomp_id: three_d_printer_printer_creality_ender_3_v3
+photo:
+  caption: Creality Ender-3 V3 shown on its product page.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Photographer uncredited on Creality product page
+  credit_line: 'Source: Creality product page'
+  file: source_file/images/printer_ender_3_v3_square.jpg
+  license: Product image, reuse permission unverified
+  license_url: https://store.creality.com/products/ender-3-v3-corexz-3d-printer
+  original_file: source_file/images/original/printer_ender_3_v3.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0893/0603/8637/files/Ender-3_V3.png?v=1762200441
+  source: https://store.creality.com/products/ender-3-v3-corexz-3d-printer
+  source_checked: '2026-11-19'
+  title: Creality Ender-3 V3 product image
 source_checked: '2026-11-18'
 sources:
   Creality V3 series comparison: https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke
@@ -153,7 +174,6 @@ id_no_type: three_d_printer_printer_creality_ender_3_v3
 id_no_size: three_d_printer_printer_creality_ender_3_v3
 oomp_key: oomp_three_d_printer_printer_creality_ender_3_v3
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3
 directory: parts/three_d_printer_printer_creality_ender_3_v3
 name: Three D Printer Printer Creality Ender 3 V3

@@ -3,6 +3,9 @@ aliases:
 compatible_printers:
 - three_d_printer_printer_bambu_lab_a1
 - three_d_printer_printer_bambu_lab_a1_mini
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams_lite
+link_source: https://csm.bblcdn.com/hub/0f7d57180a9b462d9c2bf4fa8aeb5958.pdf
+link_web: http://localhost:5703/parts/three_d_printer_ams_bambu_lab_ams_lite
 name_proper: Bambu Lab AMS lite
 oomp_id: three_d_printer_ams_bambu_lab_ams_lite
 photo:
@@ -116,7 +119,6 @@ id_no_type: three_d_printer_ams_bambu_lab_ams_lite
 id_no_size: three_d_printer_ams_bambu_lab_ams_lite
 oomp_key: oomp_three_d_printer_ams_bambu_lab_ams_lite
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams_lite
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams_lite
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams_lite
 directory: parts/three_d_printer_ams_bambu_lab_ams_lite
 name: Three D Printer Ams Bambu Lab Ams Lite

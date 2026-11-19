@@ -218,7 +218,7 @@ def _resolve_part_file_path(part: dict[str, object], relative_path: str) -> Path
 
 def _resolve_part_download_path(part: dict[str, Any], relative_path: str) -> Path | None:
     if relative_path == part.get("photo_relative_path"):
-        photo = parts_repository.resolve_catalogue_photo(Path(part["source_parts_dir"]), relative_path)
+        photo = parts_repository.resolve_catalogue_photo(Path(part["source_parts_dir"]), relative_path, Path(part["part_dir"]))
         if photo:
             return photo
     return _resolve_part_file_path(part, relative_path)
@@ -277,6 +277,24 @@ def _build_part_viewer_payload(part: dict[str, object]) -> dict[str, object]:
         "partName": part["name"],
         "items": items,
     }
+
+
+@parts_blueprint.before_request
+def redirect_previous_asset():
+    if request.endpoint not in {"parts.part_detail", "parts.part_file", "parts.part_image", "parts.part_image_viewer_data"}:
+        return None
+    params = dict(request.view_args or {})
+    part_id = params["part_id"]
+    cache = current_app.config["PARTS_CACHE"]
+    if cache.get_part(part_id) is None:
+        for record in cache.get_parts():
+            if record["data"].get("previous_id") == part_id:
+                params["part_id"] = record["id"]
+                location = url_for(request.endpoint, **params)
+                if request.query_string:
+                    location += "?" + request.query_string.decode("latin-1")
+                return redirect(location, code=301)
+    return None
 
 
 @parts_blueprint.get("/parts/<part_id>")

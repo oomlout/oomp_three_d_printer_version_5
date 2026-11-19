@@ -1,6 +1,8 @@
 <!-- oomp-documentation:start -->
 # Ender-3 Frame assembly
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_part_creality_ender_3_frame_frame_assembly) · [Creality original mechanical design](https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/ASM%20Frame.SLDASM)
+
 ## Summary
 
 Ender-3 Frame assembly
@@ -17,7 +19,6 @@ OOMP ID `three_d_printer_part_creality_ender_3_frame_frame_assembly`
 
 Sources checked 2026-11-18.
 
-- [Creality original mechanical design](https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/ASM%20Frame.SLDASM)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -26,6 +27,8 @@ Sources checked 2026-11-18.
 | 3 | `creality_ender_3` |
 | 4 | `frame` |
 | 5 | `frame_assembly` |
+
+Assembly taxonomy: [frame](../../navigation/part/creality_ender_3/frame/README.md)
 
 ## Labels
 
@@ -53,13 +56,20 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+assembly_path:
+- frame
 compatible_printers:
 - three_d_printer_printer_creality_ender_3
+exact_variant: frame_assembly
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_frame_frame_assembly
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/ASM%20Frame.SLDASM
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_frame_frame_assembly
 name_proper: Ender-3 Frame assembly
 oomp_id: three_d_printer_part_creality_ender_3_frame_frame_assembly
 source_checked: '2026-11-18'
 sources:
   Creality original mechanical design: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/ASM%20Frame.SLDASM
+spare_type: frame
 specifications:
   cad_file: ASM Frame.SLDASM
   reference_kind: Mechanical design reference
@@ -155,7 +165,6 @@ id_no_type: three_d_printer_part_creality_ender_3_frame_frame_assembly
 id_no_size: three_d_printer_part_creality_ender_3_frame_frame_assembly
 oomp_key: oomp_three_d_printer_part_creality_ender_3_frame_frame_assembly
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_frame_frame_assembly
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_frame_frame_assembly
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_frame_frame_assembly
 directory: parts/three_d_printer_part_creality_ender_3_frame_frame_assembly
 name: Three D Printer Part Creality Ender 3 Frame Frame Assembly

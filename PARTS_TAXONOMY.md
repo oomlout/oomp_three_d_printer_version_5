@@ -1,5 +1,40 @@
 # A parts taxonomy for a filament printer
 
+## Original Ender-3 assembly map
+
+Start at the assembly you would inspect on the printer. The Z drive lifts the X gantry. The toolhead carriage travels along that gantry, while the bed travels on a separate Y carriage. The original Bowden extruder feeds the hotend through a tube. This map shows the main branches. The [live assembly index](navigation/part/creality_ender_3/README.md) includes individual parts and the [complete branch diagram](PARTS_ASSEMBLY_TREE.md) includes every populated branch.
+
+```mermaid
+flowchart LR
+    printer["Ender-3"] --> frame["Frame"]
+    frame --> structure["Base 4040 · top crossmember 2020 · uprights 2040"]
+    printer --> motion["Motion"]
+    motion --> z["Z assembly"]
+    z --> lift["Lead screw · coupler · motor"]
+    z --> x["X gantry"]
+    x --> beam["X profile 2020"]
+    x --> extruder["Bowden extruder drive"]
+    x --> xc["X carriage"]
+    xc --> head["Toolhead"]
+    head --> hot["Hotend"]
+    hot --> thermal["Heatsink and fan · heatbreak · heater block · heater · thermistor · nozzle"]
+    motion --> y["Y assembly"]
+    y --> rail["Y profile 2040"]
+    y --> yc["Y carriage"]
+    yc --> bed["Bed · build surface · levelling hardware"]
+    motion --> shared["Shared motion components"]
+    printer --> electronic["Electronic"]
+    electronic --> board["Motherboard"]
+    electronic --> raw["Component · raw PCBA items"]
+    electronic --> controls["Display · enclosure · power supply · wiring · endstop · storage"]
+    printer --> tool["Tool · hex keys · spanners · scraper · other service tools"]
+    printer --> other["Filament path · hardware · kit contents"]
+```
+
+Each spare declaration has an ordered `assembly_path`. For instance, the controller uses `["electronic", "motherboard"]` and a board resistor uses `["electronic", "component"]`. The 2020 top crossmember belongs to the frame, while the 2020 X profile belongs to the X gantry. Shared stock such as bearings has one record. Installed positions link back to their common component where the BOM supports that relationship. The same scheme places the catalogued Bambu hotend spares under `toolhead/hotend` for their respective hosts.
+
+The assembly path drives browsing and the inventory ID. Population writes its branches into consecutive slots starting at 4, then appends the exact variant unless it already matches the last branch. Use the source BOM and assembly references on its record page to choose its parent.
+
 ## Reference machine
 
 Picture a single-nozzle Cartesian printer with an open frame. A stepper motor and belt move the bed along Y. Another belt moves the toolhead across X. A lead screw raises the gantry along Z. A spool feeds filament through an extruder into a heated nozzle. A controller reads position and temperature sensors, drives the motors and heaters, and reports status to a screen. This gives a maintainer a concrete machine to walk around when identifying a spare. Prusa's MK4S assembly manual is a useful real-world example of this division into frame, axes, extruder, display, carriage and heated bed. [Prusa assembly chapters](https://help.prusa3d.com/product/mk4s/original-prusa-mk4s-kit-assembly_2167)
@@ -13,9 +48,7 @@ The same category names apply to other layouts. A CoreXY machine routes its XY b
 | 1 | Catalogue | `three_d_printer` |
 | 2 | Record family | `part` |
 | 3 | Manufacturer and model of one confirmed host printer, using the end of its printer ID | `bambu_lab_p1s` |
-| 4 | Standard category from the tables below | `hotend` |
-| 5 | Exact variant within that category, in lower snake case | `complete_0_4_mm_hardened_steel` |
-| 6–13 | Reserved | Empty strings |
+| 4–13 | Assembly path followed by the exact variant. Leave remaining slots empty. | `toolhead`, `hotend`, `complete_0_4_mm_hardened_steel` |
 | 14 | Manufacturer of the spare. A third-party maker can differ from the printer maker. | `bambu_lab` |
 | 15 | Published manufacturer's part number or BOM part code, normalized for the ID. Leave empty when unknown. | `fah001_p` |
 
@@ -23,11 +56,11 @@ Copy the printed part number with its case and punctuation into `specifications.
 
 ## Standard categories
 
-The group headings help readers find a part. Only the code in the first column occupies slot 4. The slot 5 examples below describe possible catalogue names. They carry no claim about fit, dimensions or stock on a particular printer.
+The group headings help readers find a part. The first column gives the component type. The exact variant distinguishes individual records within an assembly. They carry no claim about fit, dimensions or stock on a particular printer.
 
 ### Structure and enclosure
 
-| Slot 4 | What belongs here | Typical slot 5 | Verify before entry |
+| Component type | What belongs here | Example exact variant | Verify before entry |
 | --- | --- | --- | --- |
 | `frame` | Base, upright, crossmember, brace or structural frame assembly | `left_z_upright` | Side, length, section, hole pattern |
 | `enclosure` | Door, lid, side panel or sealed enclosure assembly | `front_door_glass` | Side, hinge pattern, revision |
@@ -36,7 +69,7 @@ The group headings help readers find a part. Only the code in the first column o
 
 ### Guidance and motion
 
-| Slot 4 | What belongs here | Typical slot 5 | Verify before entry |
+| Component type | What belongs here | Example exact variant | Verify before entry |
 | --- | --- | --- | --- |
 | `linear_rail` | Profiled track, alone or sold with a matched block | `x_axis_rail_with_block` | Axis, rail series, length, hole pitch, included block |
 | `linear_rod` | Smooth round shaft that guides a carriage | `y_axis_smooth_rod` | Diameter, length, axis |
@@ -55,7 +88,7 @@ A rail is the fixed track. A bearing or block travels along it. A carriage is th
 
 ### Toolhead and filament path
 
-| Slot 4 | What belongs here | Typical slot 5 | Verify before entry |
+| Component type | What belongs here | Example exact variant | Verify before entry |
 | --- | --- | --- | --- |
 | `toolhead` | Whole printhead supplied as a unit | `complete_direct_drive` | Included extruder, hotend, board, fan and housing |
 | `extruder` | Cold-side filament drive, gearbox or drive gear set | `dual_gear_assembly` | Drive layout, gear material, motor inclusion |
@@ -75,7 +108,7 @@ A rail is the fixed track. A bearing or block travels along it. A carriage is th
 
 ### Bed, electronics and sensors
 
-| Slot 4 | What belongs here | Typical slot 5 | Verify before entry |
+| Component type | What belongs here | Example exact variant | Verify before entry |
 | --- | --- | --- | --- |
 | `heated_bed` | Heated platform assembly | `24_v_bed_assembly` | Physical dimensions, voltage, connections, heater and sensor inclusion |
 | `build_plate` | Removable print surface | `double_sided_textured_pei` | Physical plate size, coating, locating tabs |
@@ -96,7 +129,7 @@ The heated bed, removable plate and Y carriage can stack onto one another and ha
 
 ### Board components, kit contents and design references
 
-| Slot 4 | What belongs here | Typical slot 5 | Verify before entry |
+| Component type | What belongs here | Example exact variant | Verify before entry |
 | --- | --- | --- | --- |
 | `axis_assembly` | Complete motion axis in a machine design | `x_axis_assembly` | Axis, printer revision and source drawing |
 | `pcb_component` | Individual board component or connector | `resistor_0603_100k` | Package, value, board BOM line and quantity |
@@ -116,11 +149,11 @@ Browse the [original Ender-3 parts index](navigation/part/creality_ender_3/READM
 
 The machine workbook covers installed parts, spares, tools, packing and paperwork. Its quantities count the supplied kit. The separate PCBA workbook gives component quantities for the electronics. Where two lines have identical names and specifications, one component record preserves both line numbers and their respective quantities. Mechanical design files establish names for assemblies and positions. Only BOM records carry quantities. These sources describe the original released design. Check later boards, revisions and other Ender-3 models separately. [Machine BOM](https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS) · [PCBA BOM](https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx)
 
-For a named part with documented fit, leave slots 14 and 15 empty wherever the maker or number is unknown. Use a stable, descriptive slot 5. A workbook item index is a source locator. A code explicitly headed “Part Code” can occupy slot 15 with its origin recorded in specifications. Retail availability needs separate evidence.
+For a named part with documented fit, leave slots 14 and 15 empty wherever the maker or number is unknown. Use a stable, descriptive exact variant. A workbook item index is a source locator. A code explicitly headed “Part Code” can occupy slot 15 with its origin recorded in specifications. Retail availability needs separate evidence.
 
 ## Two records to copy
 
-- The P1 example is a complete 0.4 mm hardened-steel hotend for P1S and P1P. Slot 3 is `bambu_lab_p1s`, slot 4 is `hotend`, slot 5 is `complete_0_4_mm_hardened_steel`. The printed code is FAH001-P. [P1 worked record](parts/three_d_printer_part_bambu_lab_p1s_hotend_complete_0_4_mm_hardened_steel_bambu_lab_fah001_p/)
-- The A1 example is a quick-swap hotend with a 0.4 mm stainless-steel nozzle for A1 mini and A1. Slot 3 is `bambu_lab_a1_mini`, slot 4 is `hotend`, slot 5 is `hotend_with_nozzle_0_4_mm_stainless_steel`. The printed code is FAH007. [A1 worked record](parts/three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_stainless_steel_bambu_lab_fah007/)
+- The P1 example is a complete 0.4 mm hardened-steel hotend for P1S and P1P. Slot 3 is `bambu_lab_p1s`, slot 4 is `toolhead`, slot 5 is `hotend`, slot 6 is `complete_0_4_mm_hardened_steel`. The printed code is FAH001-P. [P1 worked record](parts/three_d_printer_part_bambu_lab_p1s_toolhead_hotend_complete_0_4_mm_hardened_steel_bambu_lab_fah001_p/)
+- The A1 example is a quick-swap hotend with a 0.4 mm stainless-steel nozzle for A1 mini and A1. Slot 3 is `bambu_lab_a1_mini`, slot 4 is `toolhead`, slot 5 is `hotend`, slot 6 is `hotend_with_nozzle_0_4_mm_stainless_steel`. The printed code is FAH007. [A1 worked record](parts/three_d_printer_part_bambu_lab_a1_mini_toolhead_hotend_hotend_with_nozzle_0_4_mm_stainless_steel_bambu_lab_fah007/)
 
 If a vendor lists only “fits Ender 3”, leave the revision-specific fit open. If a kit combines multiple replaceable parts, catalogue the orderable kit under its principal assembly and list its contents. If there is no principal assembly or existing category, add the candidate and evidence to the queue before inventing a permanent ID.

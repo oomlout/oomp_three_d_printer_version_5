@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Polymaker PolyLite PLA Grey, 1.75 mm, 1 kg
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003) · [Polymaker 2024 SKU table](https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf)
+
 ## Summary
 
 PolyLite PLA in Grey.
 
-<img src="../../source_file/images/polymaker_pa02003_square.jpg" width="360" alt="Polymaker product image for Grey / 1.75mm / 1kg.">
+<img src="catalogue_photo.jpg" width="360" alt="Polymaker product image for Grey / 1.75mm / 1kg.">
 
 Polymaker product image for Grey / 1.75mm / 1kg. [Polymaker product image](https://shop.polymaker.com/products/polylite-pla) by Polymaker. [Manufacturer product image; reuse permission not established](https://shop.polymaker.com/products/polylite-pla). Resized within a square white canvas and credited on the image.
 
@@ -23,7 +25,6 @@ OOMP ID `three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003`
 
 Sources checked 2026-11-18.
 
-- [Polymaker 2024 SKU table](https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -59,6 +60,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
+link_source: https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf
+link_web: http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
 name_proper: Polymaker PolyLite PLA Grey, 1.75 mm, 1 kg
 oomp_id: three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
 photo:
@@ -216,7 +220,6 @@ id_no_type: three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
 id_no_size: three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
 oomp_key: oomp_three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
 directory: parts/three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003
 name: Three D Printer Filament Pla 1 75 Mm Grey Grey Polymaker Pa02003

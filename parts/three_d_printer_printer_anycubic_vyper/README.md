@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Anycubic Vyper
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_printer_anycubic_vyper) · [Anycubic Vyper technical specifications](https://uk.anycubic.com/products/anycubic-vyper)
+
 ## Summary
 
 Anycubic Vyper filament printer.
 
-<img src="../../source_file/images/anycubic_vyper_square.jpg" width="360" alt="Anycubic Vyper shown with a printed model.">
+<img src="catalogue_photo.jpg" width="360" alt="Anycubic Vyper shown with a printed model.">
 
 Anycubic Vyper shown with a printed model. [Anycubic product image](https://uk.anycubic.com/products/anycubic-vyper) by Anycubic. [Manufacturer product image; reuse permission not established](https://uk.anycubic.com/products/anycubic-vyper). Resized within a square white canvas and credited on the image.
 
@@ -25,7 +27,6 @@ OOMP ID `three_d_printer_printer_anycubic_vyper`
 
 Sources checked 2026-11-18.
 
-- [Anycubic Vyper technical specifications](https://uk.anycubic.com/products/anycubic-vyper)
 - [Anycubic Vyper user manual](https://media.elv.com/file/252518_um.pdf)
 
 | Taxonomy slot | Value |
@@ -58,6 +59,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_vyper
+link_source: https://uk.anycubic.com/products/anycubic-vyper
+link_web: http://localhost:5703/parts/three_d_printer_printer_anycubic_vyper
 name_proper: Anycubic Vyper
 oomp_id: three_d_printer_printer_anycubic_vyper
 photo:
@@ -168,7 +172,6 @@ id_no_type: three_d_printer_printer_anycubic_vyper
 id_no_size: three_d_printer_printer_anycubic_vyper
 oomp_key: oomp_three_d_printer_printer_anycubic_vyper
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_vyper
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_vyper
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_vyper
 directory: parts/three_d_printer_printer_anycubic_vyper
 name: Three D Printer Printer Anycubic Vyper

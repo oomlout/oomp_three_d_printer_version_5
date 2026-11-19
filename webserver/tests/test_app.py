@@ -28,6 +28,24 @@ def write_image(path: Path, size: tuple[int, int] = (320, 240), color: tuple[int
 
 
 class WebserverAppTests(unittest.TestCase):
+    def test_part_detail_links_to_catalogue_and_primary_source(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            parts = Path(directory) / "parts"
+            catalogue = "http://localhost:5703/parts/spool"
+            primary = "https://example.org/product?shade=grey&unit=refill"
+            write_yaml(parts / "spool" / "working.yaml", {
+                "link_web": catalogue,
+                "link_source": primary,
+                "sources": {"A datasheet": "https://example.org/spec", "Product page": primary},
+            })
+            app = create_app({"TESTING": True, "PARTS_DIR": parts})
+            response = app.test_client().get("/parts/spool", base_url="http://workshop:5703")
+            self.assertEqual(response.status_code, 200)
+            nav = response.get_data(as_text=True).split('aria-label="Part links">', 1)[1].split("</nav>", 1)[0]
+            self.assertIn('href="http://workshop:5703/parts/spool"', nav)
+            self.assertIn('href="https://example.org/product?shade=grey&amp;unit=refill">Product page</a>', nav)
+            self.assertLess(nav.index("Product page"), nav.index("A datasheet"))
+
     def test_format_file_size_uses_compact_labels(self) -> None:
         self.assertEqual(format_file_size(980), "980")
         self.assertEqual(format_file_size(1200), "1.2k")
@@ -273,6 +291,29 @@ class WebserverAppTests(unittest.TestCase):
             (root / photo_path).unlink()
             self.assertEqual(cache.reload_changed().changed, 1)
             self.assertEqual(cache.get_part("printer")["preview_file"], "assets/arbitrary-photo.JPG")
+
+    def test_migrated_part_serves_local_photo_and_labels_from_previous_urls(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            part = root / "parts" / "current"
+            shared = "source_file/images/component.jpg"
+            write_yaml(part / "working.yaml", {
+                "previous_id": "retired",
+                "photo": {"file": shared, "creator": "Photographer"},
+            })
+            write_image(part / "catalogue_photo.jpg")
+            (part / "label_oomp.svg").write_text("<svg/>", encoding="utf-8")
+            app = create_app({"TESTING": True, "PARTS_DIR": part.parent})
+            client = app.test_client()
+            viewer = client.get("/parts/retired/viewer-data", follow_redirects=True)
+            paths = [item["relativePath"] for item in viewer.json["items"]]
+            self.assertEqual(paths[0], shared)
+            self.assertNotIn("catalogue_photo.jpg", paths)
+            for asset in (shared, "label_oomp.svg", "image/" + shared + "?preset=explore_thumb"):
+                with client.get("/parts/retired/" + asset, follow_redirects=True) as result:
+                    self.assertEqual(result.status_code, 200)
+                    self.assertEqual(result.history[0].status_code, 301)
+                    self.assertTrue(result.history[0].location.endswith("/parts/current/" + asset))
 
     def test_explore_search_defaults_to_id_only(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:

@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Polymaker PolyLite PLA Black
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001) · [Manufacturer SKU table](https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf)
+
 ## Summary
 
 PolyLite PLA in Black.
 
-<img src="../../source_file/images/polymaker_pa02001_square.jpg" width="360" alt="Polymaker product image for Black / 1.75mm / 1kg.">
+<img src="catalogue_photo.jpg" width="360" alt="Polymaker product image for Black / 1.75mm / 1kg.">
 
 Polymaker product image for Black / 1.75mm / 1kg. [Polymaker product image](https://shop.polymaker.com/products/polylite-pla) by Polymaker. [Manufacturer product image; reuse permission not established](https://shop.polymaker.com/products/polylite-pla). Resized within a square white canvas and credited on the image.
 
@@ -26,7 +28,6 @@ OOMP ID `three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001`
 
 Sources checked 2026-11-18.
 
-- [Manufacturer SKU table](https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf)
 - [Polymaker product, printing settings and price](https://shop.polymaker.com/products/polylite-pla/)
 
 | Taxonomy slot | Value |
@@ -63,6 +64,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
+link_source: https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf
+link_web: http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
 name_proper: Polymaker PolyLite PLA Black
 oomp_id: three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
 photo:
@@ -229,7 +233,6 @@ id_no_type: three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
 id_no_size: three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
 oomp_key: oomp_three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
 directory: parts/three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001
 name: Three D Printer Filament Pla 1 75 Mm Black Black Polymaker Pa02001

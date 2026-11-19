@@ -1,0 +1,55 @@
+assembly_path:
+- motion
+- shared
+- stepper_motor
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: 42_34_stepper_motor
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_motion_shared_stepper_motor_42_34_stepper_motor_creality_400201001
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_motion_shared_stepper_motor_42_34_stepper_motor_creality_400201001
+name_proper: Ender-3 42-34 stepper motor
+oomp_id: three_d_printer_part_creality_ender_3_motion_shared_stepper_motor_42_34_stepper_motor_creality_400201001
+photo:
+  caption: Representative NEMA 17 stepper motor; the pictured motor is not the Ender-3
+    motor.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: oomlout
+  credit_line: 'Photo: oomlout / Wikimedia Commons - CC BY-SA 2.0'
+  file: source_file/images/representative_motor_square.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  original_file: source_file/images/original/representative_motor.jpg
+  original_image_url: https://upload.wikimedia.org/wikipedia/commons/8/83/Nema_17_Stepper_Motor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  source: https://commons.wikimedia.org/wiki/File:Nema_17_Stepper_Motor.jpg
+  source_checked: '2026-11-19'
+  title: Nema 17 Stepper Motor.jpg
+previous_id: three_d_printer_part_creality_ender_3_stepper_motor_42_34_stepper_motor_creality_400201001
+previous_label: 2933J
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+spare_type: stepper_motor
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 3
+  machine_bom_row: 33
+  manufacturer_part_number: '400201001'
+  reference_name: 42-34 stepper motor
+  source_name: 42-34 Motor
+  source_specification: JK42HS34-0844YA-03F
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '400201001'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: motion
+taxonomy_5: shared
+taxonomy_6: stepper_motor
+taxonomy_7: 42_34_stepper_motor
+taxonomy_8: ''
+taxonomy_9: ''

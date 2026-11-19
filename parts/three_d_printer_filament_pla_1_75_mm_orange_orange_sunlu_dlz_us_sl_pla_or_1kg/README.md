@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # SUNLU PLA Orange, 1 kg with spool
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg) · [Manufacturer product page and variant SKU](https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer)
+
 ## Summary
 
 SUNLU PLA in Orange.
 
-<img src="../../source_file/images/filament_sample_9b91b7b4e414ce47_square.jpg" width="360" alt="SUNLU product-page colour sample for Orange; the colour sample is shown rather than the spool or refill.">
+<img src="catalogue_photo.jpg" width="360" alt="SUNLU product-page colour sample for Orange; the colour sample is shown rather than the spool or refill.">
 
 SUNLU product-page colour sample for Orange; the colour sample is shown rather than the spool or refill. [SUNLU filament colour sample](https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer) by SUNLU. [Product image; reuse permission not established](https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer). Resized within a square white canvas and credited on the image.
 
@@ -25,7 +27,6 @@ OOMP ID `three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_
 
 Sources checked 2026-11-18.
 
-- [Manufacturer product page and variant SKU](https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -61,6 +62,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg
+link_source: https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer
+link_web: http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg
 name_proper: SUNLU PLA Orange, 1 kg with spool
 oomp_id: three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg
 photo:
@@ -221,7 +225,6 @@ id_no_type: three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_p
 id_no_size: three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg
 oomp_key: oomp_three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg
 directory: parts/three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg
 name: Three D Printer Filament Pla 1 75 Mm Orange Orange Sunlu Dlz Us Sl Pla Or 1Kg

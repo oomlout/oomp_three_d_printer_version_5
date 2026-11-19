@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Bambu Lab P1S
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_printer_bambu_lab_p1s) · [P1S technical specifications](https://store.bblcdn.com/s5/default/78c105c0c92642a99e64b4b0b0f3ca6a.pdf)
+
 ## Summary
 
 Bambu Lab P1S filament printer.
 
-<img src="../../source_file/images/p1s_with_ams_square.jpg" width="360" alt="Bambu Lab P1S with the original AMS on top.">
+<img src="catalogue_photo.jpg" width="360" alt="Bambu Lab P1S with the original AMS on top.">
 
 Bambu Lab P1S with the original AMS on top. [P1s with ams.jpg](https://commons.wikimedia.org/wiki/File:P1s_with_ams.jpg) by Pineapplefish77. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized within a square white canvas and credited on the image.
 
@@ -29,7 +31,6 @@ Sources checked 2026-11-18.
 
 - [Global store price listing](https://bambu-lab-global.myshopify.com/collections/3d-printer)
 - [Manufacturer launch announcement](https://forum.bambulab.com/t/the-bambu-lab-p1s-is-launched/19959)
-- [P1S technical specifications](https://store.bblcdn.com/s5/default/78c105c0c92642a99e64b4b0b0f3ca6a.pdf)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -56,14 +57,14 @@ Sources checked 2026-11-18.
 Compatible spares and feeders in this catalogue
 
 - [Bambu Lab AMS](../three_d_printer_ams_bambu_lab_ams/)
-- [Bambu Lab P1 series complete hotend, 0.2 mm stainless steel](../three_d_printer_part_bambu_lab_p1s_hotend_complete_0_2_mm_stainless_steel_bambu_lab_fah004_p/)
-- [Bambu Lab P1 series complete hotend, 0.4 mm](../three_d_printer_part_bambu_lab_p1s_hotend_complete_0_4_mm_hardened_steel_bambu_lab_fah001_p/)
-- [Bambu Lab P1 series complete hotend, 0.6 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_complete_0_6_mm_hardened_steel_bambu_lab_fah005_p/)
-- [Bambu Lab P1 series complete hotend, 0.8 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_complete_0_8_mm_hardened_steel_bambu_lab_fah003_p/)
-- [Bambu Lab P1 series hotend with nozzle, 0.2 mm stainless steel](../three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah004_n_1/)
-- [Bambu Lab P1 series hotend with nozzle, 0.4 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah001_n_1/)
-- [Bambu Lab P1 series hotend with nozzle, 0.6 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah005_n_1/)
-- [Bambu Lab P1 series hotend with nozzle, 0.8 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah003_n_1/)
+- [Bambu Lab P1 series complete hotend, 0.2 mm stainless steel](../three_d_printer_part_bambu_lab_p1s_toolhead_hotend_complete_0_2_mm_stainless_steel_bambu_lab_fah004_p/)
+- [Bambu Lab P1 series complete hotend, 0.4 mm](../three_d_printer_part_bambu_lab_p1s_toolhead_hotend_complete_0_4_mm_hardened_steel_bambu_lab_fah001_p/)
+- [Bambu Lab P1 series complete hotend, 0.6 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_toolhead_hotend_complete_0_6_mm_hardened_steel_bambu_lab_fah005_p/)
+- [Bambu Lab P1 series complete hotend, 0.8 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_toolhead_hotend_complete_0_8_mm_hardened_steel_bambu_lab_fah003_p/)
+- [Bambu Lab P1 series hotend with nozzle, 0.2 mm stainless steel](../three_d_printer_part_bambu_lab_p1s_toolhead_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah004_n_1/)
+- [Bambu Lab P1 series hotend with nozzle, 0.4 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_toolhead_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah001_n_1/)
+- [Bambu Lab P1 series hotend with nozzle, 0.6 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_toolhead_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah005_n_1/)
+- [Bambu Lab P1 series hotend with nozzle, 0.8 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_toolhead_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah003_n_1/)
 
 ## Assembly
 
@@ -73,6 +74,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_p1s
+link_source: https://store.bblcdn.com/s5/default/78c105c0c92642a99e64b4b0b0f3ca6a.pdf
+link_web: http://localhost:5703/parts/three_d_printer_printer_bambu_lab_p1s
 name_proper: Bambu Lab P1S
 oomp_id: three_d_printer_printer_bambu_lab_p1s
 photo:
@@ -186,7 +190,6 @@ id_no_type: three_d_printer_printer_bambu_lab_p1s
 id_no_size: three_d_printer_printer_bambu_lab_p1s
 oomp_key: oomp_three_d_printer_printer_bambu_lab_p1s
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_p1s
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_p1s
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_p1s
 directory: parts/three_d_printer_printer_bambu_lab_p1s
 name: Three D Printer Printer Bambu Lab P1S

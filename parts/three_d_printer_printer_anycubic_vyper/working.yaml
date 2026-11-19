@@ -1,3 +1,6 @@
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_vyper
+link_source: https://uk.anycubic.com/products/anycubic-vyper
+link_web: http://localhost:5703/parts/three_d_printer_printer_anycubic_vyper
 name_proper: Anycubic Vyper
 oomp_id: three_d_printer_printer_anycubic_vyper
 photo:
@@ -108,7 +111,6 @@ id_no_type: three_d_printer_printer_anycubic_vyper
 id_no_size: three_d_printer_printer_anycubic_vyper
 oomp_key: oomp_three_d_printer_printer_anycubic_vyper
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_vyper
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_vyper
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_vyper
 directory: parts/three_d_printer_printer_anycubic_vyper
 name: Three D Printer Printer Anycubic Vyper

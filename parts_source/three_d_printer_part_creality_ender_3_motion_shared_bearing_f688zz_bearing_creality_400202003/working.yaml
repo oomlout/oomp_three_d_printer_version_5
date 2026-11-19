@@ -1,0 +1,41 @@
+assembly_path:
+- motion
+- shared
+- bearing
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: f688zz_bearing
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_motion_shared_bearing_f688zz_bearing_creality_400202003
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_motion_shared_bearing_f688zz_bearing_creality_400202003
+name_proper: Ender-3 F688ZZ bearing
+oomp_id: three_d_printer_part_creality_ender_3_motion_shared_bearing_f688zz_bearing_creality_400202003
+previous_id: three_d_printer_part_creality_ender_3_rotary_bearing_f688zz_bearing_creality_400202003
+previous_label: 8RLWI
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+spare_type: rotary_bearing
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 4
+  machine_bom_row: 36
+  manufacturer_part_number: '400202003'
+  reference_name: F688ZZ bearing
+  source_name: F688ZZ  Pillow
+  source_specification: F688ZZ
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '400202003'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: motion
+taxonomy_5: shared
+taxonomy_6: bearing
+taxonomy_7: f688zz_bearing
+taxonomy_8: ''
+taxonomy_9: ''

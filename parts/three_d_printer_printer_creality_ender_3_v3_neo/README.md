@@ -1,9 +1,15 @@
 <!-- oomp-documentation:start -->
 # Creality Ender-3 V3 Neo
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_v3_neo) · [Creality model reference](https://store.creality.com/uk/blogs/buying-guides/ender-3-v3-neo-vs-mega)
+
 ## Summary
 
 Creality Ender-3 V3 Neo filament printer.
+
+<img src="catalogue_photo.jpg" width="360" alt="Creality Ender-3 V3 Neo shown on its product page.">
+
+Creality Ender-3 V3 Neo shown on its product page. [Creality Ender-3 V3 Neo product image](https://store.creality.com/products/ender-3-v3-neo-3d-printer) by Photographer uncredited on Creality product page. [Product image, reuse permission unverified](https://store.creality.com/products/ender-3-v3-neo-3d-printer). Resized within a square white canvas and credited on the image.
 
 ## Details
 
@@ -15,7 +21,6 @@ OOMP ID `three_d_printer_printer_creality_ender_3_v3_neo`
 
 Sources checked 2026-11-18.
 
-- [Creality model reference](https://store.creality.com/uk/blogs/buying-guides/ender-3-v3-neo-vs-mega)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -47,8 +52,24 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_neo
+link_source: https://store.creality.com/uk/blogs/buying-guides/ender-3-v3-neo-vs-mega
+link_web: http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_v3_neo
 name_proper: Creality Ender-3 V3 Neo
 oomp_id: three_d_printer_printer_creality_ender_3_v3_neo
+photo:
+  caption: Creality Ender-3 V3 Neo shown on its product page.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Photographer uncredited on Creality product page
+  credit_line: 'Source: Creality product page'
+  file: source_file/images/printer_ender_3_v3_neo_square.jpg
+  license: Product image, reuse permission unverified
+  license_url: https://store.creality.com/products/ender-3-v3-neo-3d-printer
+  original_file: source_file/images/original/printer_ender_3_v3_neo.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0893/0603/8637/files/Front_Zoom-1600X1600.png?v=1790837669
+  source: https://store.creality.com/products/ender-3-v3-neo-3d-printer
+  source_checked: '2026-11-19'
+  title: Creality Ender-3 V3 Neo product image
 source_checked: '2026-11-18'
 sources:
   Creality model reference: https://store.creality.com/uk/blogs/buying-guides/ender-3-v3-neo-vs-mega
@@ -134,7 +155,6 @@ id_no_type: three_d_printer_printer_creality_ender_3_v3_neo
 id_no_size: three_d_printer_printer_creality_ender_3_v3_neo
 oomp_key: oomp_three_d_printer_printer_creality_ender_3_v3_neo
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_neo
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_neo
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_neo
 directory: parts/three_d_printer_printer_creality_ender_3_v3_neo
 name: Three D Printer Printer Creality Ender 3 V3 Neo

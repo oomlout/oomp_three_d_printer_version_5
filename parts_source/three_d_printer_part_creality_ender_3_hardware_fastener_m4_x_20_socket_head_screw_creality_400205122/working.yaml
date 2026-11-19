@@ -1,0 +1,55 @@
+assembly_path:
+- hardware
+- fastener
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: m4_x_20_socket_head_screw
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_20_socket_head_screw_creality_400205122
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_20_socket_head_screw_creality_400205122
+name_proper: Ender-3 M4 x 20 Socket Head Screw
+oomp_id: three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_20_socket_head_screw_creality_400205122
+photo:
+  caption: Representative flanged socket-head screws; the Ender-3 screw may differ
+    in its flange and dimensions.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: R. Henrik Nilsson
+  credit_line: 'Photo: R. Henrik Nilsson / Wikimedia Commons - CC BY 4.0'
+  file: source_file/images/representative_socket_square.jpg
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  original_file: source_file/images/original/representative_socket.jpg
+  original_image_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/INBUS_RIPP_Serrated_hex_soc_head_cap_screws_with_flange_by_Bauer_and_Schaurte_Karcher_GmbH_Neuss_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  source: https://commons.wikimedia.org/wiki/File:INBUS_RIPP_Serrated_hex_soc_head_cap_screws_with_flange_by_Bauer_and_Schaurte_Karcher_GmbH_Neuss_Germany.jpg
+  source_checked: '2026-11-19'
+  title: INBUS RIPP Serrated hex soc head cap screws with flange by Bauer and Schaurte
+    Karcher GmbH Neuss Germany.jpg
+previous_id: three_d_printer_part_creality_ender_3_fastener_m4_x_20_socket_head_screw_creality_400205122
+previous_label: 6XLGB
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+spare_type: fastener
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 3
+  machine_bom_row: 67
+  manufacturer_part_number: '400205122'
+  reference_name: M4 x 20 Socket Head Screw
+  source_name: M4*20  Socket Head Screw
+  source_specification: M4*20
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '400205122'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: hardware
+taxonomy_5: fastener
+taxonomy_6: m4_x_20_socket_head_screw
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

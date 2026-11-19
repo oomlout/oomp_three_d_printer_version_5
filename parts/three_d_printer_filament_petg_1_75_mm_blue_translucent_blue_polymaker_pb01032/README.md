@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Polymaker PolyLite PETG Translucent Blue
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032) · [Manufacturer SKU table](https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf)
+
 ## Summary
 
 PolyLite Translucent PETG in Translucent Blue.
 
-<img src="../../source_file/images/polymaker_petg_square.jpg" width="360" alt="Polymaker PolyLite Translucent PETG in Translucent Blue, 1 kg spool.">
+<img src="catalogue_photo.jpg" width="360" alt="Polymaker PolyLite Translucent PETG in Translucent Blue, 1 kg spool.">
 
 Polymaker PolyLite Translucent PETG in Translucent Blue, 1 kg spool. [Polymaker product image](https://shop.polymaker.com/products/polylite-translucent-petg) by Polymaker. [Manufacturer product image; reuse permission not established](https://shop.polymaker.com/products/polylite-translucent-petg). Resized within a square white canvas and credited on the image.
 
@@ -27,7 +29,6 @@ OOMP ID `three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_p
 
 Sources checked 2026-11-18.
 
-- [Manufacturer SKU table](https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf)
 - [PolyLite PETG technical data sheet](https://wiki.polymaker.com/polymaker-products/more-about-our-products/documents/technical-data-sheets/petg-pet/polylite-tm-petg)
 - [Polymaker product, printing settings and price](https://shop.polymaker.com/products/polylite-translucent-petg/)
 
@@ -65,6 +66,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
+link_source: https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf
+link_web: http://localhost:5703/parts/three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
 name_proper: Polymaker PolyLite PETG Translucent Blue
 oomp_id: three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
 photo:
@@ -234,7 +238,6 @@ id_no_type: three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymake
 id_no_size: three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
 oomp_key: oomp_three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
 directory: parts/three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032
 name: Three D Printer Filament Petg 1 75 Mm Blue Translucent Blue Polymaker Pb01032

@@ -1,9 +1,7 @@
 <!-- oomp-documentation:start -->
 # Heater
 
-[Up one level](../README.md)
+Browse these parts by assembly.
 
-| Record | OOMP code | Manufacturer code |
-| --- | --- | --- |
-| [Ender-3 24 V 40 W heater cartridge](../../../../parts/three_d_printer_part_creality_ender_3_heater_24_v_40_w_heater_cartridge_creality_400308002/README.md) | `4U8VN` | 400308002 |
+- [motion/z_assembly/x_gantry/carriage/toolhead/hotend/heater](../motion/z_assembly/x_gantry/carriage/toolhead/hotend/heater/README.md)
 <!-- oomp-documentation:end -->

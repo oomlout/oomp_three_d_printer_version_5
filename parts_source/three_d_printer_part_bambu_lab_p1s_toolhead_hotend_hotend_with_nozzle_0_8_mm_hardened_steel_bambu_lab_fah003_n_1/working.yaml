@@ -1,0 +1,52 @@
+assembly_path:
+- toolhead
+- hotend
+compatible_printers:
+- three_d_printer_printer_bambu_lab_p1s
+- three_d_printer_printer_bambu_lab_p1p
+exact_variant: hotend_with_nozzle_0_8_mm_hardened_steel
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_bambu_lab_p1s_toolhead_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah003_n_1
+link_source: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series
+link_web: http://localhost:5703/parts/three_d_printer_part_bambu_lab_p1s_toolhead_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah003_n_1
+name_proper: Bambu Lab P1 series hotend with nozzle, 0.8 mm hardened steel
+oomp_id: three_d_printer_part_bambu_lab_p1s_toolhead_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah003_n_1
+photo:
+  caption: Manufacturer product image for 0.8mm Hardened Steel / Hotend with Nozzle.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Bambu Lab
+  credit_line: 'Source: Bambu Lab official product page'
+  file: source_file/images/p1_fah003_n_1_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series
+  original_file: source_file/images/original/p1_fah003_n_1.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0574/3116/2995/files/FAH003-N-1_2_85c13345-0b88-4151-b19e-91ddeca860ef.jpg?v=1717129118
+  source: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series
+  source_checked: '2026-11-19'
+  title: Bambu Lab product image
+previous_id: three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah003_n_1
+previous_label: 7O6KC
+source_checked: '2026-11-18'
+sources:
+  Bambu Lab P1 hotend, variants and compatibility: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series
+spare_type: hotend
+specifications:
+  assembly_scope: Hotend with nozzle; transfer fan, ceramic heater and thermistor
+    from the existing assembly
+  manufacturer_part_number: FAH003-N-1
+  nozzle_diameter_mm: 0.8
+  nozzle_material: Hardened steel
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: bambu_lab
+taxonomy_15: fah003_n_1
+taxonomy_2: part
+taxonomy_3: bambu_lab_p1s
+taxonomy_4: toolhead
+taxonomy_5: hotend
+taxonomy_6: hotend_with_nozzle_0_8_mm_hardened_steel
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

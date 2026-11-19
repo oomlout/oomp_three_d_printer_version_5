@@ -6,6 +6,9 @@ compatible_printers:
 - three_d_printer_printer_bambu_lab_p1p
 - three_d_printer_printer_bambu_lab_a1
 - three_d_printer_printer_bambu_lab_a1_mini
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams
+link_source: https://bambu-lab-global.myshopify.com/products/ams-multicolor-printing
+link_web: http://localhost:5703/parts/three_d_printer_ams_bambu_lab_ams
 name_proper: Bambu Lab AMS
 oomp_id: three_d_printer_ams_bambu_lab_ams
 photo:

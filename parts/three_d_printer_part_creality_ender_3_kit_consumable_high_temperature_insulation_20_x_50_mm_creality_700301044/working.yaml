@@ -1,0 +1,257 @@
+assembly_path:
+- kit
+- consumable
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: high_temperature_insulation_20_x_50_mm
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+name_proper: Ender-3 High-temperature insulation (20 x 50 mm)
+oomp_id: three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+previous_id: three_d_printer_part_creality_ender_3_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+previous_label: 678KP
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+spare_type: consumable
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 1
+  machine_bom_row: 161
+  manufacturer_part_number: '700301044'
+  reference_name: High-temperature insulation (20 x 50 mm)
+  source_name: High temperature cotton
+  source_specification: 20*50mm
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '700301044'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: kit
+taxonomy_5: consumable
+taxonomy_6: high_temperature_insulation_20_x_50_mm
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+taxonomy_1_upper: THREE_D_PRINTER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TH
+taxonomy_1_upper_length_3: THR
+taxonomy_1_upper_length_4: THRE
+taxonomy_1_upper_length_5: THREE
+taxonomy_1_length_1: t
+taxonomy_1_length_2: th
+taxonomy_1_length_3: thr
+taxonomy_1_length_4: thre
+taxonomy_1_length_5: three
+taxonomy_1_capital: Three D Printer
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_3_upper: CREALITY_ENDER_3
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CR
+taxonomy_3_upper_length_3: CRE
+taxonomy_3_upper_length_4: CREA
+taxonomy_3_upper_length_5: CREAL
+taxonomy_3_length_1: c
+taxonomy_3_length_2: cr
+taxonomy_3_length_3: cre
+taxonomy_3_length_4: crea
+taxonomy_3_length_5: creal
+taxonomy_3_capital: Creality Ender 3
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_4_upper: KIT
+taxonomy_4_upper_length_1: K
+taxonomy_4_upper_length_2: KI
+taxonomy_4_upper_length_3: KIT
+taxonomy_4_upper_length_4: KIT
+taxonomy_4_upper_length_5: KIT
+taxonomy_4_length_1: k
+taxonomy_4_length_2: ki
+taxonomy_4_length_3: kit
+taxonomy_4_length_4: kit
+taxonomy_4_length_5: kit
+taxonomy_4_capital: Kit
+taxonomy_4_first_letter: k
+taxonomy_4_first_letter_upper: K
+taxonomy_5_upper: CONSUMABLE
+taxonomy_5_upper_length_1: C
+taxonomy_5_upper_length_2: CO
+taxonomy_5_upper_length_3: CON
+taxonomy_5_upper_length_4: CONS
+taxonomy_5_upper_length_5: CONSU
+taxonomy_5_length_1: c
+taxonomy_5_length_2: co
+taxonomy_5_length_3: con
+taxonomy_5_length_4: cons
+taxonomy_5_length_5: consu
+taxonomy_5_capital: Consumable
+taxonomy_5_first_letter: c
+taxonomy_5_first_letter_upper: C
+taxonomy_6_upper: HIGH_TEMPERATURE_INSULATION_20_X_50_MM
+taxonomy_6_upper_length_1: H
+taxonomy_6_upper_length_2: HI
+taxonomy_6_upper_length_3: HIG
+taxonomy_6_upper_length_4: HIGH
+taxonomy_6_upper_length_5: HIGH_
+taxonomy_6_length_1: h
+taxonomy_6_length_2: hi
+taxonomy_6_length_3: hig
+taxonomy_6_length_4: high
+taxonomy_6_length_5: high_
+taxonomy_6_capital: High Temperature Insulation 20 x 50 mm
+taxonomy_6_first_letter: h
+taxonomy_6_first_letter_upper: H
+taxonomy_14_upper: CREALITY
+taxonomy_14_upper_length_1: C
+taxonomy_14_upper_length_2: CR
+taxonomy_14_upper_length_3: CRE
+taxonomy_14_upper_length_4: CREA
+taxonomy_14_upper_length_5: CREAL
+taxonomy_14_length_1: c
+taxonomy_14_length_2: cr
+taxonomy_14_length_3: cre
+taxonomy_14_length_4: crea
+taxonomy_14_length_5: creal
+taxonomy_14_capital: Creality
+taxonomy_14_first_letter: c
+taxonomy_14_first_letter_upper: C
+taxonomy_15_upper: '700301044'
+taxonomy_15_upper_length_1: '7'
+taxonomy_15_upper_length_2: '70'
+taxonomy_15_upper_length_3: '700'
+taxonomy_15_upper_length_4: '7003'
+taxonomy_15_upper_length_5: '70030'
+taxonomy_15_length_1: '7'
+taxonomy_15_length_2: '70'
+taxonomy_15_length_3: '700'
+taxonomy_15_length_4: '7003'
+taxonomy_15_length_5: '70030'
+taxonomy_15_capital: '700301044'
+taxonomy_15_first_letter: '7'
+taxonomy_15_first_letter_upper: '7'
+id: three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+id_no_class: three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+id_no_type: three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+id_no_size: three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+oomp_key: oomp_three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+directory: parts/three_d_printer_part_creality_ender_3_kit_consumable_high_temperature_insulation_20_x_50_mm_creality_700301044
+name: Three D Printer Part Creality Ender 3 Kit Consumable High Temperature Insulation
+  20 X 50 Mm Creality 700301044
+name_no_class: Three D Printer Part Creality Ender 3 Kit Consumable High Temperature
+  Insulation 20 X 50 Mm Creality 700301044
+name_no_type: Three D Printer Part Creality Ender 3 Kit Consumable High Temperature
+  Insulation 20 X 50 Mm Creality 700301044
+name_no_size: Three D Printer Part Creality Ender 3 Kit Consumable High Temperature
+  Insulation 20 X 50 Mm Creality 700301044
+md5: 5d10312d303f803d575d8ca1b72024d9
+md5_5: 5d103
+md5_5_upper: 5D103
+md5_6: 5d1031
+md5_6_upper: 5D1031
+md5_6_alpha: 3mq0h
+md5_6_alpha_upper: 3MQ0H
+md5_10: 5d10312d30
+md5_10_upper: 5D10312D30
+bip_39_full_array:
+- fringe
+- light
+- ensure
+- gather
+- way
+- burger
+- frost
+- ranch
+- payment
+- ribbon
+- ankle
+- recycle
+bip_39_full_space: fringe light ensure gather way burger frost ranch payment ribbon
+  ankle recycle
+bip_39_full_no_space: fringelightensuregatherwayburgerfrostranchpaymentribbonanklerecycle
+bip_39_full_underscore: fringe_light_ensure_gather_way_burger_frost_ranch_payment_ribbon_ankle_recycle
+bip_39_2_word_array:
+- fringe
+- light
+bip_39_2_word_space: fringe light
+bip_39_2_word_no_space: fringelight
+bip_39_2_word_underscore: fringe_light
+bip_39_3_word_array:
+- fringe
+- light
+- ensure
+bip_39_3_word_space: fringe light ensure
+bip_39_3_word_no_space: fringelightensure
+bip_39_3_word_underscore: fringe_light_ensure
+label_title: High-temperature insulation (20 x 50 mm)
+label_barcode: M0,0h34v760h-34z M136,0h34v760h-34z M204,0h102v760h-102z M340,0h102v760h-102z
+  M476,0h34v760h-34z M544,0h102v760h-102z M680,0h102v760h-102z M884,0h34v760h-34z
+  M952,0h34v760h-34z M1020,0h34v760h-34z M1088,0h102v760h-102z M1224,0h102v760h-102z
+  M1360,0h34v760h-34z M1428,0h34v760h-34z M1564,0h34v760h-34z M1632,0h34v760h-34z
+  M1700,0h34v760h-34z M1768,0h34v760h-34z M1836,0h102v760h-102z M2040,0h102v760h-102z
+  M2176,0h34v760h-34z M2244,0h34v760h-34z M2380,0h102v760h-102z M2516,0h102v760h-102z
+  M2652,0h34v760h-34z M2720,0h102v760h-102z M2856,0h34v760h-34z M2924,0h34v760h-34z
+  M3060,0h102v760h-102z M3196,0h34v760h-34z M3264,0h34v760h-34z M3400,0h34v760h-34z
+  M3468,0h102v760h-102z M3604,0h102v760h-102z M3740,0h34v760h-34z
+label_barcode_width: 3774
+label_maker: Creality
+label_family: Consumable
+label_detail: '700301044'
+label_variant: Creality Ender 3
+label_context: Creality Ender-3
+inventory_title_size: 5.693660718824666
+stock_title_size: 1.7284327182146306
+drawer_title_size: 1.1183976411977021
+compact_title_size: 1.3725789232880892
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/template_jinja_label_oomlout_76_2_mm_50_8_mm/working.svg.j2
+    file_output: label_oomp.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/3x2.svg.j2
+    file_output: label_stock_3x2.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/1_5x1.svg.j2
+    file_output: label_stock_1_5x1.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_drawer/working.svg.j2
+    file_output: label_drawer.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_printer_30x15/working.svg.j2
+    file_output: label_30x15.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  file_test: ''
+  retries_until_complete: 0
+  action_name: step_0_jinja_template_label_oomp.svg

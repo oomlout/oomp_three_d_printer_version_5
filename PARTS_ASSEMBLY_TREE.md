@@ -1,0 +1,108 @@
+<!-- oomp-documentation:start -->
+# Original Ender-3 spare assemblies
+
+Numbers count catalogue records filed directly at each branch. They are independent of installed quantity.
+
+```text
+creality_ender_3
+├── electronic
+│   ├── component (43)
+│   ├── display (3)
+│   │   ├── mount (1)
+│   │   └── wiring (1)
+│   ├── enclosure (3)
+│   │   └── fan (1)
+│   ├── endstop (1)
+│   ├── motherboard (1)
+│   ├── power_supply (2)
+│   │   ├── mount (1)
+│   │   └── switch (1)
+│   ├── storage (2)
+│   └── wiring (10)
+│       └── cable_management (1)
+├── filament_path
+│   ├── bowden (3)
+│   └── spool_holder (2)
+├── frame (1)
+│   ├── base (1)
+│   │   ├── foot (1)
+│   │   └── profile_4040 (3)
+│   ├── endcap (2)
+│   ├── top_crossmember
+│   │   └── profile_2020 (1)
+│   └── uprights
+│       └── profile_2040 (2)
+├── hardware
+│   ├── fastener (48)
+│   └── shared (3)
+├── kit
+│   ├── consumable (5)
+│   ├── documentation (4)
+│   ├── identification (4)
+│   └── packaging (7)
+├── motion
+│   ├── shared
+│   │   ├── bearing (3)
+│   │   ├── pulley (1)
+│   │   │   └── mount (1)
+│   │   ├── roller_wheel (4)
+│   │   └── stepper_motor (2)
+│   ├── y_assembly (1)
+│   │   ├── belt (1)
+│   │   │   └── tensioner (2)
+│   │   ├── carriage (1)
+│   │   │   ├── bed (2)
+│   │   │   │   ├── build_surface (1)
+│   │   │   │   ├── mount (3)
+│   │   │   │   ├── thermistor (1)
+│   │   │   │   └── wiring (3)
+│   │   │   └── roller_wheel (2)
+│   │   ├── endstop (2)
+│   │   │   └── mount (1)
+│   │   ├── motor (1)
+│   │   │   └── mount (1)
+│   │   └── profile_2040 (1)
+│   └── z_assembly (1)
+│       ├── carriage
+│       │   └── roller_wheel (4)
+│       ├── endstop (2)
+│       │   └── mount (1)
+│       ├── lead_screw (3)
+│       ├── motor (1)
+│       │   └── mount (1)
+│       ├── mount (1)
+│       ├── shaft_coupler (1)
+│       └── x_gantry (1)
+│           ├── belt (1)
+│           │   └── tensioner (2)
+│           ├── carriage (1)
+│           │   ├── roller_wheel (2)
+│           │   └── toolhead (2)
+│           │       ├── cooling (4)
+│           │       └── hotend (1)
+│           │           ├── heatbreak (1)
+│           │           ├── heater (1)
+│           │           ├── heater_block (1)
+│           │           ├── heatsink (1)
+│           │           │   └── fan (1)
+│           │           ├── nozzle (1)
+│           │           └── thermistor (1)
+│           ├── endstop (1)
+│           │   └── mount (1)
+│           ├── extruder_drive (6)
+│           │   └── motor (1)
+│           │       └── mount (1)
+│           ├── motor (1)
+│           │   └── mount (1)
+│           └── profile_2020 (1)
+└── tool
+    ├── bed_scraper (1)
+    ├── cleaning_needle (1)
+    ├── cutting_tool_scissors (1)
+    ├── hex_key (5)
+    ├── screwdriver (1)
+    └── spanner (2)
+```
+
+[Browse the assembly index](navigation/part/creality_ender_3/README.md)
+<!-- oomp-documentation:end -->

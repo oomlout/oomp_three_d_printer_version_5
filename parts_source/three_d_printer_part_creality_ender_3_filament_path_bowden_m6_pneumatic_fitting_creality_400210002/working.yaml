@@ -1,0 +1,40 @@
+assembly_path:
+- filament_path
+- bowden
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: m6_pneumatic_fitting
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_filament_path_bowden_m6_pneumatic_fitting_creality_400210002
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_filament_path_bowden_m6_pneumatic_fitting_creality_400210002
+name_proper: Ender-3 M6 pneumatic fitting
+oomp_id: three_d_printer_part_creality_ender_3_filament_path_bowden_m6_pneumatic_fitting_creality_400210002
+previous_id: three_d_printer_part_creality_ender_3_filament_guide_m6_pneumatic_fitting_creality_400210002
+previous_label: 6JPUV
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+spare_type: filament_guide
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 2
+  machine_bom_row: 80
+  manufacturer_part_number: '400210002'
+  reference_name: M6 pneumatic fitting
+  source_name: M6 Pneumatic joint
+  source_specification: KJH04-06
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '400210002'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: filament_path
+taxonomy_5: bowden
+taxonomy_6: m6_pneumatic_fitting
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

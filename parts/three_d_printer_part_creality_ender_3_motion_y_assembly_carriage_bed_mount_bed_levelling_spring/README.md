@@ -1,0 +1,336 @@
+<!-- oomp-documentation:start -->
+# Ender-3 Bed levelling spring
+
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring) · [Creality original mechanical design](https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/Bed%20level%20springs.SLDPRT)
+
+## Summary
+
+Ender-3 Bed levelling spring
+
+## Details
+
+OOMP ID `three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring`
+
+| Specification | Value |
+| --- | --- |
+| Cad file | Bed level springs.SLDPRT |
+| Reference kind | Mechanical design reference |
+| Reference name | Bed levelling spring |
+
+Sources checked 2026-11-18.
+
+
+| Taxonomy slot | Value |
+| --- | --- |
+| 1 | `three_d_printer` |
+| 2 | `part` |
+| 3 | `creality_ender_3` |
+| 4 | `motion` |
+| 5 | `y_assembly` |
+| 6 | `carriage` |
+| 7 | `bed` |
+| 8 | `mount` |
+| 9 | `bed_levelling_spring` |
+
+Assembly taxonomy: [motion / y_assembly / carriage / bed / mount](../../navigation/part/creality_ender_3/motion/y_assembly/carriage/bed/mount/README.md)
+
+## Labels
+
+| Layout | Stock (mm) | Files |
+| --- | --- | --- |
+| OOMP inventory | 76.2 × 50.8 | [SVG](label_oomp.svg) · [Print PDF](label_oomp.pdf) |
+| Stock | 76.2 × 50.8 | [SVG](label_stock_3x2.svg) · [Print PDF](label_stock_3x2.pdf) |
+| Stock | 38.1 × 25.4 | [SVG](label_stock_1_5x1.svg) · [Print PDF](label_stock_1_5x1.pdf) |
+| Drawer | 38.1 × 25.4 | [SVG](label_drawer.svg) · [Print PDF](label_drawer.pdf) |
+| Compact barcode | 30 × 15 | [SVG](label_30x15.svg) · [Print PDF](label_30x15.pdf) |
+
+## Parts
+
+[Browse this category](../../navigation/part/creality_ender_3/motion/y_assembly/carriage/bed/mount/README.md) · [Canonical metadata](working.yaml) · [Catalogue](../../README.md)
+
+Confirmed printer models in this catalogue
+
+- [Creality Ender-3](../three_d_printer_printer_creality_ender_3/)
+
+## Assembly
+
+Use the model-specific manufacturer documentation linked above for setup or service.
+
+<details>
+<summary>Full OOMP metadata</summary>
+
+```yaml
+assembly_path:
+- motion
+- y_assembly
+- carriage
+- bed
+- mount
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: bed_levelling_spring
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/Bed%20level%20springs.SLDPRT
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+name_proper: Ender-3 Bed levelling spring
+oomp_id: three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+previous_id: three_d_printer_part_creality_ender_3_bed_mount_bed_levelling_spring
+previous_label: 2JE9
+source_checked: '2026-11-18'
+sources:
+  Creality original mechanical design: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/Bed%20level%20springs.SLDPRT
+spare_type: bed_mount
+specifications:
+  cad_file: Bed level springs.SLDPRT
+  reference_kind: Mechanical design reference
+  reference_name: Bed levelling spring
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: motion
+taxonomy_5: y_assembly
+taxonomy_6: carriage
+taxonomy_7: bed
+taxonomy_8: mount
+taxonomy_9: bed_levelling_spring
+taxonomy_1_upper: THREE_D_PRINTER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TH
+taxonomy_1_upper_length_3: THR
+taxonomy_1_upper_length_4: THRE
+taxonomy_1_upper_length_5: THREE
+taxonomy_1_length_1: t
+taxonomy_1_length_2: th
+taxonomy_1_length_3: thr
+taxonomy_1_length_4: thre
+taxonomy_1_length_5: three
+taxonomy_1_capital: Three D Printer
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_3_upper: CREALITY_ENDER_3
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CR
+taxonomy_3_upper_length_3: CRE
+taxonomy_3_upper_length_4: CREA
+taxonomy_3_upper_length_5: CREAL
+taxonomy_3_length_1: c
+taxonomy_3_length_2: cr
+taxonomy_3_length_3: cre
+taxonomy_3_length_4: crea
+taxonomy_3_length_5: creal
+taxonomy_3_capital: Creality Ender 3
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_4_upper: MOTION
+taxonomy_4_upper_length_1: M
+taxonomy_4_upper_length_2: MO
+taxonomy_4_upper_length_3: MOT
+taxonomy_4_upper_length_4: MOTI
+taxonomy_4_upper_length_5: MOTIO
+taxonomy_4_length_1: m
+taxonomy_4_length_2: mo
+taxonomy_4_length_3: mot
+taxonomy_4_length_4: moti
+taxonomy_4_length_5: motio
+taxonomy_4_capital: Motion
+taxonomy_4_first_letter: m
+taxonomy_4_first_letter_upper: M
+taxonomy_5_upper: Y_ASSEMBLY
+taxonomy_5_upper_length_1: Y
+taxonomy_5_upper_length_2: Y_
+taxonomy_5_upper_length_3: Y_A
+taxonomy_5_upper_length_4: Y_AS
+taxonomy_5_upper_length_5: Y_ASS
+taxonomy_5_length_1: y
+taxonomy_5_length_2: y_
+taxonomy_5_length_3: y_a
+taxonomy_5_length_4: y_as
+taxonomy_5_length_5: y_ass
+taxonomy_5_capital: Y Assembly
+taxonomy_5_first_letter: y
+taxonomy_5_first_letter_upper: Y
+taxonomy_6_upper: CARRIAGE
+taxonomy_6_upper_length_1: C
+taxonomy_6_upper_length_2: CA
+taxonomy_6_upper_length_3: CAR
+taxonomy_6_upper_length_4: CARR
+taxonomy_6_upper_length_5: CARRI
+taxonomy_6_length_1: c
+taxonomy_6_length_2: ca
+taxonomy_6_length_3: car
+taxonomy_6_length_4: carr
+taxonomy_6_length_5: carri
+taxonomy_6_capital: Carriage
+taxonomy_6_first_letter: c
+taxonomy_6_first_letter_upper: C
+taxonomy_7_upper: BED
+taxonomy_7_upper_length_1: B
+taxonomy_7_upper_length_2: BE
+taxonomy_7_upper_length_3: BED
+taxonomy_7_upper_length_4: BED
+taxonomy_7_upper_length_5: BED
+taxonomy_7_length_1: b
+taxonomy_7_length_2: be
+taxonomy_7_length_3: bed
+taxonomy_7_length_4: bed
+taxonomy_7_length_5: bed
+taxonomy_7_capital: Bed
+taxonomy_7_first_letter: b
+taxonomy_7_first_letter_upper: B
+taxonomy_8_upper: MOUNT
+taxonomy_8_upper_length_1: M
+taxonomy_8_upper_length_2: MO
+taxonomy_8_upper_length_3: MOU
+taxonomy_8_upper_length_4: MOUN
+taxonomy_8_upper_length_5: MOUNT
+taxonomy_8_length_1: m
+taxonomy_8_length_2: mo
+taxonomy_8_length_3: mou
+taxonomy_8_length_4: moun
+taxonomy_8_length_5: mount
+taxonomy_8_capital: Mount
+taxonomy_8_first_letter: m
+taxonomy_8_first_letter_upper: M
+taxonomy_9_upper: BED_LEVELLING_SPRING
+taxonomy_9_upper_length_1: B
+taxonomy_9_upper_length_2: BE
+taxonomy_9_upper_length_3: BED
+taxonomy_9_upper_length_4: BED_
+taxonomy_9_upper_length_5: BED_L
+taxonomy_9_length_1: b
+taxonomy_9_length_2: be
+taxonomy_9_length_3: bed
+taxonomy_9_length_4: bed_
+taxonomy_9_length_5: bed_l
+taxonomy_9_capital: Bed Levelling Spring
+taxonomy_9_first_letter: b
+taxonomy_9_first_letter_upper: B
+id: three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+id_no_class: three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+id_no_type: three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+id_no_size: three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+oomp_key: oomp_three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+directory: parts/three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_mount_bed_levelling_spring
+name: Three D Printer Part Creality Ender 3 Motion Y Assembly Carriage Bed Mount Bed
+  Levelling Spring
+name_no_class: Three D Printer Part Creality Ender 3 Motion Y Assembly Carriage Bed
+  Mount Bed Levelling Spring
+name_no_type: Three D Printer Part Creality Ender 3 Motion Y Assembly Carriage Bed
+  Mount Bed Levelling Spring
+name_no_size: Three D Printer Part Creality Ender 3 Motion Y Assembly Carriage Bed
+  Mount Bed Levelling Spring
+md5: b04967037fb184248a0cfb07b57c78f3
+md5_5: b0496
+md5_5_upper: B0496
+md5_6: b04967
+md5_6_upper: B04967
+md5_6_alpha: 6vmg7
+md5_6_alpha_upper: 6VMG7
+md5_10: b04967037f
+md5_10_upper: B04967037F
+bip_39_full_array:
+- raccoon
+- enroll
+- school
+- youth
+- blue
+- banner
+- choice
+- panda
+- amateur
+- program
+- bullet
+- trap
+bip_39_full_space: raccoon enroll school youth blue banner choice panda amateur program
+  bullet trap
+bip_39_full_no_space: raccoonenrollschoolyouthbluebannerchoicepandaamateurprogrambullettrap
+bip_39_full_underscore: raccoon_enroll_school_youth_blue_banner_choice_panda_amateur_program_bullet_trap
+bip_39_2_word_array:
+- raccoon
+- enroll
+bip_39_2_word_space: raccoon enroll
+bip_39_2_word_no_space: raccoonenroll
+bip_39_2_word_underscore: raccoon_enroll
+bip_39_3_word_array:
+- raccoon
+- enroll
+- school
+bip_39_3_word_space: raccoon enroll school
+bip_39_3_word_no_space: raccoonenrollschool
+bip_39_3_word_underscore: raccoon_enroll_school
+label_title: Bed levelling spring
+label_barcode: M0,0h34v760h-34z M136,0h34v760h-34z M204,0h102v760h-102z M340,0h102v760h-102z
+  M476,0h34v760h-34z M544,0h34v760h-34z M612,0h102v760h-102z M816,0h102v760h-102z
+  M952,0h34v760h-34z M1020,0h34v760h-34z M1088,0h34v760h-34z M1224,0h102v760h-102z
+  M1360,0h34v760h-34z M1428,0h34v760h-34z M1496,0h102v760h-102z M1632,0h102v760h-102z
+  M1768,0h102v760h-102z M1904,0h34v760h-34z M1972,0h34v760h-34z M2108,0h34v760h-34z
+  M2176,0h34v760h-34z M2244,0h34v760h-34z M2312,0h34v760h-34z M2448,0h102v760h-102z
+  M2584,0h102v760h-102z M2720,0h34v760h-34z M2788,0h34v760h-34z M2924,0h34v760h-34z
+  M2992,0h102v760h-102z M3128,0h102v760h-102z M3264,0h34v760h-34z M3400,0h34v760h-34z
+  M3468,0h102v760h-102z M3604,0h102v760h-102z M3740,0h34v760h-34z
+label_barcode_width: 3774
+label_maker: Unspecified
+label_family: Mount
+label_detail: Mechanical design reference
+label_variant: Creality Ender 3
+label_context: Creality Ender-3
+inventory_title_size: 11.78575186783121
+stock_title_size: 3.5778175313059033
+drawer_title_size: 2.315058402609702
+compact_title_size: 2.8
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/template_jinja_label_oomlout_76_2_mm_50_8_mm/working.svg.j2
+    file_output: label_oomp.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/3x2.svg.j2
+    file_output: label_stock_3x2.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/1_5x1.svg.j2
+    file_output: label_stock_1_5x1.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_drawer/working.svg.j2
+    file_output: label_drawer.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_printer_30x15/working.svg.j2
+    file_output: label_30x15.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  file_test: ''
+  retries_until_complete: 0
+  action_name: step_0_jinja_template_label_oomp.svg
+```
+
+</details>
+<!-- oomp-documentation:end -->

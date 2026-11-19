@@ -1,0 +1,242 @@
+assembly_path:
+- electronic
+- component
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: resistor_0603_10k
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+name_proper: Ender-3 Resistor-0603 10K
+oomp_id: three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+photo:
+  caption: Representative 1 kiloohm 0603 surface-mount resistor; the value or package
+    may differ from this record.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: oomlout
+  credit_line: 'Photo: oomlout / Wikimedia Commons - CC BY-SA 2.0'
+  file: source_file/images/representative_resistor_square.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  original_file: source_file/images/original/representative_resistor.jpg
+  original_image_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/1_kiloohm_SMD_0603_resistor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  source: https://commons.wikimedia.org/wiki/File:1_kiloohm_SMD_0603_resistor.jpg
+  source_checked: '2026-11-19'
+  title: 1 kiloohm SMD 0603 resistor.jpg
+previous_id: three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_10k
+previous_label: 7B0BP
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 PCBA bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx
+spare_type: pcb_component
+specifications:
+  pcba_bom_items:
+  - 4
+  pcba_quantities_pcs:
+  - 14
+  reference_name: Resistor-0603 10K
+  source_name: Resistance-0603
+  source_specification: 10K
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: electronic
+taxonomy_5: component
+taxonomy_6: resistor_0603_10k
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+taxonomy_1_upper: THREE_D_PRINTER
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TH
+taxonomy_1_upper_length_3: THR
+taxonomy_1_upper_length_4: THRE
+taxonomy_1_upper_length_5: THREE
+taxonomy_1_length_1: t
+taxonomy_1_length_2: th
+taxonomy_1_length_3: thr
+taxonomy_1_length_4: thre
+taxonomy_1_length_5: three
+taxonomy_1_capital: Three D Printer
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_3_upper: CREALITY_ENDER_3
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CR
+taxonomy_3_upper_length_3: CRE
+taxonomy_3_upper_length_4: CREA
+taxonomy_3_upper_length_5: CREAL
+taxonomy_3_length_1: c
+taxonomy_3_length_2: cr
+taxonomy_3_length_3: cre
+taxonomy_3_length_4: crea
+taxonomy_3_length_5: creal
+taxonomy_3_capital: Creality Ender 3
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_4_upper: ELECTRONIC
+taxonomy_4_upper_length_1: E
+taxonomy_4_upper_length_2: EL
+taxonomy_4_upper_length_3: ELE
+taxonomy_4_upper_length_4: ELEC
+taxonomy_4_upper_length_5: ELECT
+taxonomy_4_length_1: e
+taxonomy_4_length_2: el
+taxonomy_4_length_3: ele
+taxonomy_4_length_4: elec
+taxonomy_4_length_5: elect
+taxonomy_4_capital: Electronic
+taxonomy_4_first_letter: e
+taxonomy_4_first_letter_upper: E
+taxonomy_5_upper: COMPONENT
+taxonomy_5_upper_length_1: C
+taxonomy_5_upper_length_2: CO
+taxonomy_5_upper_length_3: COM
+taxonomy_5_upper_length_4: COMP
+taxonomy_5_upper_length_5: COMPO
+taxonomy_5_length_1: c
+taxonomy_5_length_2: co
+taxonomy_5_length_3: com
+taxonomy_5_length_4: comp
+taxonomy_5_length_5: compo
+taxonomy_5_capital: Component
+taxonomy_5_first_letter: c
+taxonomy_5_first_letter_upper: C
+taxonomy_6_upper: RESISTOR_0603_10K
+taxonomy_6_upper_length_1: R
+taxonomy_6_upper_length_2: RE
+taxonomy_6_upper_length_3: RES
+taxonomy_6_upper_length_4: RESI
+taxonomy_6_upper_length_5: RESIS
+taxonomy_6_length_1: r
+taxonomy_6_length_2: re
+taxonomy_6_length_3: res
+taxonomy_6_length_4: resi
+taxonomy_6_length_5: resis
+taxonomy_6_capital: Resistor 0603.10K
+taxonomy_6_first_letter: r
+taxonomy_6_first_letter_upper: R
+id: three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+id_no_class: three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+id_no_type: three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+id_no_size: three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+oomp_key: oomp_three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+directory: parts/three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k
+name: Three D Printer Part Creality Ender 3 Electronic Component Resistor 0603 10K
+name_no_class: Three D Printer Part Creality Ender 3 Electronic Component Resistor
+  0603 10K
+name_no_type: Three D Printer Part Creality Ender 3 Electronic Component Resistor
+  0603 10K
+name_no_size: Three D Printer Part Creality Ender 3 Electronic Component Resistor
+  0603 10K
+md5: 75ad9f1876845ecc37e7403fcc3ff989
+md5_5: 75ad9
+md5_5_upper: 75AD9
+md5_6: 75ad9f
+md5_6_upper: 75AD9F
+md5_6_alpha: 4laqn
+md5_6_alpha_upper: 4LAQN
+md5_10: 75ad9f1876
+md5_10_upper: 75AD9F1876
+bip_39_full_array:
+- interest
+- hollow
+- ship
+- unfair
+- echo
+- gravity
+- test
+- trend
+- divert
+- giggle
+- wrist
+- bamboo
+bip_39_full_space: interest hollow ship unfair echo gravity test trend divert giggle
+  wrist bamboo
+bip_39_full_no_space: interesthollowshipunfairechogravitytesttrenddivertgigglewristbamboo
+bip_39_full_underscore: interest_hollow_ship_unfair_echo_gravity_test_trend_divert_giggle_wrist_bamboo
+bip_39_2_word_array:
+- interest
+- hollow
+bip_39_2_word_space: interest hollow
+bip_39_2_word_no_space: interesthollow
+bip_39_2_word_underscore: interest_hollow
+bip_39_3_word_array:
+- interest
+- hollow
+- ship
+bip_39_3_word_space: interest hollow ship
+bip_39_3_word_no_space: interesthollowship
+bip_39_3_word_underscore: interest_hollow_ship
+label_title: Resistor-0603 10K
+label_barcode: M0,0h34v760h-34z M136,0h34v760h-34z M204,0h102v760h-102z M340,0h102v760h-102z
+  M476,0h34v760h-34z M544,0h34v760h-34z M612,0h34v760h-34z M748,0h102v760h-102z M884,0h34v760h-34z
+  M952,0h102v760h-102z M1088,0h34v760h-34z M1156,0h102v760h-102z M1292,0h34v760h-34z
+  M1360,0h34v760h-34z M1496,0h102v760h-102z M1632,0h102v760h-102z M1768,0h34v760h-34z
+  M1836,0h34v760h-34z M1972,0h34v760h-34z M2040,0h102v760h-102z M2176,0h34v760h-34z
+  M2244,0h34v760h-34z M2312,0h34v760h-34z M2380,0h102v760h-102z M2584,0h102v760h-102z
+  M2720,0h34v760h-34z M2788,0h34v760h-34z M2856,0h102v760h-102z M2992,0h34v760h-34z
+  M3128,0h102v760h-102z M3264,0h34v760h-34z M3400,0h34v760h-34z M3468,0h102v760h-102z
+  M3604,0h102v760h-102z M3740,0h34v760h-34z
+label_barcode_width: 3774
+label_maker: Unspecified
+label_family: Component
+label_detail: PCBA component
+label_variant: Creality Ender 3
+label_context: Creality Ender-3
+inventory_title_size: 12.918108419838523
+stock_title_size: 3.9215686274509802
+drawer_title_size: 2.5374855824682814
+compact_title_size: 2.8
+oomlout_ai_roboclick_1:
+  actions:
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/template_jinja_label_oomlout_76_2_mm_50_8_mm/working.svg.j2
+    file_output: label_oomp.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/3x2.svg.j2
+    file_output: label_stock_3x2.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_stock/1_5x1.svg.j2
+    file_output: label_stock_1_5x1.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_drawer/working.svg.j2
+    file_output: label_drawer.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  - command: text_jinja_template
+    file_template: source_file/template_jinja/label_printer_30x15/working.svg.j2
+    file_output: label_30x15.svg
+    convert_to_pdf: true
+    convert_to_png: false
+  file_test: ''
+  retries_until_complete: 0
+  action_name: step_0_jinja_template_label_oomp.svg

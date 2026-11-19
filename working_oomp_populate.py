@@ -4,7 +4,8 @@ import re
 from pathlib import Path
 
 from oomp_populate_helper import build_oomp_id, write_extras
-from printer_catalogue import COLOR_BASES, ROOT
+from build_progress import progress
+from printer_catalogue import COLOR_BASES, PARTS_URL, ROOT, explorer_origin
 import working_oomp_populate_extra_detail
 import working_oomp_populate_ender_3
 
@@ -3721,10 +3722,13 @@ def part_declarations(**kwargs):
     options.append({
         "taxonomy_2": "part",
         "taxonomy_3": "bambu_lab_p1s",
-        "taxonomy_4": "hotend",
-        "taxonomy_5": "complete_0_4_mm_hardened_steel",
+        "spare_type": "hotend",
+        "assembly_path": ["toolhead", "hotend"],
+        "exact_variant": "complete_0_4_mm_hardened_steel",
         "taxonomy_14": "bambu_lab",
         "taxonomy_15": "fah001_p",
+        "previous_id": "three_d_printer_part_bambu_lab_p1s_hotend_complete_0_4_mm_hardened_steel_bambu_lab_fah001_p",
+        "previous_label": "S6XQ",
         "name_proper": "Bambu Lab P1 series complete hotend, 0.4 mm",
         "worked_example": True,
         "compatible_printers": [
@@ -3748,10 +3752,13 @@ def part_declarations(**kwargs):
     options.append({
         "taxonomy_2": "part",
         "taxonomy_3": "bambu_lab_a1_mini",
-        "taxonomy_4": "hotend",
-        "taxonomy_5": "hotend_with_nozzle_0_4_mm_stainless_steel",
+        "spare_type": "hotend",
+        "assembly_path": ["toolhead", "hotend"],
+        "exact_variant": "hotend_with_nozzle_0_4_mm_stainless_steel",
         "taxonomy_14": "bambu_lab",
         "taxonomy_15": "fah007",
+        "previous_id": "three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_stainless_steel_bambu_lab_fah007",
+        "previous_label": "7I8U2",
         "name_proper": "Bambu Lab A1 series hotend with nozzle, 0.4 mm",
         "worked_example": True,
         "compatible_printers": [
@@ -3774,10 +3781,13 @@ def part_declarations(**kwargs):
     options.append({
         "taxonomy_2": "part",
         "taxonomy_3": "bambu_lab_a1_mini",
-        "taxonomy_4": "hotend",
-        "taxonomy_5": "hotend_with_nozzle_0_2_mm_stainless_steel",
+        "spare_type": "hotend",
+        "assembly_path": ["toolhead", "hotend"],
+        "exact_variant": "hotend_with_nozzle_0_2_mm_stainless_steel",
         "taxonomy_14": "bambu_lab",
         "taxonomy_15": "fah018",
+        "previous_id": "three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah018",
+        "previous_label": "4YA7A",
         "name_proper": "Bambu Lab A1 series hotend with 0.2 mm stainless steel nozzle",
         "compatible_printers": [
             "three_d_printer_printer_bambu_lab_a1_mini",
@@ -3799,10 +3809,13 @@ def part_declarations(**kwargs):
     options.append({
         "taxonomy_2": "part",
         "taxonomy_3": "bambu_lab_a1_mini",
-        "taxonomy_4": "hotend",
-        "taxonomy_5": "hotend_with_nozzle_0_4_mm_hardened_steel",
+        "spare_type": "hotend",
+        "assembly_path": ["toolhead", "hotend"],
+        "exact_variant": "hotend_with_nozzle_0_4_mm_hardened_steel",
         "taxonomy_14": "bambu_lab",
         "taxonomy_15": "fah019",
+        "previous_id": "three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah019",
+        "previous_label": "2Q694",
         "name_proper": "Bambu Lab A1 series hotend with 0.4 mm hardened steel nozzle",
         "compatible_printers": [
             "three_d_printer_printer_bambu_lab_a1_mini",
@@ -3824,10 +3837,13 @@ def part_declarations(**kwargs):
     options.append({
         "taxonomy_2": "part",
         "taxonomy_3": "bambu_lab_a1_mini",
-        "taxonomy_4": "hotend",
-        "taxonomy_5": "hotend_with_nozzle_0_6_mm_hardened_steel",
+        "spare_type": "hotend",
+        "assembly_path": ["toolhead", "hotend"],
+        "exact_variant": "hotend_with_nozzle_0_6_mm_hardened_steel",
         "taxonomy_14": "bambu_lab",
         "taxonomy_15": "fah020",
+        "previous_id": "three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah020",
+        "previous_label": "8T4IO",
         "name_proper": "Bambu Lab A1 series hotend with 0.6 mm hardened steel nozzle",
         "compatible_printers": [
             "three_d_printer_printer_bambu_lab_a1_mini",
@@ -3849,10 +3865,13 @@ def part_declarations(**kwargs):
     options.append({
         "taxonomy_2": "part",
         "taxonomy_3": "bambu_lab_a1_mini",
-        "taxonomy_4": "hotend",
-        "taxonomy_5": "hotend_with_nozzle_0_8_mm_hardened_steel",
+        "spare_type": "hotend",
+        "assembly_path": ["toolhead", "hotend"],
+        "exact_variant": "hotend_with_nozzle_0_8_mm_hardened_steel",
         "taxonomy_14": "bambu_lab",
         "taxonomy_15": "fah021",
+        "previous_id": "three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah021",
+        "previous_label": "PTX2",
         "name_proper": "Bambu Lab A1 series hotend with 0.8 mm hardened steel nozzle",
         "compatible_printers": [
             "three_d_printer_printer_bambu_lab_a1_mini",
@@ -3872,10 +3891,13 @@ def part_declarations(**kwargs):
     })
     options.append({'taxonomy_2': 'part',
      'taxonomy_3': 'bambu_lab_p1s',
-     'taxonomy_4': 'hotend',
-     'taxonomy_5': 'complete_0_2_mm_stainless_steel',
+     'spare_type': 'hotend',
+     "assembly_path": ["toolhead", "hotend"],
+     'exact_variant': 'complete_0_2_mm_stainless_steel',
      'taxonomy_14': 'bambu_lab',
      'taxonomy_15': 'fah004_p',
+     "previous_id": "three_d_printer_part_bambu_lab_p1s_hotend_complete_0_2_mm_stainless_steel_bambu_lab_fah004_p",
+     "previous_label": "IVS9",
      'name_proper': 'Bambu Lab P1 series complete hotend, 0.2 mm stainless steel',
      'compatible_printers': ['three_d_printer_printer_bambu_lab_p1s',
                              'three_d_printer_printer_bambu_lab_p1p'],
@@ -3889,10 +3911,13 @@ def part_declarations(**kwargs):
 
     options.append({'taxonomy_2': 'part',
      'taxonomy_3': 'bambu_lab_p1s',
-     'taxonomy_4': 'hotend',
-     'taxonomy_5': 'hotend_with_nozzle_0_2_mm_stainless_steel',
+     'spare_type': 'hotend',
+     "assembly_path": ["toolhead", "hotend"],
+     'exact_variant': 'hotend_with_nozzle_0_2_mm_stainless_steel',
      'taxonomy_14': 'bambu_lab',
      'taxonomy_15': 'fah004_n_1',
+     "previous_id": "three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah004_n_1",
+     "previous_label": "939LK",
      'name_proper': 'Bambu Lab P1 series hotend with nozzle, 0.2 mm stainless steel',
      'compatible_printers': ['three_d_printer_printer_bambu_lab_p1s',
                              'three_d_printer_printer_bambu_lab_p1p'],
@@ -3906,10 +3931,13 @@ def part_declarations(**kwargs):
 
     options.append({'taxonomy_2': 'part',
      'taxonomy_3': 'bambu_lab_p1s',
-     'taxonomy_4': 'hotend',
-     'taxonomy_5': 'hotend_with_nozzle_0_4_mm_hardened_steel',
+     'spare_type': 'hotend',
+     "assembly_path": ["toolhead", "hotend"],
+     'exact_variant': 'hotend_with_nozzle_0_4_mm_hardened_steel',
      'taxonomy_14': 'bambu_lab',
      'taxonomy_15': 'fah001_n_1',
+     "previous_id": "three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah001_n_1",
+     "previous_label": "42SLL",
      'name_proper': 'Bambu Lab P1 series hotend with nozzle, 0.4 mm hardened steel',
      'compatible_printers': ['three_d_printer_printer_bambu_lab_p1s',
                              'three_d_printer_printer_bambu_lab_p1p'],
@@ -3923,10 +3951,13 @@ def part_declarations(**kwargs):
 
     options.append({'taxonomy_2': 'part',
      'taxonomy_3': 'bambu_lab_p1s',
-     'taxonomy_4': 'hotend',
-     'taxonomy_5': 'complete_0_6_mm_hardened_steel',
+     'spare_type': 'hotend',
+     "assembly_path": ["toolhead", "hotend"],
+     'exact_variant': 'complete_0_6_mm_hardened_steel',
      'taxonomy_14': 'bambu_lab',
      'taxonomy_15': 'fah005_p',
+     "previous_id": "three_d_printer_part_bambu_lab_p1s_hotend_complete_0_6_mm_hardened_steel_bambu_lab_fah005_p",
+     "previous_label": "7UOXK",
      'name_proper': 'Bambu Lab P1 series complete hotend, 0.6 mm hardened steel',
      'compatible_printers': ['three_d_printer_printer_bambu_lab_p1s',
                              'three_d_printer_printer_bambu_lab_p1p'],
@@ -3940,10 +3971,13 @@ def part_declarations(**kwargs):
 
     options.append({'taxonomy_2': 'part',
      'taxonomy_3': 'bambu_lab_p1s',
-     'taxonomy_4': 'hotend',
-     'taxonomy_5': 'hotend_with_nozzle_0_6_mm_hardened_steel',
+     'spare_type': 'hotend',
+     "assembly_path": ["toolhead", "hotend"],
+     'exact_variant': 'hotend_with_nozzle_0_6_mm_hardened_steel',
      'taxonomy_14': 'bambu_lab',
      'taxonomy_15': 'fah005_n_1',
+     "previous_id": "three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah005_n_1",
+     "previous_label": "QL2P",
      'name_proper': 'Bambu Lab P1 series hotend with nozzle, 0.6 mm hardened steel',
      'compatible_printers': ['three_d_printer_printer_bambu_lab_p1s',
                              'three_d_printer_printer_bambu_lab_p1p'],
@@ -3957,10 +3991,13 @@ def part_declarations(**kwargs):
 
     options.append({'taxonomy_2': 'part',
      'taxonomy_3': 'bambu_lab_p1s',
-     'taxonomy_4': 'hotend',
-     'taxonomy_5': 'complete_0_8_mm_hardened_steel',
+     'spare_type': 'hotend',
+     "assembly_path": ["toolhead", "hotend"],
+     'exact_variant': 'complete_0_8_mm_hardened_steel',
      'taxonomy_14': 'bambu_lab',
      'taxonomy_15': 'fah003_p',
+     "previous_id": "three_d_printer_part_bambu_lab_p1s_hotend_complete_0_8_mm_hardened_steel_bambu_lab_fah003_p",
+     "previous_label": "9JNRJ",
      'name_proper': 'Bambu Lab P1 series complete hotend, 0.8 mm hardened steel',
      'compatible_printers': ['three_d_printer_printer_bambu_lab_p1s',
                              'three_d_printer_printer_bambu_lab_p1p'],
@@ -3974,10 +4011,13 @@ def part_declarations(**kwargs):
 
     options.append({'taxonomy_2': 'part',
      'taxonomy_3': 'bambu_lab_p1s',
-     'taxonomy_4': 'hotend',
-     'taxonomy_5': 'hotend_with_nozzle_0_8_mm_hardened_steel',
+     'spare_type': 'hotend',
+     "assembly_path": ["toolhead", "hotend"],
+     'exact_variant': 'hotend_with_nozzle_0_8_mm_hardened_steel',
      'taxonomy_14': 'bambu_lab',
      'taxonomy_15': 'fah003_n_1',
+     "previous_id": "three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah003_n_1",
+     "previous_label": "7O6KC",
      'name_proper': 'Bambu Lab P1 series hotend with nozzle, 0.8 mm hardened steel',
      'compatible_printers': ['three_d_printer_printer_bambu_lab_p1s',
                              'three_d_printer_printer_bambu_lab_p1p'],
@@ -3990,6 +4030,14 @@ def part_declarations(**kwargs):
      'source_checked': '2026-11-18'})
 
     options.extend(working_oomp_populate_ender_3.declarations(**kwargs))
+    for part in options:
+        levels = list(part["assembly_path"])
+        if levels[-1] != part["exact_variant"]:
+            levels.append(part["exact_variant"])
+        if len(levels) > 10:
+            raise ValueError(f"Spare hierarchy exceeds slot 13: {part['name_proper']}")
+        for slot, token in enumerate(levels, start=4):
+            part[f"taxonomy_{slot}"] = token
     return options
 
 
@@ -6096,61 +6144,61 @@ ENDER_PART_PHOTOS = {
 }
 
 ENDER_PART_PHOTO_IDS = {
-    'three_d_printer_part_creality_ender_3_fastener_m2_x_10_socket_head_screw_creality_400205003': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m2_x_8_socket_head_screw_creality_400205002': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m3_split_washer_creality_400205105': 'washer',
-    'three_d_printer_part_creality_ender_3_fastener_m3_x_10_pan_head_screw_creality_400205031': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m3_x_10_pan_head_screw_p_creality_400205060': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m3_x_16_pan_head_screw_creality_400205032': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m3_x_18_pan_head_screw_creality_400205144': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m3_x_18_socket_head_screw_creality_400205007': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m3_x_40_pan_head_screw_creality_400205141': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m3_x_4_pan_head_screw_creality_400205021': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m3_x_6_pan_head_screw_creality_400205029': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m3_x_8_pan_head_screw': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m4_split_washer_creality_400205106': 'washer',
-    'three_d_printer_part_creality_ender_3_fastener_m4_x_10_socket_head_screw_creality_400205014': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m4_x_14_pan_head_screw_creality_400205068': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m4_x_16_pan_head_screw': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m4_x_16_socket_head_screw_creality_400205015': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m4_x_18_pan_head_screw_creality_400205140': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m4_x_20_socket_head_screw_creality_400205122': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m4_x_8_socket_head_screw_creality_400205013': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m5_split_washer_creality_400205107': 'washer',
-    'three_d_printer_part_creality_ender_3_fastener_m5_washer_5_x_8_x_1_creality_400205110': 'washer',
-    'three_d_printer_part_creality_ender_3_fastener_m5_washer_creality_400205109': 'washer',
-    'three_d_printer_part_creality_ender_3_fastener_m5_x_25_socket_head_screw_creality_400205163': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m5_x_30_pan_head_screw_creality_400205053': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m5_x_40_pan_head_screw_creality_400205055': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m5_x_40_socket_head_screw_creality_400205165': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m5_x_45_socket_head_screw_creality_400205166': 'socket',
-    'three_d_printer_part_creality_ender_3_fastener_m5_x_8_pan_head_screw_creality_400205044': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m8_x_25_pan_head_screw': 'pan',
-    'three_d_printer_part_creality_ender_3_fastener_m8_x_35_pan_head_screw_creality_400205176': 'pan',
-    'three_d_printer_part_creality_ender_3_pcb_component_capacitor_0603_100nf_50v_10': 'capacitor',
-    'three_d_printer_part_creality_ender_3_pcb_component_capacitor_0603_150pf_50v_10': 'capacitor',
-    'three_d_printer_part_creality_ender_3_pcb_component_capacitor_0603_22pf_50v_5': 'capacitor',
-    'three_d_printer_part_creality_ender_3_pcb_component_capacitor_0805_10uf_25v_10': 'capacitor',
-    'three_d_printer_part_creality_ender_3_pcb_component_capacitor_smd_100uf_35v_6_7mm': 'capacitor',
-    'three_d_printer_part_creality_ender_3_pcb_component_electrolytic_capacitor_22uf_35v_5_5mm': 'capacitor',
-    'three_d_printer_part_creality_ender_3_pcb_component_electrolytic_capacitor_dip_100uf_16v_6_5mm': 'capacitor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_0r': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_100k': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_10k': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_1k': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_210k_1': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_23_7k_1': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_24_9k_1': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_33k_1': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_40_2k_1': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_4_7k': 'resistor',
-    'three_d_printer_part_creality_ender_3_pcb_component_resistor_0805_0_1r': 'resistor',
-    'three_d_printer_part_creality_ender_3_stepper_motor_42_34_stepper_motor_creality_400201001': 'motor',
-    'three_d_printer_part_creality_ender_3_stepper_motor_42_40_stepper_motor_creality_400201004': 'motor',
-    'three_d_printer_part_creality_ender_3_stepper_motor_extruder_stepper_motor': 'motor',
-    'three_d_printer_part_creality_ender_3_stepper_motor_x_stepper_motor': 'motor',
-    'three_d_printer_part_creality_ender_3_stepper_motor_y_stepper_motor': 'motor',
-    'three_d_printer_part_creality_ender_3_stepper_motor_z_stepper_motor': 'motor',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m2_x_10_socket_head_screw_creality_400205003': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m2_x_8_socket_head_screw_creality_400205002': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_split_washer_creality_400205105': 'washer',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_x_10_pan_head_screw_creality_400205031': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_x_10_pan_head_screw_p_creality_400205060': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_x_16_pan_head_screw_creality_400205032': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_x_18_pan_head_screw_creality_400205144': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_x_18_socket_head_screw_creality_400205007': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_x_40_pan_head_screw_creality_400205141': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_x_4_pan_head_screw_creality_400205021': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_x_6_pan_head_screw_creality_400205029': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m3_x_8_pan_head_screw': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m4_split_washer_creality_400205106': 'washer',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_10_socket_head_screw_creality_400205014': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_14_pan_head_screw_creality_400205068': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_16_pan_head_screw': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_16_socket_head_screw_creality_400205015': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_18_pan_head_screw_creality_400205140': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_20_socket_head_screw_creality_400205122': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m4_x_8_socket_head_screw_creality_400205013': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m5_split_washer_creality_400205107': 'washer',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m5_washer_5_x_8_x_1_creality_400205110': 'washer',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m5_washer_creality_400205109': 'washer',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m5_x_25_socket_head_screw_creality_400205163': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m5_x_30_pan_head_screw_creality_400205053': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m5_x_40_pan_head_screw_creality_400205055': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m5_x_40_socket_head_screw_creality_400205165': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m5_x_45_socket_head_screw_creality_400205166': 'socket',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m5_x_8_pan_head_screw_creality_400205044': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m8_x_25_pan_head_screw': 'pan',
+    'three_d_printer_part_creality_ender_3_hardware_fastener_m8_x_35_pan_head_screw_creality_400205176': 'pan',
+    'three_d_printer_part_creality_ender_3_electronic_component_capacitor_0603_100nf_50v_10': 'capacitor',
+    'three_d_printer_part_creality_ender_3_electronic_component_capacitor_0603_150pf_50v_10': 'capacitor',
+    'three_d_printer_part_creality_ender_3_electronic_component_capacitor_0603_22pf_50v_5': 'capacitor',
+    'three_d_printer_part_creality_ender_3_electronic_component_capacitor_0805_10uf_25v_10': 'capacitor',
+    'three_d_printer_part_creality_ender_3_electronic_component_capacitor_smd_100uf_35v_6_7mm': 'capacitor',
+    'three_d_printer_part_creality_ender_3_electronic_component_electrolytic_capacitor_22uf_35v_5_5mm': 'capacitor',
+    'three_d_printer_part_creality_ender_3_electronic_component_electrolytic_capacitor_dip_100uf_16v_6_5mm': 'capacitor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_0r': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_100k': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_10k': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_1k': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_210k_1': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_23_7k_1': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_24_9k_1': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_33k_1': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_40_2k_1': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0603_4_7k': 'resistor',
+    'three_d_printer_part_creality_ender_3_electronic_component_resistor_0805_0_1r': 'resistor',
+    'three_d_printer_part_creality_ender_3_motion_shared_stepper_motor_42_34_stepper_motor_creality_400201001': 'motor',
+    'three_d_printer_part_creality_ender_3_motion_shared_stepper_motor_42_40_stepper_motor_creality_400201004': 'motor',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_extruder_drive_motor_extruder_stepper_motor': 'motor',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_motor_x_stepper_motor': 'motor',
+    'three_d_printer_part_creality_ender_3_motion_y_assembly_motor_y_stepper_motor': 'motor',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_motor_z_stepper_motor': 'motor',
 }
 
 
@@ -6257,30 +6305,30 @@ ENDER_PART_PHOTOS.update({
 })
 
 ENDER_PART_PHOTO_IDS.update({
-    'three_d_printer_part_creality_ender_3_endstop_three_pin_endstop_switch_creality_400304001': 'endstop',
-    'three_d_printer_part_creality_ender_3_endstop_x_endstop_switch': 'endstop',
-    'three_d_printer_part_creality_ender_3_endstop_y_axis_limit_switch_assembly': 'endstop',
-    'three_d_printer_part_creality_ender_3_endstop_y_endstop_switch': 'endstop',
-    'three_d_printer_part_creality_ender_3_endstop_z_axis_limit_switch_assembly': 'endstop',
-    'three_d_printer_part_creality_ender_3_endstop_z_endstop_switch': 'endstop',
-    'three_d_printer_part_creality_ender_3_fan_hotend_heatsink_fan_creality_400309032': 'axial',
-    'three_d_printer_part_creality_ender_3_fan_nozzle_cooling_fan_creality_400309044': 'radial',
-    'three_d_printer_part_creality_ender_3_heatbreak_hotend_throat_tube_d7_m6_creality_400107006': 'hotend',
-    'three_d_printer_part_creality_ender_3_heater_24_v_40_w_heater_cartridge_creality_400308002': 'heater',
-    'three_d_printer_part_creality_ender_3_heater_block_heater_block_creality_400104004': 'hotend',
-    'three_d_printer_part_creality_ender_3_heatsink_hotend_heatsink_creality_400105008': 'hotend',
-    'three_d_printer_part_creality_ender_3_roller_wheel_eccentric_roller_x_axis_assembly': 'wheel',
-    'three_d_printer_part_creality_ender_3_roller_wheel_eccentric_roller_y_axis_assembly': 'wheel',
-    'three_d_printer_part_creality_ender_3_roller_wheel_eccentric_roller_z_axis_left_assembly': 'wheel',
-    'three_d_printer_part_creality_ender_3_roller_wheel_eccentric_roller_z_axis_right_assembly': 'wheel',
-    'three_d_printer_part_creality_ender_3_roller_wheel_roller_x_axis_assembly': 'wheel',
-    'three_d_printer_part_creality_ender_3_roller_wheel_roller_y_axis_assembly': 'wheel',
-    'three_d_printer_part_creality_ender_3_roller_wheel_roller_z_axis_left_assembly': 'wheel',
-    'three_d_printer_part_creality_ender_3_roller_wheel_roller_z_axis_right_assembly': 'wheel',
-    'three_d_printer_part_creality_ender_3_roller_wheel_v_slot_roller_wheel_creality_400403003': 'wheel',
-    'three_d_printer_part_creality_ender_3_roller_wheel_v_wheel_assembly': 'wheel',
-    'three_d_printer_part_creality_ender_3_temperature_sensor_bed_thermistor_creality_400303022': 'thermistor',
-    'three_d_printer_part_creality_ender_3_temperature_sensor_hotend_thermistor_creality_400303006': 'thermistor',
+    'three_d_printer_part_creality_ender_3_electronic_endstop_three_pin_endstop_switch_creality_400304001': 'endstop',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_endstop_x_endstop_switch': 'endstop',
+    'three_d_printer_part_creality_ender_3_motion_y_assembly_endstop_y_axis_limit_switch_assembly': 'endstop',
+    'three_d_printer_part_creality_ender_3_motion_y_assembly_endstop_y_endstop_switch': 'endstop',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_endstop_z_axis_limit_switch_assembly': 'endstop',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_endstop_z_endstop_switch': 'endstop',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_toolhead_hotend_heatsink_fan_hotend_heatsink_fan_creality_400309032': 'axial',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_toolhead_cooling_nozzle_cooling_fan_creality_400309044': 'radial',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_toolhead_hotend_heatbreak_hotend_throat_tube_d7_m6_creality_400107006': 'hotend',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_toolhead_hotend_heater_24_v_40_w_heater_cartridge_creality_400308002': 'heater',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_toolhead_hotend_heater_block_creality_400104004': 'hotend',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_toolhead_hotend_heatsink_hotend_heatsink_creality_400105008': 'hotend',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_roller_wheel_eccentric_roller_x_axis_assembly': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_roller_wheel_eccentric_roller_y_axis_assembly': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_carriage_roller_wheel_eccentric_roller_z_axis_left_assembly': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_carriage_roller_wheel_eccentric_roller_z_axis_right_assembly': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_roller_wheel_roller_x_axis_assembly': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_roller_wheel_roller_y_axis_assembly': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_carriage_roller_wheel_roller_z_axis_left_assembly': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_carriage_roller_wheel_roller_z_axis_right_assembly': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_shared_roller_wheel_v_slot_roller_wheel_creality_400403003': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_shared_roller_wheel_v_wheel_assembly': 'wheel',
+    'three_d_printer_part_creality_ender_3_motion_y_assembly_carriage_bed_thermistor_bed_thermistor_creality_400303022': 'thermistor',
+    'three_d_printer_part_creality_ender_3_motion_z_assembly_x_gantry_carriage_toolhead_hotend_thermistor_hotend_thermistor_creality_400303006': 'thermistor',
 })
 
 PRODUCT_PHOTOS.update({
@@ -6315,10 +6363,281 @@ PRODUCT_PHOTOS.update({
 })
 
 
+# Images on the individual printer product pages.
+PRODUCT_PHOTOS.update({
+    'p1p': {
+        'file': 'source_file/images/printer_p1p_square.jpg',
+        'original_file': 'source_file/images/original/printer_p1p.jpg',
+        'title': 'Bambu Lab P1P product image',
+        'caption': 'Bambu Lab P1P shown on its product page.',
+        'creator': 'Photographer uncredited on Bambu Lab product page',
+        'source': 'https://bambu-lab-global.myshopify.com/products/p1p',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://bambu-lab-global.myshopify.com/products/p1p',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Bambu Lab product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0574/3116/2995/files/20230712-092822.jpg?v=1700219906',
+        'source_checked': '2026-11-19',
+    },
+    'a1': {
+        'file': 'source_file/images/printer_a1_square.jpg',
+        'original_file': 'source_file/images/original/printer_a1.jpg',
+        'title': 'Bambu Lab A1 product image',
+        'caption': 'Bambu Lab A1 with AMS lite.',
+        'creator': 'Photographer uncredited on Bambu Lab product page',
+        'source': 'https://bambu-lab-global.myshopify.com/products/a1',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://bambu-lab-global.myshopify.com/products/a1',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Bambu Lab product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0574/3116/2995/files/A1.jpg?v=1714960001',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3': {
+        'file': 'source_file/images/printer_ender_3_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3.jpg',
+        'title': 'Creality Ender-3 product image',
+        'caption': 'Creality Ender-3 shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/products/ender-3-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/products/ender-3-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0893/0603/8637/files/78b4b1a181b236e46e401c5efe4df976_0fcf48cd-fa4f-4f46-b4c4-5b81466095a1.jpg?v=1762200597',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_pro': {
+        'file': 'source_file/images/printer_ender_3_pro_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_pro.png',
+        'title': 'Creality Ender-3 Pro product image',
+        'caption': 'Creality Ender-3 Pro shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/products/ender-3-pro-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/products/ender-3-pro-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0893/0603/8637/files/c7101b7b96931eb454b99d6e73d3a5f0_f22d7356-4290-44a1-906c-c73fb1b418ea.png?v=1762200479',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_v2': {
+        'file': 'source_file/images/printer_ender_3_v2_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_v2.png',
+        'title': 'Creality Ender-3 V2 product image',
+        'caption': 'Creality Ender-3 V2 shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/products/ender-3-v2-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/products/ender-3-v2-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0893/0603/8637/files/e6dc02bae531da75ce02cc277f2c2226.png?v=1762200462',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_max': {
+        'file': 'source_file/images/printer_ender_3_max_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_max.jpg',
+        'title': 'Creality Ender-3 Max product image',
+        'caption': 'Creality Ender-3 Max shown on its product page.',
+        'creator': 'Photographer uncredited on Creality3DOfficial product page',
+        'source': 'https://www.creality3dofficial.com/products/ender-3-max-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://www.creality3dofficial.com/products/ender-3-max-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality3DOfficial product page',
+        'original_image_url': 'https://www.creality3dofficial.com/files/goods/20221101/Ender-3Max.jpg',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_neo': {
+        'file': 'source_file/images/printer_ender_3_neo_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_neo.jpg',
+        'title': 'Creality Ender-3 Neo product image',
+        'caption': 'Creality Ender-3 Neo shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/products/ender-3-neo-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/products/ender-3-neo-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0893/0603/8637/files/24e2ae0a43a2c50b9751198797a77fa4.jpg?v=1762200431',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_v2_neo': {
+        'file': 'source_file/images/printer_ender_3_v2_neo_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_v2_neo.jpg',
+        'title': 'Creality Ender-3 V2 Neo product image',
+        'caption': 'Creality Ender-3 V2 Neo shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/products/ender-3-v2-neo-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/products/ender-3-v2-neo-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0893/0603/8637/files/c9d4e3d1c64b2d87255134a6ecfe39d1_5df2e8f3-1a67-41fb-aef7-4713fd7e0eb7.jpg?v=1762200465',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_max_neo': {
+        'file': 'source_file/images/printer_ender_3_max_neo_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_max_neo.jpg',
+        'title': 'Creality Ender-3 Max Neo product image',
+        'caption': 'Creality Ender-3 Max Neo shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/ca/products/ender-3-max-neo-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/ca/products/ender-3-max-neo-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0911/3233/0284/files/8f48814389cf4fc403e3e3372112cc25_351cb00b-6bb7-45c6-a8ae-198cbbaf59e5.jpg?v=1742443445',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_s1': {
+        'file': 'source_file/images/printer_ender_3_s1_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_s1.jpg',
+        'title': 'Creality Ender-3 S1 product image',
+        'caption': 'Creality Ender-3 S1 shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/ca/products/ender-3-s1-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/ca/products/ender-3-s1-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0911/3233/0284/files/0305366fdcdcbbfd653733311d882de3_4d1d511a-c7c8-40ec-b346-b08ed949f23d.jpg?v=1742443574',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_s1_pro': {
+        'file': 'source_file/images/printer_ender_3_s1_pro_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_s1_pro.png',
+        'title': 'Creality Ender-3 S1 Pro product image',
+        'caption': 'Creality Ender-3 S1 Pro shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/ca/products/ender-3-s1-pro-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/ca/products/ender-3-s1-pro-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0911/3233/0284/files/Ender-3_S1_Pro_1.png?v=1742443407',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_s1_plus': {
+        'file': 'source_file/images/printer_ender_3_s1_plus_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_s1_plus.png',
+        'title': 'Creality Ender-3 S1 Plus product image',
+        'caption': 'Creality Ender-3 S1 Plus shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/ca/products/ender-3-s1-plus-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/ca/products/ender-3-s1-plus-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0911/3233/0284/files/Ender-3_S1_plus_1-1.png?v=1742443682',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_e': {
+        'file': 'source_file/images/printer_ender_3_e_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_e.jpg',
+        'title': 'Creality Ender-3 E product image',
+        'caption': 'Creality Ender-3 E shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://www.creality.com/products/ender-3-e-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://www.creality.com/products/ender-3-e-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.creality.com/product-detial/us/ender-3-e-3d-printer/1702904eb721145db28cd0fd7aa60401.jpg',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_v3': {
+        'file': 'source_file/images/printer_ender_3_v3_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_v3.png',
+        'title': 'Creality Ender-3 V3 product image',
+        'caption': 'Creality Ender-3 V3 shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/products/ender-3-v3-corexz-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/products/ender-3-v3-corexz-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0893/0603/8637/files/Ender-3_V3.png?v=1762200441',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_v3_ke': {
+        'file': 'source_file/images/printer_ender_3_v3_ke_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_v3_ke.png',
+        'title': 'Creality Ender-3 V3 KE product image',
+        'caption': 'Creality Ender-3 V3 KE shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/ca/products/ender-3-v3-ke-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/ca/products/ender-3-v3-ke-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0911/3233/0284/files/Ender-3_V3_KE_fa5bd081-a6fb-4522-95cf-bae1a413b9de.png?v=1742443535',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_v3_plus': {
+        'file': 'source_file/images/printer_ender_3_v3_plus_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_v3_plus.png',
+        'title': 'Creality Ender-3 V3 Plus product image',
+        'caption': 'Creality Ender-3 V3 Plus shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/products/ender-3-v3-plus-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/products/ender-3-v3-plus-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0893/0603/8637/files/Ender-3_V3_plus_3.png?v=1762200598',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_v3_neo': {
+        'file': 'source_file/images/printer_ender_3_v3_neo_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_v3_neo.png',
+        'title': 'Creality Ender-3 V3 Neo product image',
+        'caption': 'Creality Ender-3 V3 Neo shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/products/ender-3-v3-neo-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/products/ender-3-v3-neo-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0893/0603/8637/files/Front_Zoom-1600X1600.png?v=1790837669',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_v3_mega': {
+        'file': 'source_file/images/printer_ender_3_v3_mega_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_v3_mega.png',
+        'title': 'Creality Ender-3 V3 Mega product image',
+        'caption': 'Creality Ender-3 V3 Mega shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://store.creality.com/products/ender-3-v3-mega-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://store.creality.com/products/ender-3-v3-mega-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.shopify.com/s/files/1/0893/0603/8637/files/DTC-_1-1600X1600.png?v=1792568964',
+        'source_checked': '2026-11-19',
+    },
+    'ender_3_v4': {
+        'file': 'source_file/images/printer_ender_3_v4_square.jpg',
+        'original_file': 'source_file/images/original/printer_ender_3_v4.jpg',
+        'title': 'Creality Ender-3 V4 product image',
+        'caption': 'Creality Ender-3 V4 shown on its product page.',
+        'creator': 'Photographer uncredited on Creality product page',
+        'source': 'https://www.creality.com/products/ender-3-v4-3d-printer',
+        'license': 'Product image, reuse permission unverified',
+        'license_url': 'https://www.creality.com/products/ender-3-v4-3d-printer',
+        'changes': 'Resized within a square white canvas and credited on the image.',
+        'credit_line': 'Source: Creality product page',
+        'original_image_url': 'https://cdn.creality.com/ow/ender-3-v4/en/4881578f-19bc-4c99-8197-29d38c425c93.jpg',
+        'source_checked': '2026-11-19',
+    },
+})
+
 def main(**kwargs):
     pattern = kwargs.get("filter", "*") or "*"
     declarations = kwargs.get("declarations", None)
     details_by_id = kwargs.get("details_by_id", {})
+    explorer = explorer_origin()
 
     if Path.cwd().resolve() != ROOT:
         raise ValueError("Run population from the catalogue root (parts_source is relative).")
@@ -6335,9 +6654,16 @@ def main(**kwargs):
         part = dict(declaration)
         part["taxonomy_1"] = "three_d_printer"
         family = part["taxonomy_2"]
+        if family == "part":
+            levels = part.get("assembly_path", [])
+            if not 1 <= len(levels) <= 9 or not all(re.fullmatch(r"[a-z0-9]+(?:_[a-z0-9]+)*", level) for level in levels):
+                raise ValueError(f"Invalid spare assembly path for {part['name_proper']}")
         if "photo" not in part and part["taxonomy_15"] in PRODUCT_PHOTOS:
             part["photo"] = PRODUCT_PHOTOS[part["taxonomy_15"]]
-        required = {"printer": (), "ams": (), "filament": (3, 4, 5, 6), "part": (3, 4, 5)}[family]
+        required = {"printer": (), "ams": (), "filament": (3, 4, 5, 6), "part": (3,)}[family]
+        if family == "part":
+            count = len(levels) + int(part["exact_variant"] != levels[-1])
+            required = tuple(range(3, 4 + count))
         active = (1, 2, *required, 14, 15)
         for i in range(1, 16):
             value = part.setdefault(f"taxonomy_{i}", "")
@@ -6360,6 +6686,14 @@ def main(**kwargs):
             raise ValueError(f"Duplicate OOMP ID: {part_id}")
         ids.add(part_id)
         part["oomp_id"] = part_id
+        part["link_main"] = f"{PARTS_URL}/{part_id}"
+        part["link_web"] = f"{explorer}/parts/{part_id}"
+        # Select before sorting YAML keys so the author's primary source stays first.
+        references = part["sources"]
+        primary = part.get("link_source", next(iter(references.values()), None))
+        if primary not in references.values() or not isinstance(primary, str) or not primary.startswith(("https://", "http://")):
+            raise ValueError(f"Missing primary source URL in sources for {part_id}")
+        part["link_source"] = primary
         extras.append(part)
     printer_ids = {p["oomp_id"] for p in extras if p["taxonomy_2"] == "printer"}
     for part in extras:
@@ -6370,7 +6704,7 @@ def main(**kwargs):
             raise ValueError(f"Primary printer missing from compatibility on {part['oomp_id']}")
     working_oomp_populate_extra_detail.main(extras=extras, details_by_id=details_by_id)
     selected = [p for p in extras if fnmatch.fnmatchcase(p["oomp_id"], pattern)]
-    write_extras(selected)
+    write_extras(progress(selected, "Writing source record", lambda item: item["oomp_id"]))
     print(f"Populated {len(selected)} records.")
     return selected
 

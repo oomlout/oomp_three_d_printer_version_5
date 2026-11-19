@@ -1,0 +1,40 @@
+assembly_path:
+- hardware
+- fastener
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: m4_t_slot_nut
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_hardware_fastener_m4_t_slot_nut_creality_400205101
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_hardware_fastener_m4_t_slot_nut_creality_400205101
+name_proper: Ender-3 M4 T-Slot Nut
+oomp_id: three_d_printer_part_creality_ender_3_hardware_fastener_m4_t_slot_nut_creality_400205101
+previous_id: three_d_printer_part_creality_ender_3_fastener_m4_t_slot_nut_creality_400205101
+previous_label: 6K5ON
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS
+spare_type: fastener
+specifications:
+  identifier_basis: Creality machine BOM part code. Retail ordering code unverified.
+  machine_bom_quantity_pcs: 8
+  machine_bom_row: 59
+  manufacturer_part_number: '400205101'
+  reference_name: M4 T-Slot Nut
+  source_name: M4  T-Slot Nut
+  source_specification: M4T
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: creality
+taxonomy_15: '400205101'
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: hardware
+taxonomy_5: fastener
+taxonomy_6: m4_t_slot_nut
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

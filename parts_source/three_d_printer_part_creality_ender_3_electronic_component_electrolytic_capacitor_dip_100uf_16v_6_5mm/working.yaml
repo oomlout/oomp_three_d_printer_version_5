@@ -1,0 +1,54 @@
+assembly_path:
+- electronic
+- component
+compatible_printers:
+- three_d_printer_printer_creality_ender_3
+exact_variant: electrolytic_capacitor_dip_100uf_16v_6_5mm
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_part_creality_ender_3_electronic_component_electrolytic_capacitor_dip_100uf_16v_6_5mm
+link_source: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx
+link_web: http://localhost:5703/parts/three_d_printer_part_creality_ender_3_electronic_component_electrolytic_capacitor_dip_100uf_16v_6_5mm
+name_proper: Ender-3 Electrolytic Capacitor-DIP 100uF/16V 6*5mm
+oomp_id: three_d_printer_part_creality_ender_3_electronic_component_electrolytic_capacitor_dip_100uf_16v_6_5mm
+photo:
+  caption: Representative selection of surface-mount and leaded capacitors; the value
+    and package may differ from this record.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Shaddack
+  credit_line: 'Photo: Shaddack / Wikimedia Commons - Public domain (author dedication)'
+  file: source_file/images/representative_capacitor_square.jpg
+  license: Public domain (author dedication)
+  license_url: https://commons.wikimedia.org/wiki/File:Photo-SMDcapacitors.jpg
+  original_file: source_file/images/original/representative_capacitor.jpg
+  original_image_url: https://upload.wikimedia.org/wikipedia/commons/8/86/Photo-SMDcapacitors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  source: https://commons.wikimedia.org/wiki/File:Photo-SMDcapacitors.jpg
+  source_checked: '2026-11-19'
+  title: Photo-SMDcapacitors.jpg
+previous_id: three_d_printer_part_creality_ender_3_pcb_component_electrolytic_capacitor_dip_100uf_16v_6_5mm
+previous_label: 6MTD7
+source_checked: '2026-11-18'
+sources:
+  Creality Ender-3 PCBA bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx
+spare_type: pcb_component
+specifications:
+  pcba_bom_items:
+  - 35
+  pcba_quantities_pcs:
+  - 1
+  reference_name: Electrolytic Capacitor-DIP 100uF/16V 6*5mm
+  source_name: Electrolytic Capacitor-DIP
+  source_specification: 100uF/16V 6*5mm
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: creality_ender_3
+taxonomy_4: electronic
+taxonomy_5: component
+taxonomy_6: electrolytic_capacitor_dip_100uf_16v_6_5mm
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

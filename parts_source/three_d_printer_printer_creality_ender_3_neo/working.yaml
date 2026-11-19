@@ -1,5 +1,21 @@
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_neo
+link_source: https://store.creality.com/ca/blogs/all/ender-series-3d-printers-parameter-comparison
+link_web: http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_neo
 name_proper: Creality Ender-3 Neo
 oomp_id: three_d_printer_printer_creality_ender_3_neo
+photo:
+  caption: Creality Ender-3 Neo shown on its product page.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Photographer uncredited on Creality product page
+  credit_line: 'Source: Creality product page'
+  file: source_file/images/printer_ender_3_neo_square.jpg
+  license: Product image, reuse permission unverified
+  license_url: https://store.creality.com/products/ender-3-neo-3d-printer
+  original_file: source_file/images/original/printer_ender_3_neo.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0893/0603/8637/files/24e2ae0a43a2c50b9751198797a77fa4.jpg?v=1762200431
+  source: https://store.creality.com/products/ender-3-neo-3d-printer
+  source_checked: '2026-11-19'
+  title: Creality Ender-3 Neo product image
 source_checked: '2026-11-18'
 sources:
   Creality model reference: https://store.creality.com/ca/blogs/all/ender-series-3d-printers-parameter-comparison

@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # SUNLU PETG Cherry Red, 1 kg with spool
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg) · [Manufacturer product page and variant SKU](https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll)
+
 ## Summary
 
 SUNLU PETG in Cherry Red.
 
-<img src="../../source_file/images/filament_sample_d6cabd9f5e44e4f1_square.jpg" width="360" alt="SUNLU product-page colour sample for Cherry Red; the colour sample is shown rather than the spool or refill.">
+<img src="catalogue_photo.jpg" width="360" alt="SUNLU product-page colour sample for Cherry Red; the colour sample is shown rather than the spool or refill.">
 
 SUNLU product-page colour sample for Cherry Red; the colour sample is shown rather than the spool or refill. [SUNLU filament colour sample](https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll) by SUNLU. [Product image; reuse permission not established](https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll). Resized within a square white canvas and credited on the image.
 
@@ -25,7 +27,6 @@ OOMP ID `three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_pe
 
 Sources checked 2026-11-18.
 
-- [Manufacturer product page and variant SKU](https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -61,6 +62,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
+link_source: https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll
+link_web: http://localhost:5703/parts/three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
 name_proper: SUNLU PETG Cherry Red, 1 kg with spool
 oomp_id: three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
 photo:
@@ -221,7 +225,6 @@ id_no_type: three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl
 id_no_size: three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
 oomp_key: oomp_three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
 directory: parts/three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
 name: Three D Printer Filament Petg 1 75 Mm Red Cherry Red Sunlu Dlz Us Sl Petg Cr

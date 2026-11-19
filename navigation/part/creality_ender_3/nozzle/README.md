@@ -1,9 +1,7 @@
 <!-- oomp-documentation:start -->
 # Nozzle
 
-[Up one level](../README.md)
+Browse these parts by assembly.
 
-| Record | OOMP code | Manufacturer code |
-| --- | --- | --- |
-| [Ender-3 0.4 mm nozzle](../../../../parts/three_d_printer_part_creality_ender_3_nozzle_0_4_mm_nozzle_creality_400106003/README.md) | `8F35C` | 400106003 |
+- [motion/z_assembly/x_gantry/carriage/toolhead/hotend/nozzle](../motion/z_assembly/x_gantry/carriage/toolhead/hotend/nozzle/README.md)
 <!-- oomp-documentation:end -->

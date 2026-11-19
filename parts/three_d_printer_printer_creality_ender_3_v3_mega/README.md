@@ -1,9 +1,15 @@
 <!-- oomp-documentation:start -->
 # Creality Ender-3 V3 Mega
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_v3_mega) · [Creality Ender-3 V3 Mega FAQ](https://wiki.creality.com/en/ender-series/ender-3-v3-mega/FAQ)
+
 ## Summary
 
 Creality Ender-3 V3 Mega filament printer.
+
+<img src="catalogue_photo.jpg" width="360" alt="Creality Ender-3 V3 Mega shown on its product page.">
+
+Creality Ender-3 V3 Mega shown on its product page. [Creality Ender-3 V3 Mega product image](https://store.creality.com/products/ender-3-v3-mega-3d-printer) by Photographer uncredited on Creality product page. [Product image, reuse permission unverified](https://store.creality.com/products/ender-3-v3-mega-3d-printer). Resized within a square white canvas and credited on the image.
 
 ## Details
 
@@ -20,7 +26,6 @@ OOMP ID `three_d_printer_printer_creality_ender_3_v3_mega`
 
 Sources checked 2026-11-18.
 
-- [Creality Ender-3 V3 Mega FAQ](https://wiki.creality.com/en/ender-series/ender-3-v3-mega/FAQ)
 - [Creality model reference](https://store.creality.com/uk/blogs/buying-guides/ender-3-v3-neo-vs-mega)
 
 | Taxonomy slot | Value |
@@ -53,8 +58,24 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_mega
+link_source: https://wiki.creality.com/en/ender-series/ender-3-v3-mega/FAQ
+link_web: http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_v3_mega
 name_proper: Creality Ender-3 V3 Mega
 oomp_id: three_d_printer_printer_creality_ender_3_v3_mega
+photo:
+  caption: Creality Ender-3 V3 Mega shown on its product page.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Photographer uncredited on Creality product page
+  credit_line: 'Source: Creality product page'
+  file: source_file/images/printer_ender_3_v3_mega_square.jpg
+  license: Product image, reuse permission unverified
+  license_url: https://store.creality.com/products/ender-3-v3-mega-3d-printer
+  original_file: source_file/images/original/printer_ender_3_v3_mega.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0893/0603/8637/files/DTC-_1-1600X1600.png?v=1792568964
+  source: https://store.creality.com/products/ender-3-v3-mega-3d-printer
+  source_checked: '2026-11-19'
+  title: Creality Ender-3 V3 Mega product image
 source_checked: '2026-11-18'
 sources:
   Creality Ender-3 V3 Mega FAQ: https://wiki.creality.com/en/ender-series/ender-3-v3-mega/FAQ
@@ -149,7 +170,6 @@ id_no_type: three_d_printer_printer_creality_ender_3_v3_mega
 id_no_size: three_d_printer_printer_creality_ender_3_v3_mega
 oomp_key: oomp_three_d_printer_printer_creality_ender_3_v3_mega
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_mega
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_mega
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_mega
 directory: parts/three_d_printer_printer_creality_ender_3_v3_mega
 name: Three D Printer Printer Creality Ender 3 V3 Mega

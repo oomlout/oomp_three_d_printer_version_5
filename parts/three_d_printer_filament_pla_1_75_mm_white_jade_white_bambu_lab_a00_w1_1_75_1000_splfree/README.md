@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Bambu Lab PLA Basic Jade White 1 kg refill
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree) · [Bambu Lab PLA Basic technical data sheet](https://store.bblcdn.eu/s8/default/073e722a4aa44f7cbfdc419d597475cc/Bambu_PLA_Basic_Technical_Data_Sheet.pdf)
+
 ## Summary
 
 PLA Basic in Jade White.
 
-<img src="../../source_file/images/filament_sample_dd8c5601d99000b3_square.jpg" width="360" alt="Bambu Lab product-page colour sample for Jade White; the colour sample is shown rather than the spool or refill.">
+<img src="catalogue_photo.jpg" width="360" alt="Bambu Lab product-page colour sample for Jade White; the colour sample is shown rather than the spool or refill.">
 
 Bambu Lab product-page colour sample for Jade White; the colour sample is shown rather than the spool or refill. [Bambu Lab filament colour sample](https://bambulab-eu.myshopify.com/products/pla-basic-filament) by Bambu Lab. [Product image; reuse permission not established](https://bambulab-eu.myshopify.com/products/pla-basic-filament). Resized within a square white canvas and credited on the image.
 
@@ -25,7 +27,6 @@ OOMP ID `three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_
 
 Sources checked 2026-11-18.
 
-- [Bambu Lab PLA Basic technical data sheet](https://store.bblcdn.eu/s8/default/073e722a4aa44f7cbfdc419d597475cc/Bambu_PLA_Basic_Technical_Data_Sheet.pdf)
 - [Retailer listing for exact manufacturer SKU](https://shop3duniverse.com/collections/1-75mm-filaments/products/bambu-lab-pla-basic-1-75mm-1kg-refill)
 
 | Taxonomy slot | Value |
@@ -62,6 +63,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree
+link_source: https://store.bblcdn.eu/s8/default/073e722a4aa44f7cbfdc419d597475cc/Bambu_PLA_Basic_Technical_Data_Sheet.pdf
+link_web: http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree
 name_proper: Bambu Lab PLA Basic Jade White 1 kg refill
 oomp_id: three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree
 photo:
@@ -223,7 +227,6 @@ id_no_type: three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_
 id_no_size: three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree
 oomp_key: oomp_three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree
 directory: parts/three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree
 name: Three D Printer Filament Pla 1 75 Mm White Jade White Bambu Lab A00 W1 1 75

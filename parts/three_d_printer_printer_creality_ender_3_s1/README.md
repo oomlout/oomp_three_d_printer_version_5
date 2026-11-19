@@ -1,9 +1,15 @@
 <!-- oomp-documentation:start -->
 # Creality Ender-3 S1
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_s1) · [Creality model reference](https://store.creality.com/ca/blogs/all/ender-series-3d-printers-parameter-comparison)
+
 ## Summary
 
 Creality Ender-3 S1 filament printer.
+
+<img src="catalogue_photo.jpg" width="360" alt="Creality Ender-3 S1 shown on its product page.">
+
+Creality Ender-3 S1 shown on its product page. [Creality Ender-3 S1 product image](https://store.creality.com/ca/products/ender-3-s1-3d-printer) by Photographer uncredited on Creality product page. [Product image, reuse permission unverified](https://store.creality.com/ca/products/ender-3-s1-3d-printer). Resized within a square white canvas and credited on the image.
 
 ## Details
 
@@ -20,7 +26,6 @@ OOMP ID `three_d_printer_printer_creality_ender_3_s1`
 
 Sources checked 2026-11-18.
 
-- [Creality model reference](https://store.creality.com/ca/blogs/all/ender-series-3d-printers-parameter-comparison)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -52,8 +57,24 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_s1
+link_source: https://store.creality.com/ca/blogs/all/ender-series-3d-printers-parameter-comparison
+link_web: http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_s1
 name_proper: Creality Ender-3 S1
 oomp_id: three_d_printer_printer_creality_ender_3_s1
+photo:
+  caption: Creality Ender-3 S1 shown on its product page.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Photographer uncredited on Creality product page
+  credit_line: 'Source: Creality product page'
+  file: source_file/images/printer_ender_3_s1_square.jpg
+  license: Product image, reuse permission unverified
+  license_url: https://store.creality.com/ca/products/ender-3-s1-3d-printer
+  original_file: source_file/images/original/printer_ender_3_s1.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0911/3233/0284/files/0305366fdcdcbbfd653733311d882de3_4d1d511a-c7c8-40ec-b346-b08ed949f23d.jpg?v=1742443574
+  source: https://store.creality.com/ca/products/ender-3-s1-3d-printer
+  source_checked: '2026-11-19'
+  title: Creality Ender-3 S1 product image
 source_checked: '2026-11-18'
 sources:
   Creality model reference: https://store.creality.com/ca/blogs/all/ender-series-3d-printers-parameter-comparison
@@ -147,7 +168,6 @@ id_no_type: three_d_printer_printer_creality_ender_3_s1
 id_no_size: three_d_printer_printer_creality_ender_3_s1
 oomp_key: oomp_three_d_printer_printer_creality_ender_3_s1
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_s1
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_s1
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_s1
 directory: parts/three_d_printer_printer_creality_ender_3_s1
 name: Three D Printer Printer Creality Ender 3 S1

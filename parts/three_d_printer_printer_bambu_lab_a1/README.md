@@ -1,9 +1,15 @@
 <!-- oomp-documentation:start -->
 # Bambu Lab A1
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_printer_bambu_lab_a1) · [A1 specifications](https://store.bblcdn.eu/s8/default/29c02564a6374ed5be971523eb9193e2/A1_Spec_EN_1214.pdf)
+
 ## Summary
 
 Bambu Lab A1 filament printer.
+
+<img src="catalogue_photo.jpg" width="360" alt="Bambu Lab A1 with AMS lite.">
+
+Bambu Lab A1 with AMS lite. [Bambu Lab A1 product image](https://bambu-lab-global.myshopify.com/products/a1) by Photographer uncredited on Bambu Lab product page. [Product image, reuse permission unverified](https://bambu-lab-global.myshopify.com/products/a1). Resized within a square white canvas and credited on the image.
 
 ## Details
 
@@ -21,7 +27,6 @@ OOMP ID `three_d_printer_printer_bambu_lab_a1`
 
 Sources checked 2026-11-18.
 
-- [A1 specifications](https://store.bblcdn.eu/s8/default/29c02564a6374ed5be971523eb9193e2/A1_Spec_EN_1214.pdf)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -49,11 +54,11 @@ Compatible spares and feeders in this catalogue
 
 - [Bambu Lab AMS](../three_d_printer_ams_bambu_lab_ams/)
 - [Bambu Lab AMS lite](../three_d_printer_ams_bambu_lab_ams_lite/)
-- [Bambu Lab A1 series hotend with 0.2 mm stainless steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah018/)
-- [Bambu Lab A1 series hotend with 0.4 mm hardened steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah019/)
-- [Bambu Lab A1 series hotend with nozzle, 0.4 mm](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_stainless_steel_bambu_lab_fah007/)
-- [Bambu Lab A1 series hotend with 0.6 mm hardened steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah020/)
-- [Bambu Lab A1 series hotend with 0.8 mm hardened steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah021/)
+- [Bambu Lab A1 series hotend with 0.2 mm stainless steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_toolhead_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah018/)
+- [Bambu Lab A1 series hotend with 0.4 mm hardened steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_toolhead_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah019/)
+- [Bambu Lab A1 series hotend with nozzle, 0.4 mm](../three_d_printer_part_bambu_lab_a1_mini_toolhead_hotend_hotend_with_nozzle_0_4_mm_stainless_steel_bambu_lab_fah007/)
+- [Bambu Lab A1 series hotend with 0.6 mm hardened steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_toolhead_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah020/)
+- [Bambu Lab A1 series hotend with 0.8 mm hardened steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_toolhead_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah021/)
 
 ## Assembly
 
@@ -63,8 +68,24 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_a1
+link_source: https://store.bblcdn.eu/s8/default/29c02564a6374ed5be971523eb9193e2/A1_Spec_EN_1214.pdf
+link_web: http://localhost:5703/parts/three_d_printer_printer_bambu_lab_a1
 name_proper: Bambu Lab A1
 oomp_id: three_d_printer_printer_bambu_lab_a1
+photo:
+  caption: Bambu Lab A1 with AMS lite.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Photographer uncredited on Bambu Lab product page
+  credit_line: 'Source: Bambu Lab product page'
+  file: source_file/images/printer_a1_square.jpg
+  license: Product image, reuse permission unverified
+  license_url: https://bambu-lab-global.myshopify.com/products/a1
+  original_file: source_file/images/original/printer_a1.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0574/3116/2995/files/A1.jpg?v=1714960001
+  source: https://bambu-lab-global.myshopify.com/products/a1
+  source_checked: '2026-11-19'
+  title: Bambu Lab A1 product image
 source_checked: '2026-11-18'
 sources:
   A1 specifications: https://store.bblcdn.eu/s8/default/29c02564a6374ed5be971523eb9193e2/A1_Spec_EN_1214.pdf
@@ -159,7 +180,6 @@ id_no_type: three_d_printer_printer_bambu_lab_a1
 id_no_size: three_d_printer_printer_bambu_lab_a1
 oomp_key: oomp_three_d_printer_printer_bambu_lab_a1
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_a1
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_a1
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_bambu_lab_a1
 directory: parts/three_d_printer_printer_bambu_lab_a1
 name: Three D Printer Printer Bambu Lab A1

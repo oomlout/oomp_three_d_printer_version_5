@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Bambu Lab PETG Basic Dark Brown, 1 kg with spool
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl) · [Bambu Lab PETG Basic data sheet](https://store.bblcdn.com/s1/default/cb94589bf7994fdcbfa833badefae9cd/Bambu_PETG_Basic_Technical_Data_Sheet.pdf)
+
 ## Summary
 
 PETG Basic, upgraded formulation in Dark Brown.
 
-<img src="../../source_file/images/filament_sample_b21444cd45897525_square.jpg" width="360" alt="Total Data Support product-page colour sample for Dark Brown; the colour sample is shown rather than the spool or refill.">
+<img src="catalogue_photo.jpg" width="360" alt="Total Data Support product-page colour sample for Dark Brown; the colour sample is shown rather than the spool or refill.">
 
 Total Data Support product-page colour sample for Dark Brown; the colour sample is shown rather than the spool or refill. [Total Data Support filament colour sample](https://totaldatasupport.com/products/petg-basic) by Creator not identified; product image supplied by Total Data Support. [Product image; reuse permission not established](https://totaldatasupport.com/products/petg-basic). Resized within a square white canvas and credited on the image.
 
@@ -25,7 +27,6 @@ OOMP ID `three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n0
 
 Sources checked 2026-11-18.
 
-- [Bambu Lab PETG Basic data sheet](https://store.bblcdn.com/s1/default/cb94589bf7994fdcbfa833badefae9cd/Bambu_PETG_Basic_Technical_Data_Sheet.pdf)
 - [Retailer variant SKU table](https://www.eshop.formwerk.ro/en/cumpara/filament-bambu-lab-petg-basic-3292)
 
 | Taxonomy slot | Value |
@@ -62,6 +63,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl
+link_source: https://store.bblcdn.com/s1/default/cb94589bf7994fdcbfa833badefae9cd/Bambu_PETG_Basic_Technical_Data_Sheet.pdf
+link_web: http://localhost:5703/parts/three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl
 name_proper: Bambu Lab PETG Basic Dark Brown, 1 kg with spool
 oomp_id: three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl
 photo:
@@ -223,7 +227,6 @@ id_no_type: three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00
 id_no_size: three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl
 oomp_key: oomp_three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl
 directory: parts/three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl
 name: Three D Printer Filament Petg 1 75 Mm Brown Dark Brown Bambu Lab G00 N00 1 75

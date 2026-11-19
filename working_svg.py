@@ -14,7 +14,7 @@ from printer_catalogue import ROOT, records
 def main(**kwargs):
     pattern = kwargs.get("filter", "*") or "*"
 
-    for path, part in records(filter=pattern):
+    for path, part in records(filter=pattern, progress_label="Rendering labels for part"):
         # RoboClick encodes non-ASCII as numeric entities before Jinja runs.
         # Restore the label characters so each template can XML-escape them once.
         characters = {c for key, value in part.items() if key.startswith("label_") and isinstance(value, str)

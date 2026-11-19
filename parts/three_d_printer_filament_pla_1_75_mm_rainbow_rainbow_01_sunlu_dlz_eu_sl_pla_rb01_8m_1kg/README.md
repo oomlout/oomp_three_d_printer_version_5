@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # SUNLU PLA Rainbow 01, 1 kg spool
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg) · [SUNLU Rainbow selector and SKU](https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll)
+
 ## Summary
 
 PLA Rainbow in Rainbow-01.
 
-<img src="../../source_file/images/sunlu_rainbow_square.jpg" width="360" alt="SUNLU product-page colour sample for PLA Rainbow-01; the colour sample is shown rather than the spool.">
+<img src="catalogue_photo.jpg" width="360" alt="SUNLU product-page colour sample for PLA Rainbow-01; the colour sample is shown rather than the spool.">
 
 SUNLU product-page colour sample for PLA Rainbow-01; the colour sample is shown rather than the spool. [SUNLU product image](https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll) by SUNLU. [Manufacturer product image; reuse permission not established](https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll). Resized within a square white canvas and credited on the image.
 
@@ -25,7 +27,6 @@ OOMP ID `three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl
 
 Sources checked 2026-11-18.
 
-- [SUNLU Rainbow selector and SKU](https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -61,6 +62,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
+link_source: https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll
+link_web: http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
 name_proper: SUNLU PLA Rainbow 01, 1 kg spool
 oomp_id: three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
 photo:
@@ -221,7 +225,6 @@ id_no_type: three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu
 id_no_size: three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
 oomp_key: oomp_three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
 directory: parts/three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
 name: Three D Printer Filament Pla 1 75 Mm Rainbow Rainbow 01 Sunlu Dlz Eu Sl Pla

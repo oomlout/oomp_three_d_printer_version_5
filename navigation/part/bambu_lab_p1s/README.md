@@ -3,5 +3,5 @@
 
 [Up one level](../README.md)
 
-- [Hotend](hotend/README.md)
+- [Toolhead](toolhead/README.md)
 <!-- oomp-documentation:end -->

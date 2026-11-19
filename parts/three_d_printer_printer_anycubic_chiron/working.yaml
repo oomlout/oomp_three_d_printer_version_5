@@ -1,3 +1,6 @@
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_chiron
+link_source: https://www.anycubic.es/pages/especificaciones-de-chiron
+link_web: http://localhost:5703/parts/three_d_printer_printer_anycubic_chiron
 name_proper: Anycubic Chiron
 oomp_id: three_d_printer_printer_anycubic_chiron
 photo:
@@ -101,7 +104,6 @@ id_no_type: three_d_printer_printer_anycubic_chiron
 id_no_size: three_d_printer_printer_anycubic_chiron
 oomp_key: oomp_three_d_printer_printer_anycubic_chiron
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_chiron
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_chiron
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_anycubic_chiron
 directory: parts/three_d_printer_printer_anycubic_chiron
 name: Three D Printer Printer Anycubic Chiron

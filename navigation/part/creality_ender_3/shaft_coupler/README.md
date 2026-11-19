@@ -1,9 +1,7 @@
 <!-- oomp-documentation:start -->
 # Shaft Coupler
 
-[Up one level](../README.md)
+Browse these parts by assembly.
 
-| Record | OOMP code | Manufacturer code |
-| --- | --- | --- |
-| [Ender-3 Z shaft coupler](../../../../parts/three_d_printer_part_creality_ender_3_shaft_coupler_z_shaft_coupler_creality_400208004/README.md) | `4PUOU` | 400208004 |
+- [motion/z_assembly/shaft_coupler](../motion/z_assembly/shaft_coupler/README.md)
 <!-- oomp-documentation:end -->

@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # PLA Basic Beige, 1 kg refill
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree) · [Manufacturer product page and variant SKU](https://bambulab-eu.myshopify.com/products/pla-basic-filament)
+
 ## Summary
 
 PLA Basic in Beige.
 
-<img src="../../source_file/images/filament_sample_b7239d259d43eb9d_square.jpg" width="360" alt="Bambu Lab product-page colour sample for Beige; the colour sample is shown rather than the spool or refill.">
+<img src="catalogue_photo.jpg" width="360" alt="Bambu Lab product-page colour sample for Beige; the colour sample is shown rather than the spool or refill.">
 
 Bambu Lab product-page colour sample for Beige; the colour sample is shown rather than the spool or refill. [Bambu Lab filament colour sample](https://bambulab-eu.myshopify.com/products/pla-basic-filament) by Bambu Lab. [Product image; reuse permission not established](https://bambulab-eu.myshopify.com/products/pla-basic-filament). Resized within a square white canvas and credited on the image.
 
@@ -25,7 +27,6 @@ OOMP ID `three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_
 
 Sources checked 2026-11-18.
 
-- [Manufacturer product page and variant SKU](https://bambulab-eu.myshopify.com/products/pla-basic-filament)
 
 | Taxonomy slot | Value |
 | --- | --- |
@@ -61,6 +62,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree
+link_source: https://bambulab-eu.myshopify.com/products/pla-basic-filament
+link_web: http://localhost:5703/parts/three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree
 name_proper: PLA Basic Beige, 1 kg refill
 oomp_id: three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree
 photo:
@@ -221,7 +225,6 @@ id_no_type: three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_
 id_no_size: three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree
 oomp_key: oomp_three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree
 directory: parts/three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree
 name: Three D Printer Filament Pla 1 75 Mm Beige Beige Bambu Lab A00 P0 1 75 1000

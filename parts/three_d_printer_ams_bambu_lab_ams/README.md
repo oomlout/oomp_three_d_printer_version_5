@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Bambu Lab AMS
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_ams_bambu_lab_ams) · [AMS specifications and price](https://bambu-lab-global.myshopify.com/products/ams-multicolor-printing)
+
 ## Summary
 
 Bambu Lab AMS automatic material system with 4 spool positions.
 
-<img src="../../source_file/images/p1s_with_ams_square.jpg" width="360" alt="Bambu Lab P1S with the original AMS on top.">
+<img src="catalogue_photo.jpg" width="360" alt="Bambu Lab P1S with the original AMS on top.">
 
 Bambu Lab P1S with the original AMS on top. [P1s with ams.jpg](https://commons.wikimedia.org/wiki/File:P1s_with_ams.jpg) by Pineapplefish77. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized within a square white canvas and credited on the image.
 
@@ -30,7 +32,6 @@ Also indexed as AMS 1, original AMS.
 
 Sources checked 2026-11-18.
 
-- [AMS specifications and price](https://bambu-lab-global.myshopify.com/products/ams-multicolor-printing)
 - [Bambu Lab A1 series AMS support announcement](https://forum.bambulab.com/t/a1-series-firmware-v01-06-10-33-now-in-public-beta/201055)
 - [P1 series compatibility](https://bambu-lab-global.myshopify.com/collections/p1-series)
 - [Standalone retail announcement](https://forum.bambulab.com/t/bambu-lab-ams-and-ams-hub-are-now-in-stock/846)
@@ -79,6 +80,9 @@ compatible_printers:
 - three_d_printer_printer_bambu_lab_p1p
 - three_d_printer_printer_bambu_lab_a1
 - three_d_printer_printer_bambu_lab_a1_mini
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams
+link_source: https://bambu-lab-global.myshopify.com/products/ams-multicolor-printing
+link_web: http://localhost:5703/parts/three_d_printer_ams_bambu_lab_ams
 name_proper: Bambu Lab AMS
 oomp_id: three_d_printer_ams_bambu_lab_ams
 photo:
@@ -195,7 +199,6 @@ id_no_type: three_d_printer_ams_bambu_lab_ams
 id_no_size: three_d_printer_ams_bambu_lab_ams
 oomp_key: oomp_three_d_printer_ams_bambu_lab_ams
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_ams_bambu_lab_ams
 directory: parts/three_d_printer_ams_bambu_lab_ams
 name: Three D Printer Ams Bambu Lab Ams

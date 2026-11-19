@@ -1,11 +1,13 @@
 <!-- oomp-documentation:start -->
 # Creality Ender-3 V3 SE
 
+[Open catalogue record](http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_v3_se) · [Creality V3 series comparison](https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke)
+
 ## Summary
 
 Creality Ender-3 V3 SE filament printer.
 
-<img src="../../source_file/images/creality_ender_3_v3_se_square.jpg" width="360" alt="Creality Ender-3 V3 SE shown with a filament spool.">
+<img src="catalogue_photo.jpg" width="360" alt="Creality Ender-3 V3 SE shown with a filament spool.">
 
 Creality Ender-3 V3 SE shown with a filament spool. [Creality product image](https://store.creality.com/eu/products/ender-3-v3-se-3d-printer) by Creality. [Manufacturer product image; reuse permission not established](https://store.creality.com/eu/products/ender-3-v3-se-3d-printer). Resized within a square white canvas and credited on the image.
 
@@ -26,7 +28,6 @@ OOMP ID `three_d_printer_printer_creality_ender_3_v3_se`
 
 Sources checked 2026-11-18.
 
-- [Creality V3 series comparison](https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke)
 - [Creality model reference](https://www.creality.com/compare/compare-ender-3-v3-series)
 
 | Taxonomy slot | Value |
@@ -59,6 +60,9 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 <summary>Full OOMP metadata</summary>
 
 ```yaml
+link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_se
+link_source: https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke
+link_web: http://localhost:5703/parts/three_d_printer_printer_creality_ender_3_v3_se
 name_proper: Creality Ender-3 V3 SE
 oomp_id: three_d_printer_printer_creality_ender_3_v3_se
 photo:
@@ -170,7 +174,6 @@ id_no_type: three_d_printer_printer_creality_ender_3_v3_se
 id_no_size: three_d_printer_printer_creality_ender_3_v3_se
 oomp_key: oomp_three_d_printer_printer_creality_ender_3_v3_se
 link_github: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_se
-link_main: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_se
 link_redirect: https://github.com/oomlout/oomp_three_d_printer_version_5/tree/main/parts/three_d_printer_printer_creality_ender_3_v3_se
 directory: parts/three_d_printer_printer_creality_ender_3_v3_se
 name: Three D Printer Printer Creality Ender 3 V3 Se
