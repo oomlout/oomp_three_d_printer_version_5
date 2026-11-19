@@ -213,6 +213,7 @@
         </div>
       {% elif previewable %}
         {% set preview_image = part.image_files[part.image_index_by_relative_path.get(previewable, 0)] %}
+        {% set photo = part.data.photo if part.catalogue_photo_available else {} %}
         <div class="preview-frame preview-frame--bold">
           <a
             class="detail-preview-link"
@@ -227,7 +228,7 @@
               src="{{ part_image_url(part.id, previewable, preset='detail_preview') }}"
               srcset="{{ part_image_url(part.id, previewable, width=900, height=900) }} 900w, {{ part_image_url(part.id, previewable, width=1400, height=1200) }} 1400w"
               sizes="(max-width: 980px) 100vw, 60vw"
-              alt="{{ part.name }}"
+              alt="{{ photo.caption or part.name }}"
               width="{{ preview_image.width or 1200 }}"
               height="{{ preview_image.height or 900 }}"
               loading="eager"
@@ -235,6 +236,21 @@
               fetchpriority="high"
             >
           </a>
+          {% if photo %}
+            <p class="preview-credit">
+              {% if photo.caption %}{{ photo.caption }}<br>{% endif %}
+              {% if photo.source is string and photo.source.startswith(('https://', 'http://')) %}
+                <a href="{{ photo.source }}">{{ photo.title or 'Photo source' }}</a>
+              {% elif photo.title %}{{ photo.title }}{% endif %}
+              {% if photo.creator %} by {{ photo.creator }}.{% endif %}
+              {% if photo.license is defined %}
+                {% if photo.license_url is string and photo.license_url.startswith(('https://', 'http://')) %}
+                  <a href="{{ photo.license_url }}">{{ photo.license }}</a>.
+                {% else %}{{ photo.license }}.{% endif %}
+              {% endif %}
+              {% if photo.changes %}{{ photo.changes }}{% endif %}
+            </p>
+          {% endif %}
         </div>
       {% else %}
         <p class="empty-state">No previewable image found in this part folder yet.</p>

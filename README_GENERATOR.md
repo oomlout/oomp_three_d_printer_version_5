@@ -1,9 +1,9 @@
 # Building the 3D printer catalogue
 
-Run the following commands from the printer repository. The local OOMP v5 installation provides `oomp`, `oomp_populate_helper` and `oomp_documentation`. The sibling `oomlout_roboclick` installation provides the action registry and its Jinja renderer. Use the Python environment in which those projects are importable. The build also uses PyYAML, Jinja2 and ReportLab (Code 39 bars).
+Run the following commands from the printer repository. The local OOMP v5 installation provides `oomp`, `oomp_populate_helper` and `oomp_documentation`. The sibling `oomlout_roboclick` installation provides the action registry and its Jinja renderer. Use the Python environment in which those projects are importable. The build also uses PyYAML, Jinja2, ReportLab, CairoSVG, pypdf and Pillow.
 
 ```powershell
-python -c "import oomp, oomp_documentation, oomp_populate_helper, oomlout_roboclick, robo_roboclick, yaml, jinja2, reportlab, cairosvg, pypdf"
+python -c "import oomp, oomp_documentation, oomp_populate_helper, oomlout_roboclick, robo_roboclick, yaml, jinja2, reportlab, cairosvg, pypdf, PIL"
 python action_make_all.py
 python validate_catalogue.py
 python -m pytest tests -q
@@ -14,7 +14,7 @@ python -m pytest tests -q
 1. Edit a multiline dictionary in the appropriate family routine in `working_oomp_populate.py`. Each routine takes `**kwargs` and defines its editable defaults at the top. Set the evidence date on the individual dictionary when researching it on a different date. The extra-detail hook accepts specification additions by exact ID. Population validates the 15 slots and printer references before writing standard `parts_source/<id>/working.yaml` files with the shared OOMP helper.
 2. `working_oomp.py` loads the populated files and uses the OOMP core for the hash, mnemonic and formatted taxonomy values. It records the RoboClick Jinja action in `parts/<id>/working.yaml`. For a local correction, a sibling `working_manual.yaml` can supply specifications, sources, notes or a complete photo attribution. Edit identity and product codes in the declaration.
 3. `working_svg.py` executes the record's five RoboClick actions. Each produces an editable SVG and a single-page PDF sized for its stock. Print at 100%. The layouts include the 76.2 × 50.8 mm OOMP inventory label, stock labels at 76.2 × 50.8 and 38.1 × 25.4 mm, a 38.1 × 25.4 mm drawer label, and a 30 × 15 mm Code 39 label. Each part README links every format. The source templates and sizes are listed in `printer_catalogue.LABEL_FORMATS`.
-4. `working_action.py` calls `action_documentation.py` to finish the catalogue, part READMEs and [navigation tree](navigation/README.md). Each taxonomy branch links back to its parent and each leaf links to the canonical part pages. A filtered run still indexes the full catalogue. Documentation markers preserve handwritten notes. Product photos and credits share one rendering routine.
+4. `working_action.py` calls `working_images.py` to prepare square credited photo copies, then `action_documentation.py` to finish the catalogue, part READMEs and [navigation tree](navigation/README.md). FFmpeg with the `drawtext` filter must be on PATH. Each taxonomy branch links back to its parent and each leaf links to the canonical part pages. A filtered run still indexes the full catalogue. Documentation markers preserve handwritten notes.
 
 Edit the original Ender-3 BOM and CAD references in `working_oomp_populate_ender_3.py`. Its multiline dictionaries preserve the published source names, quantities and line references. The complete build works offline after the Python dependencies are installed. CairoSVG needs the Cairo native library.
 
@@ -35,4 +35,4 @@ The base-colour list is `white`, `grey`, `black`, `red`, `orange`, `yellow`, `gr
 
 ## Photographs and purchasing evidence
 
-A photo declaration contains the relative local filename, title, caption, creator, source file page, licence name and URL, and changes. Reuse the same declaration when one photograph really shows two catalogued objects. The source field for a specification serves a different purpose from the licence for a photograph. The price text records currency, market and unit or assembly scope. The evidence date describes when the source was checked. Record a launch, announcement or on-sale date separately and preserve its original precision.
+A photo declaration contains the square display filename, original filename, title, caption, creator, source page, rights status and URL, visible credit line, and changes. The full unaltered source remains in `source_file/`. A manufacturer image whose licence has not been established says so on its page. Reuse the same declaration when one photograph really shows two catalogued objects. The source field for a specification serves a different purpose from the rights status for a photograph. The price text records currency, market and unit or assembly scope. The evidence date describes when the source was checked. Record a launch, announcement or on-sale date separately and preserve its original precision.

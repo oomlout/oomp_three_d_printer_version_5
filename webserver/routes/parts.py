@@ -216,6 +216,20 @@ def _resolve_part_file_path(part: dict[str, object], relative_path: str) -> Path
     return requested
 
 
+def _resolve_part_download_path(part: dict[str, Any], relative_path: str) -> Path | None:
+    if relative_path == part.get("photo_relative_path"):
+        photo = parts_repository.resolve_catalogue_photo(Path(part["source_parts_dir"]), relative_path)
+        if photo:
+            return photo
+    return _resolve_part_file_path(part, relative_path)
+
+
+def _send_part_file(path: Path):
+    # Some Windows installations do not register WebP in the MIME type database.
+    mimetype = "image/webp" if path.suffix.lower() == ".webp" else None
+    return send_file(path, mimetype=mimetype, conditional=True)
+
+
 def _load_part_or_404(part_id: str) -> dict[str, object]:
     part = current_app.config["PARTS_CACHE"].get_part(part_id)
     if part is None:
@@ -412,16 +426,16 @@ def run_part_file_action(part_id: str, relative_path: str, action_id: str):
 @parts_blueprint.get("/parts/<part_id>/<path:relative_path>")
 def part_file(part_id: str, relative_path: str):
     part = _load_part_or_404(part_id)
-    requested = _resolve_part_file_path(part, relative_path)
+    requested = _resolve_part_download_path(part, relative_path)
     if requested is None:
         abort(404)
-    return send_file(requested)
+    return _send_part_file(requested)
 
 
 @parts_blueprint.get("/parts/<part_id>/image/<path:relative_path>")
 def part_image(part_id: str, relative_path: str):
     part = _load_part_or_404(part_id)
-    source_path = _resolve_part_file_path(part, relative_path)
+    source_path = _resolve_part_download_path(part, relative_path)
     if source_path is None:
         abort(404)
 
@@ -440,7 +454,7 @@ def part_image(part_id: str, relative_path: str):
         fit=fit,
         quality=quality,
     )
-    return send_file(target_path, conditional=True)
+    return _send_part_file(target_path)
 
 
 @parts_blueprint.get("/parts/<part_id>/viewer-data")

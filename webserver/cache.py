@@ -105,7 +105,11 @@ class PartsCache:
             known_ids = set(self._records.keys())
 
             for part_id, (part_dir, source_parts_dir) in current_dirs.items():
-                signature = parts_repository.build_directory_signature(part_dir)
+                previous = self._records.get(part_id, {})
+                catalogue_photo = parts_repository.resolve_catalogue_photo(
+                    source_parts_dir, previous.get("photo_relative_path")
+                )
+                signature = parts_repository.build_part_snapshot(part_dir, catalogue_photo)
                 if self._signatures.get(part_id) == signature:
                     continue
                 try:
@@ -121,7 +125,7 @@ class PartsCache:
                 if record is None:
                     continue
                 self._records[part_id] = record
-                self._signatures[part_id] = signature
+                self._signatures[part_id] = record["reload_signature"]
                 changed += 1
 
             for removed_id in sorted(known_ids - current_ids):

@@ -5,6 +5,10 @@
 
 Ender-3 Hotend thermistor
 
+<img src="../../source_file/images/creality_replacement_thermistor_square.jpg" width="360" alt="Creality glass bead thermistor replacement kit; the original installed wiring or connectors may differ.">
+
+Creality glass bead thermistor replacement kit; the original installed wiring or connectors may differ. [Creality replacement thermistor, 3DJake product image](https://www.3djake.uk/creality-3d-printers-spare-parts/thermistor-kit?sai=11419) by Creator not identified; product image supplied by 3DJake. [Retail product image; reuse permission not established](https://www.3djake.uk/creality-3d-printers-spare-parts/thermistor-kit?sai=11419). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_part_creality_ender_3_temperature_sensor_hotend_thermistor_creality_400303006`
@@ -63,6 +67,20 @@ compatible_printers:
 - three_d_printer_printer_creality_ender_3
 name_proper: Ender-3 Hotend thermistor
 oomp_id: three_d_printer_part_creality_ender_3_temperature_sensor_hotend_thermistor_creality_400303006
+photo:
+  caption: Creality glass bead thermistor replacement kit; the original installed
+    wiring or connectors may differ.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Creator not identified; product image supplied by 3DJake
+  credit_line: 'Source: 3DJake product page'
+  file: source_file/images/creality_replacement_thermistor_square.jpg
+  license: Retail product image; reuse permission not established
+  license_url: https://www.3djake.uk/creality-3d-printers-spare-parts/thermistor-kit?sai=11419
+  original_file: source_file/images/original/creality_replacement_thermistor.jpg
+  original_image_url: https://3d.nice-cdn.com/upload/image/product/large/default/19189_de652046.jpg
+  source: https://www.3djake.uk/creality-3d-printers-spare-parts/thermistor-kit?sai=11419
+  source_checked: '2026-11-19'
+  title: Creality replacement thermistor, 3DJake product image
 source_checked: '2026-11-18'
 sources:
   Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS

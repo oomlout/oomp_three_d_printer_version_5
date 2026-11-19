@@ -5,6 +5,10 @@
 
 PLA Basic in Yellow.
 
+<img src="../../source_file/images/filament_sample_ff7b7d4bf25e0964_square.jpg" width="360" alt="Bambu Lab product-page colour sample for Yellow; the colour sample is shown rather than the spool or refill.">
+
+Bambu Lab product-page colour sample for Yellow; the colour sample is shown rather than the spool or refill. [Bambu Lab filament colour sample](https://bambulab-eu.myshopify.com/products/pla-basic-filament) by Bambu Lab. [Product image; reuse permission not established](https://bambulab-eu.myshopify.com/products/pla-basic-filament). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_filament_pla_1_75_mm_yellow_yellow_bambu_lab_a00_y0_1_75_1000_splfree`
@@ -59,6 +63,20 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: PLA Basic Yellow, 1 kg refill
 oomp_id: three_d_printer_filament_pla_1_75_mm_yellow_yellow_bambu_lab_a00_y0_1_75_1000_splfree
+photo:
+  caption: Bambu Lab product-page colour sample for Yellow; the colour sample is shown
+    rather than the spool or refill.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Bambu Lab
+  credit_line: 'Source: Bambu Lab product page'
+  file: source_file/images/filament_sample_ff7b7d4bf25e0964_square.jpg
+  license: Product image; reuse permission not established
+  license_url: https://bambulab-eu.myshopify.com/products/pla-basic-filament
+  original_file: source_file/images/original/filament_sample_ff7b7d4bf25e0964.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Yellow.jpg?v=1736242873
+  source: https://bambulab-eu.myshopify.com/products/pla-basic-filament
+  source_checked: '2026-11-19'
+  title: Bambu Lab filament colour sample
 source_checked: '2026-11-18'
 sources:
   Manufacturer product page and variant SKU: https://bambulab-eu.myshopify.com/products/pla-basic-filament

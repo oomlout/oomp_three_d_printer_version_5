@@ -1,5 +1,19 @@
 name_proper: SUNLU PLA Coffee-Brown(Coffee), 1 kg with spool
 oomp_id: three_d_printer_filament_pla_1_75_mm_brown_coffee_brown_coffee_sunlu_dlz_us_sl_pla_cbn_1kg
+photo:
+  caption: SUNLU product-page colour sample for Coffee-Brown(Coffee); the colour sample
+    is shown rather than the spool or refill.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: SUNLU
+  credit_line: 'Source: SUNLU product page'
+  file: source_file/images/filament_sample_780a79ba607ba908_square.jpg
+  license: Product image; reuse permission not established
+  license_url: https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer
+  original_file: source_file/images/original/filament_sample_780a79ba607ba908.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0152/6507/1190/files/PLA_coffee_brown_78e1f730-9fc5-4f2c-925f-727b33c28b9e.jpg?v=1776411036
+  source: https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer
+  source_checked: '2026-11-19'
+  title: SUNLU filament colour sample
 source_checked: '2026-11-18'
 sources:
   Manufacturer product page and variant SKU: https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer

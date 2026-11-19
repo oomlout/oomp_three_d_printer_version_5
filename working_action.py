@@ -5,6 +5,8 @@ def main(**kwargs):
     if not labels_already_built:
         import working_svg
         working_svg.main(**kwargs)
+    import working_images
+    working_images.main(**kwargs)
     import action_documentation
     action_documentation.main(**kwargs)
 

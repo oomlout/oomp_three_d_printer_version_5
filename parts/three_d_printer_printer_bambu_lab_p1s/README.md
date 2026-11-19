@@ -5,9 +5,9 @@
 
 Bambu Lab P1S filament printer.
 
-<img src="../../source_file/p1s_with_ams.jpg" width="360" alt="Bambu Lab P1S with the original AMS on top.">
+<img src="../../source_file/images/p1s_with_ams_square.jpg" width="360" alt="Bambu Lab P1S with the original AMS on top.">
 
-Bambu Lab P1S with the original AMS on top. [P1s with ams.jpg](https://commons.wikimedia.org/wiki/File:P1s_with_ams.jpg) by Pineapplefish77. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Original photograph, unchanged.
+Bambu Lab P1S with the original AMS on top. [P1s with ams.jpg](https://commons.wikimedia.org/wiki/File:P1s_with_ams.jpg) by Pineapplefish77. [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized within a square white canvas and credited on the image.
 
 ## Details
 
@@ -77,11 +77,13 @@ name_proper: Bambu Lab P1S
 oomp_id: three_d_printer_printer_bambu_lab_p1s
 photo:
   caption: Bambu Lab P1S with the original AMS on top.
-  changes: Original photograph, unchanged.
+  changes: Resized within a square white canvas and credited on the image.
   creator: Pineapplefish77
-  file: source_file/p1s_with_ams.jpg
+  credit_line: 'Photo: Pineapplefish77 / Wikimedia Commons - CC BY-SA 4.0'
+  file: source_file/images/p1s_with_ams_square.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  original_file: source_file/p1s_with_ams.jpg
   source: https://commons.wikimedia.org/wiki/File:P1s_with_ams.jpg
   title: P1s with ams.jpg
 source_checked: '2026-11-18'

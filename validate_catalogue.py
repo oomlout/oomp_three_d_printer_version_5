@@ -5,6 +5,7 @@ from urllib.parse import unquote, urlsplit
 from xml.etree import ElementTree
 
 from oomp_populate_helper import build_oomp_id
+from PIL import Image
 from pypdf import PdfReader
 
 from printer_catalogue import LABEL_FORMATS, ROOT, records
@@ -91,6 +92,9 @@ def main(**kwargs):
                 raise ValueError(f"Unexpected print size on {stem}: {part_id}")
         if part.get("photo"):
             photo = part["photo"]
+            with Image.open(ROOT / photo["file"]) as picture:
+                if picture.width != picture.height:
+                    raise ValueError(f"Photograph is not square: {part_id}")
             if "<img " not in visible or any(photo[key] not in visible for key in ("source", "creator", "license_url", "changes")):
                 raise ValueError(f"Missing visible photo attribution: {page}")
             if photo["file"] in root_text and any(photo[key] not in root_text for key in ("source", "creator", "license_url", "changes")):

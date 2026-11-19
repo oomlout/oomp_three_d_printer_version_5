@@ -5,6 +5,10 @@
 
 SUNLU PLA in Grey.
 
+<img src="../../source_file/images/filament_sample_b66d0acbc5cef970_square.jpg" width="360" alt="SUNLU product-page colour sample for Grey; the colour sample is shown rather than the spool or refill.">
+
+SUNLU product-page colour sample for Grey; the colour sample is shown rather than the spool or refill. [SUNLU filament colour sample](https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer) by SUNLU. [Product image; reuse permission not established](https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_filament_pla_1_75_mm_grey_grey_sunlu_dlz_us_sl_pla_gy_1kg`
@@ -59,6 +63,20 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: SUNLU PLA Grey, 1 kg with spool
 oomp_id: three_d_printer_filament_pla_1_75_mm_grey_grey_sunlu_dlz_us_sl_pla_gy_1kg
+photo:
+  caption: SUNLU product-page colour sample for Grey; the colour sample is shown rather
+    than the spool or refill.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: SUNLU
+  credit_line: 'Source: SUNLU product page'
+  file: source_file/images/filament_sample_b66d0acbc5cef970_square.jpg
+  license: Product image; reuse permission not established
+  license_url: https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer
+  original_file: source_file/images/original/filament_sample_b66d0acbc5cef970.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0152/6507/1190/files/PLA_grey_cdbeeb9e-ac30-4dab-8a31-c915d67b5e54.jpg?v=1776410827
+  source: https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer
+  source_checked: '2026-11-19'
+  title: SUNLU filament colour sample
 source_checked: '2026-11-18'
 sources:
   Manufacturer product page and variant SKU: https://store.sunlu.com/products/over-6kg-of-pla-pla-meta-3d-filaments-1kg-2-2lbs-fit-most-of-fdm-printer

@@ -4,6 +4,7 @@ import fnmatch
 import re
 import sys
 import time
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
@@ -61,10 +62,6 @@ def list_part_directories(
                 continue
             directories[child.name] = (child, parts_dir)
     return directories
-
-
-def build_directory_signature(part_dir: Path) -> dict[str, Any]:
-    return build_part_snapshot(part_dir)
 
 
 def _humanize_slug(value: str) -> str:
@@ -175,7 +172,7 @@ def _list_part_files(part_dir: Path) -> list[dict[str, Any]]:
         if not file_path.is_file():
             continue
         relative_path = file_path.relative_to(part_dir).as_posix()
-        is_image = _is_image_file(relative_path)
+        is_image = image_derivatives.is_image_path(relative_path)
         width = None
         height = None
         if is_image:
@@ -202,7 +199,7 @@ def _list_part_files(part_dir: Path) -> list[dict[str, Any]]:
     return files
 
 
-def build_part_snapshot(part_dir: Path) -> dict[str, Any]:
+def build_part_snapshot(part_dir: Path, catalogue_photo: Path | None = None) -> dict[str, Any]:
     file_count = 0
     image_relative_paths: list[str] = []
     tracked_signatures: dict[str, tuple[int, int]] = {}
@@ -212,7 +209,7 @@ def build_part_snapshot(part_dir: Path) -> dict[str, Any]:
             continue
         relative_path = file_path.relative_to(part_dir).as_posix()
         file_count += 1
-        if _is_image_file(relative_path):
+        if image_derivatives.is_image_path(relative_path):
             image_relative_paths.append(relative_path)
         if relative_path in TRACKED_METADATA_FILES:
             stat = file_path.stat()
@@ -222,12 +219,22 @@ def build_part_snapshot(part_dir: Path) -> dict[str, Any]:
         "file_count": file_count,
         "image_relative_paths": tuple(image_relative_paths),
         "tracked_signatures": tracked_signatures,
+        "catalogue_photo": catalogue_photo,
     }
 
 
-def _is_image_file(relative_path: str) -> bool:
-    suffix = Path(relative_path).suffix.lower()
-    return suffix in {".png", ".svg", ".jpg", ".jpeg", ".webp", ".gif"}
+def resolve_catalogue_photo(parts_dir: Path, relative_path: str | None) -> Path | None:
+    if not relative_path:
+        return None
+    path = Path(relative_path)
+    if not path.parts or path.parts[0] != "source_file" or ".." in path.parts:
+        return None
+    base = parts_dir.resolve().parent
+    source_root = base / "source_file"
+    photo = (base / path).resolve()
+    if source_root in photo.parents and image_derivatives.is_image_path(photo) and photo.is_file():
+        return photo
+    return None
 
 
 def _pick_preview_file(
@@ -344,12 +351,22 @@ def load_part_record(
 
     part_id = part_dir.name
     taxonomy_pairs = _taxonomy_pairs(combined_data)
-    snapshot = build_part_snapshot(part_dir)
+    photo = combined_data.get("photo")
+    photo_file = photo.get("file") if isinstance(photo, dict) else None
+    photo_relative_path = Path(photo_file).as_posix() if isinstance(photo_file, str) and photo_file else None
+    catalogue_photo = resolve_catalogue_photo(parts_dir, photo_relative_path)
+    snapshot = build_part_snapshot(part_dir, catalogue_photo)
     image_relative_paths = list(snapshot["image_relative_paths"])
-    preview_file = _pick_preview_file(
-        [{"relative_path": relative_path, "name": Path(relative_path).name, "is_image": True} for relative_path in image_relative_paths],
-        preview_priority,
-    )
+    if catalogue_photo:
+        preview_file = photo_relative_path
+        if photo_relative_path not in image_relative_paths:
+            image_relative_paths.insert(0, photo_relative_path)
+    else:
+        image_files = [
+            {"relative_path": path, "name": Path(path).name, "is_image": True}
+            for path in image_relative_paths
+        ]
+        preview_file = _pick_preview_file(image_files, preview_priority)
     image_index_by_relative_path = {
         relative_path: index
         for index, relative_path in enumerate(image_relative_paths)
@@ -370,8 +387,9 @@ def load_part_record(
         "taxonomy_pairs": taxonomy_pairs,
         "taxonomy_values": {pair["key"]: pair["value"] for pair in taxonomy_pairs},
         "taxonomy_breadcrumb": _build_taxonomy_breadcrumb(taxonomy_pairs),
+        "photo_relative_path": photo_relative_path,
         "preview_file": preview_file,
-        "preview_file_index": 0 if preview_file else 0,
+        "preview_file_index": 0,
         "image_relative_paths": image_relative_paths,
         "image_index_by_relative_path": image_index_by_relative_path,
         "file_count": snapshot["file_count"],
@@ -399,15 +417,29 @@ def populate_part_assets(
         source_path = part_dir / str(file_record["relative_path"])
         file_record["actions"] = file_actions.describe_file_actions(source_path, part_dir)
         files.append(file_record)
-    image_files = [file for file in files if file["is_image"]]
+    photo_relative_path = part.get("photo_relative_path")
+    catalogue_photo = resolve_catalogue_photo(Path(part["source_parts_dir"]), photo_relative_path)
+    preview_files = files
+    if catalogue_photo:
+        width, height = image_derivatives.read_image_dimensions(catalogue_photo)
+        photo_item = {
+            "relative_path": photo_relative_path,
+            "name": catalogue_photo.name,
+            "is_image": True,
+            "width": width,
+            "height": height,
+        }
+        preview_files = [photo_item, *(file for file in files if file["relative_path"] != photo_relative_path)]
+    image_files = [file for file in preview_files if file["is_image"]]
     image_index_by_relative_path = {
         file["relative_path"]: index
         for index, file in enumerate(image_files)
     }
-    preview_file = _pick_preview_file(files, preview_priority)
-    preview_items, preview_index_by_relative_path = _build_preview_items(files, preview_file)
+    preview_file = photo_relative_path if catalogue_photo else _pick_preview_file(files, preview_priority)
+    preview_items, preview_index_by_relative_path = _build_preview_items(preview_files, preview_file)
     part.update(
         {
+            "catalogue_photo_available": catalogue_photo is not None,
             "files": files,
             "image_files": image_files,
             "image_relative_paths": [file["relative_path"] for file in image_files],
@@ -531,46 +563,32 @@ def build_taxonomy_navigation(
     parts: list[dict[str, Any]],
     active_filters: dict[str, str],
 ) -> dict[str, Any]:
-    selected_pairs = []
-    for index in range(1, TAXONOMY_FIELD_COUNT + 1):
-        key = taxonomy_key(index)
-        value = active_filters.get(key, "")
-        if not value:
-            break
-        selected_pairs.append(
-            {"key": key, "index": index, "value": value, "label": _humanize_slug(value)}
-        )
-
-    parent_filters = {pair["key"]: pair["value"] for pair in selected_pairs}
-    next_index = len(selected_pairs) + 1
-    options = []
-    if next_index <= TAXONOMY_FIELD_COUNT:
-        counts: dict[str, int] = {}
-        for part in parts:
-            matches_parent = True
-            for key, value in parent_filters.items():
-                if part["taxonomy_values"].get(key) != value:
-                    matches_parent = False
-                    break
-            if not matches_parent:
-                continue
-            next_value = part["taxonomy_values"].get(taxonomy_key(next_index), "")
-            if not next_value:
-                continue
-            counts[next_value] = counts.get(next_value, 0) + 1
-        options = [
-            {
-                "key": taxonomy_key(next_index),
-                "value": value,
-                "label": _humanize_slug(value),
-                "count": count,
-            }
-            for value, count in sorted(counts.items(), key=lambda item: (item[0].lower(), item[1]))
+    selected_pairs = _taxonomy_pairs(active_filters)
+    last_index = selected_pairs[-1]["index"] if selected_pairs else 0
+    counts: Counter[tuple[int, str]] = Counter()
+    next_options: set[tuple[int, str]] = set()
+    for part in parts:
+        if any(part["taxonomy_values"].get(pair["key"]) != pair["value"] for pair in selected_pairs):
+            continue
+        remaining_pairs = [
+            (pair["index"], pair["value"])
+            for pair in part["taxonomy_pairs"]
+            if pair["index"] > last_index
         ]
+        if remaining_pairs:
+            next_options.add(remaining_pairs[0])
+            # Each link filters by slot and value, including records with earlier populated slots.
+            counts.update(remaining_pairs)
 
     return {
         "selected": selected_pairs,
-        "next_key": taxonomy_key(next_index) if next_index <= TAXONOMY_FIELD_COUNT else None,
-        "next_index": next_index if next_index <= TAXONOMY_FIELD_COUNT else None,
-        "options": options,
+        "options": [
+            {
+                "key": taxonomy_key(index),
+                "value": value,
+                "label": _humanize_slug(value),
+                "count": counts[index, value],
+            }
+            for index, value in sorted(next_options, key=lambda option: (option[0], option[1].lower(), option[1]))
+        ],
     }

@@ -5,6 +5,10 @@
 
 Anycubic Chiron filament printer.
 
+<img src="../../source_file/images/anycubic_chiron_square.jpg" width="360" alt="Anycubic Chiron shown with a printed model.">
+
+Anycubic Chiron shown with a printed model. [Anycubic product image](https://store.anycubic.com/products/anycubic-c-3d-printer) by Anycubic. [Manufacturer product image; reuse permission not established](https://store.anycubic.com/products/anycubic-c-3d-printer). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_printer_anycubic_chiron`
@@ -52,6 +56,19 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: Anycubic Chiron
 oomp_id: three_d_printer_printer_anycubic_chiron
+photo:
+  caption: Anycubic Chiron shown with a printed model.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Anycubic
+  credit_line: 'Source: Anycubic official product page'
+  file: source_file/images/anycubic_chiron_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://store.anycubic.com/products/anycubic-c-3d-printer
+  original_file: source_file/images/original/anycubic_chiron.jpg
+  original_image_url: http://store.anycubic.com/cdn/shop/products/Chiron_2.jpg?v=1770001967
+  source: https://store.anycubic.com/products/anycubic-c-3d-printer
+  source_checked: '2026-11-19'
+  title: Anycubic product image
 source_checked: '2026-11-18'
 sources:
   Anycubic Chiron specifications: https://www.anycubic.es/pages/especificaciones-de-chiron

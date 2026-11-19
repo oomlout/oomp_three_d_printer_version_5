@@ -3,6 +3,19 @@ compatible_printers:
 - three_d_printer_printer_bambu_lab_a1
 name_proper: Bambu Lab A1 series hotend with nozzle, 0.4 mm
 oomp_id: three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_stainless_steel_bambu_lab_fah007
+photo:
+  caption: Manufacturer product image for A1 Series / 0.4mm Stainless Steel.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Bambu Lab
+  credit_line: 'Source: Bambu Lab official product page'
+  file: source_file/images/a1_fah007_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series
+  original_file: source_file/images/original/a1_fah007.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0574/3116/2995/files/0.4_0f644de6-50c3-43c3-bad7-f37167874219.png?v=1712112758
+  source: https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series
+  source_checked: '2026-11-19'
+  title: Bambu Lab product image
 source_checked: '2026-11-18'
 sources:
   Additive-X exact manufacturer SKU and UK price: https://www.additive-x.com/shop/bambu-lab-hotend-with-stainless-steel-nozzle-0-4-mm-a1-series.html

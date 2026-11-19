@@ -5,9 +5,9 @@
 
 Bambu Lab AMS lite automatic material system with 4 spool positions.
 
-<img src="../../source_file/a1_mini_showroom.jpg" width="360" alt="Bambu Lab A1 mini on the left and AMS lite with four spools on the right.">
+<img src="../../source_file/images/a1_mini_showroom_square.jpg" width="360" alt="Bambu Lab A1 mini on the left and AMS lite with four spools on the right.">
 
-Bambu Lab A1 mini on the left and AMS lite with four spools on the right. [JD Mall Electronics Showroom, 3D printers, December 2024 (R12S 06)](https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E6%9D%B1%E8%8E%9E%E4%BA%AC%E6%9D%B1%E5%95%86%E5%A0%B4_JD_Mall_Electronics_Showroom_3D_printers_December_2024_R12S_06.jpg) by NAS 238 WMMNO. [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Original photograph, unchanged.
+Bambu Lab A1 mini on the left and AMS lite with four spools on the right. [JD Mall Electronics Showroom, 3D printers, December 2024 (R12S 06)](https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E6%9D%B1%E8%8E%9E%E4%BA%AC%E6%9D%B1%E5%95%86%E5%A0%B4_JD_Mall_Electronics_Showroom_3D_printers_December_2024_R12S_06.jpg) by NAS 238 WMMNO. [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Resized within a square white canvas and credited on the image.
 
 ## Details
 
@@ -76,11 +76,13 @@ name_proper: Bambu Lab AMS lite
 oomp_id: three_d_printer_ams_bambu_lab_ams_lite
 photo:
   caption: Bambu Lab A1 mini on the left and AMS lite with four spools on the right.
-  changes: Original photograph, unchanged.
+  changes: Resized within a square white canvas and credited on the image.
   creator: NAS 238 WMMNO
-  file: source_file/a1_mini_showroom.jpg
+  credit_line: 'Photo: NAS 238 WMMNO / Wikimedia Commons - CC0'
+  file: source_file/images/a1_mini_showroom_square.jpg
   license: CC0 1.0
   license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  original_file: source_file/a1_mini_showroom.jpg
   source: https://commons.wikimedia.org/wiki/File:DG_%E6%9D%B1%E8%8E%9E_DongGuan_%E5%8D%97%E5%9F%8E%E5%8D%80_Nancheng_%E9%B4%BB%E7%A6%8F%E8%B7%AF_HongFu_Road_%E6%9D%B1%E8%8E%9E%E4%BA%AC%E6%9D%B1%E5%95%86%E5%A0%B4_JD_Mall_Electronics_Showroom_3D_printers_December_2024_R12S_06.jpg
   title: JD Mall Electronics Showroom, 3D printers, December 2024 (R12S 06)
 source_checked: '2026-11-18'

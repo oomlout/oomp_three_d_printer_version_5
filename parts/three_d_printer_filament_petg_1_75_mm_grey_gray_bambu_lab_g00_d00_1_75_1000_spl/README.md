@@ -5,6 +5,10 @@
 
 PETG Basic, upgraded formulation in Gray.
 
+<img src="../../source_file/images/filament_sample_f6084b17ad7f1a76_square.jpg" width="360" alt="Total Data Support product-page colour sample for Gray; the colour sample is shown rather than the spool or refill.">
+
+Total Data Support product-page colour sample for Gray; the colour sample is shown rather than the spool or refill. [Total Data Support filament colour sample](https://totaldatasupport.com/products/petg-basic) by Creator not identified; product image supplied by Total Data Support. [Product image; reuse permission not established](https://totaldatasupport.com/products/petg-basic). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_filament_petg_1_75_mm_grey_gray_bambu_lab_g00_d00_1_75_1000_spl`
@@ -60,6 +64,20 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: Bambu Lab PETG Basic Gray, 1 kg with spool
 oomp_id: three_d_printer_filament_petg_1_75_mm_grey_gray_bambu_lab_g00_d00_1_75_1000_spl
+photo:
+  caption: Total Data Support product-page colour sample for Gray; the colour sample
+    is shown rather than the spool or refill.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Creator not identified; product image supplied by Total Data Support
+  credit_line: 'Source: Total Data Support product page'
+  file: source_file/images/filament_sample_f6084b17ad7f1a76_square.jpg
+  license: Product image; reuse permission not established
+  license_url: https://totaldatasupport.com/products/petg-basic
+  original_file: source_file/images/original/filament_sample_f6084b17ad7f1a76.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0777/1514/4995/files/GRAY_60a1fe14-1075-4509-8049-0ee14c580ea1.png?v=1791098789
+  source: https://totaldatasupport.com/products/petg-basic
+  source_checked: '2026-11-19'
+  title: Total Data Support filament colour sample
 source_checked: '2026-11-18'
 sources:
   Bambu Lab upgraded PETG Basic technical data sheet: https://store.bblcdn.com/s1/default/cb94589bf7994fdcbfa833badefae9cd/Bambu_PETG_Basic_Technical_Data_Sheet.pdf

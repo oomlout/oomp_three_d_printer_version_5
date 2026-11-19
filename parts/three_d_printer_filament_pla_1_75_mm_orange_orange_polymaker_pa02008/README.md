@@ -5,6 +5,10 @@
 
 PolyLite PLA in Orange.
 
+<img src="../../source_file/images/polymaker_pa02008_square.jpg" width="360" alt="Polymaker product image for Orange / 1.75mm / 1kg.">
+
+Polymaker product image for Orange / 1.75mm / 1kg. [Polymaker product image](https://shop.polymaker.com/products/polylite-pla) by Polymaker. [Manufacturer product image; reuse permission not established](https://shop.polymaker.com/products/polylite-pla). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_filament_pla_1_75_mm_orange_orange_polymaker_pa02008`
@@ -57,6 +61,19 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: Polymaker PolyLite PLA Orange, 1.75 mm, 1 kg
 oomp_id: three_d_printer_filament_pla_1_75_mm_orange_orange_polymaker_pa02008
+photo:
+  caption: Polymaker product image for Orange / 1.75mm / 1kg.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Polymaker
+  credit_line: 'Source: Polymaker official product page'
+  file: source_file/images/polymaker_pa02008_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://shop.polymaker.com/products/polylite-pla
+  original_file: source_file/images/original/polymaker_pa02008.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0548/7299/7945/products/PolymakerPolyliteandGalaxy_22.png?v=1678433079
+  source: https://shop.polymaker.com/products/polylite-pla
+  source_checked: '2026-11-19'
+  title: Polymaker product image
 source_checked: '2026-11-18'
 sources:
   Polymaker 2024 SKU table: https://polymaker.com/wp-content/uploads/SKU-PDF-Version-EN-2024-01.pdf

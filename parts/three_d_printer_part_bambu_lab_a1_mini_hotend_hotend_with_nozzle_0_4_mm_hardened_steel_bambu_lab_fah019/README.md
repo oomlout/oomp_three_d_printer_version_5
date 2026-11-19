@@ -5,6 +5,10 @@
 
 Hotend with nozzle. Heating assembly sold separately.
 
+<img src="../../source_file/images/a1_fah019_square.jpg" width="360" alt="Manufacturer product image for A1 Series / 0.4mm Hardened Steel.">
+
+Manufacturer product image for A1 Series / 0.4mm Hardened Steel. [Bambu Lab product image](https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series) by Bambu Lab. [Manufacturer product image; reuse permission not established](https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah019`
@@ -63,6 +67,19 @@ compatible_printers:
 - three_d_printer_printer_bambu_lab_a1
 name_proper: Bambu Lab A1 series hotend with 0.4 mm hardened steel nozzle
 oomp_id: three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah019
+photo:
+  caption: Manufacturer product image for A1 Series / 0.4mm Hardened Steel.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Bambu Lab
+  credit_line: 'Source: Bambu Lab official product page'
+  file: source_file/images/a1_fah019_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series
+  original_file: source_file/images/original/a1_fah019.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0574/3116/2995/files/0.4_40d3ed85-3f98-4a8a-aaea-d6c4dd9aa263.png?v=1712112758
+  source: https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series
+  source_checked: '2026-11-19'
+  title: Bambu Lab product image
 source_checked: '2026-11-18'
 sources:
   Bambu Lab A1 hotend and compatibility: https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series

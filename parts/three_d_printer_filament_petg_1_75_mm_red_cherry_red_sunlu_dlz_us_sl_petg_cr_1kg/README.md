@@ -5,6 +5,10 @@
 
 SUNLU PETG in Cherry Red.
 
+<img src="../../source_file/images/filament_sample_d6cabd9f5e44e4f1_square.jpg" width="360" alt="SUNLU product-page colour sample for Cherry Red; the colour sample is shown rather than the spool or refill.">
+
+SUNLU product-page colour sample for Cherry Red; the colour sample is shown rather than the spool or refill. [SUNLU filament colour sample](https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll) by SUNLU. [Product image; reuse permission not established](https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg`
@@ -59,6 +63,20 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: SUNLU PETG Cherry Red, 1 kg with spool
 oomp_id: three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg
+photo:
+  caption: SUNLU product-page colour sample for Cherry Red; the colour sample is shown
+    rather than the spool or refill.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: SUNLU
+  credit_line: 'Source: SUNLU product page'
+  file: source_file/images/filament_sample_d6cabd9f5e44e4f1_square.jpg
+  license: Product image; reuse permission not established
+  license_url: https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll
+  original_file: source_file/images/original/filament_sample_d6cabd9f5e44e4f1.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0152/6507/1190/files/PETG_cherry_red.jpg?v=1776409707
+  source: https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll
+  source_checked: '2026-11-19'
+  title: SUNLU filament colour sample
 source_checked: '2026-11-18'
 sources:
   Manufacturer product page and variant SKU: https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll

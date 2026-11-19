@@ -5,6 +5,10 @@
 
 Hotend with nozzle; transfer fan, ceramic heater and thermistor from the existing assembly
 
+<img src="../../source_file/images/p1_fah004_n_1_square.jpg" width="360" alt="Manufacturer product image for 0.2mm Stainless Steel / Hotend with Nozzle.">
+
+Manufacturer product image for 0.2mm Stainless Steel / Hotend with Nozzle. [Bambu Lab product image](https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series) by Bambu Lab. [Manufacturer product image; reuse permission not established](https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah004_n_1`
@@ -62,6 +66,19 @@ compatible_printers:
 - three_d_printer_printer_bambu_lab_p1p
 name_proper: Bambu Lab P1 series hotend with nozzle, 0.2 mm stainless steel
 oomp_id: three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah004_n_1
+photo:
+  caption: Manufacturer product image for 0.2mm Stainless Steel / Hotend with Nozzle.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Bambu Lab
+  credit_line: 'Source: Bambu Lab official product page'
+  file: source_file/images/p1_fah004_n_1_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series
+  original_file: source_file/images/original/p1_fah004_n_1.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0574/3116/2995/files/FAH004-N-1_2_82a6b066-a4a7-4309-9f59-0b468f4b74c2.jpg?v=1717129118
+  source: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series
+  source_checked: '2026-11-19'
+  title: Bambu Lab product image
 source_checked: '2026-11-18'
 sources:
   Bambu Lab P1 hotend, variants and compatibility: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series

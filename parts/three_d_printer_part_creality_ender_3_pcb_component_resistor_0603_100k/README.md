@@ -5,6 +5,10 @@
 
 Ender-3 Resistor-0603 100K
 
+<img src="../../source_file/images/representative_resistor_square.jpg" width="360" alt="Representative 1 kiloohm 0603 surface-mount resistor; the value or package may differ from this record.">
+
+Representative 1 kiloohm 0603 surface-mount resistor; the value or package may differ from this record. [1 kiloohm SMD 0603 resistor.jpg](https://commons.wikimedia.org/wiki/File:1_kiloohm_SMD_0603_resistor.jpg) by oomlout. [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_100k`
@@ -59,6 +63,20 @@ compatible_printers:
 - three_d_printer_printer_creality_ender_3
 name_proper: Ender-3 Resistor-0603 100K
 oomp_id: three_d_printer_part_creality_ender_3_pcb_component_resistor_0603_100k
+photo:
+  caption: Representative 1 kiloohm 0603 surface-mount resistor; the value or package
+    may differ from this record.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: oomlout
+  credit_line: 'Photo: oomlout / Wikimedia Commons - CC BY-SA 2.0'
+  file: source_file/images/representative_resistor_square.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  original_file: source_file/images/original/representative_resistor.jpg
+  original_image_url: https://upload.wikimedia.org/wikipedia/commons/2/2c/1_kiloohm_SMD_0603_resistor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  source: https://commons.wikimedia.org/wiki/File:1_kiloohm_SMD_0603_resistor.jpg
+  source_checked: '2026-11-19'
+  title: 1 kiloohm SMD 0603 resistor.jpg
 source_checked: '2026-11-18'
 sources:
   Creality Ender-3 PCBA bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx

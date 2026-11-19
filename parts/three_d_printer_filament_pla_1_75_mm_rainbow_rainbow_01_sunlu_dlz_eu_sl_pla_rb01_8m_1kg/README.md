@@ -5,6 +5,10 @@
 
 PLA Rainbow in Rainbow-01.
 
+<img src="../../source_file/images/sunlu_rainbow_square.jpg" width="360" alt="SUNLU product-page colour sample for PLA Rainbow-01; the colour sample is shown rather than the spool.">
+
+SUNLU product-page colour sample for PLA Rainbow-01; the colour sample is shown rather than the spool. [SUNLU product image](https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll) by SUNLU. [Manufacturer product image; reuse permission not established](https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg`
@@ -59,6 +63,20 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: SUNLU PLA Rainbow 01, 1 kg spool
 oomp_id: three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg
+photo:
+  caption: SUNLU product-page colour sample for PLA Rainbow-01; the colour sample
+    is shown rather than the spool.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: SUNLU
+  credit_line: 'Source: SUNLU official product page'
+  file: source_file/images/sunlu_rainbow_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll
+  original_file: source_file/images/original/sunlu_rainbow.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0152/6507/1190/files/01_PLA_Rainbow.jpg?v=1779351422
+  source: https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll
+  source_checked: '2026-11-19'
+  title: SUNLU product image
 source_checked: '2026-11-18'
 sources:
   SUNLU Rainbow selector and SKU: https://store.sunlu.com/products/1-75mm-sunlu-regular16m-or-upgraded8m-rainbow-3d-printer-filament-1kg-roll

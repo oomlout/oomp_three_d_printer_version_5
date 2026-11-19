@@ -3,6 +3,20 @@ compatible_printers:
 component_id: three_d_printer_part_creality_ender_3_stepper_motor_42_34_stepper_motor_creality_400201001
 name_proper: Ender-3 Z stepper motor
 oomp_id: three_d_printer_part_creality_ender_3_stepper_motor_z_stepper_motor
+photo:
+  caption: Representative NEMA 17 stepper motor; the pictured motor is not the Ender-3
+    motor.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: oomlout
+  credit_line: 'Photo: oomlout / Wikimedia Commons - CC BY-SA 2.0'
+  file: source_file/images/representative_motor_square.jpg
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  original_file: source_file/images/original/representative_motor.jpg
+  original_image_url: https://upload.wikimedia.org/wikipedia/commons/8/83/Nema_17_Stepper_Motor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  source: https://commons.wikimedia.org/wiki/File:Nema_17_Stepper_Motor.jpg
+  source_checked: '2026-11-19'
+  title: Nema 17 Stepper Motor.jpg
 source_checked: '2026-11-18'
 sources:
   Creality machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS

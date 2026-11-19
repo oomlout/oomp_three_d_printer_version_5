@@ -20,6 +20,7 @@ Part source directories are configurable through `config_part_source.yaml`.
 - explore view loads from an in-memory cache built at startup
 - explore results are shown as dense horizontal rows for faster scanning
 - explore now supports sort selection in addition to taxonomy and text filtering
+- taxonomy navigation skips empty slots, so printers and AMS units can be filtered by maker (14) and model (15)
 - `/short_names` lists cached parts by `md5_6` and `bip_39` short names with live narrowing
 - `/id/<extra>` resolves unique part ids, `md5_6`, `bip_39_2_word_*`, or `bip_39_3_word_*` matches
 - `Reload Fast` only refreshes new or changed part folders
@@ -27,7 +28,7 @@ Part source directories are configurable through `config_part_source.yaml`.
 - `Reload All` rebuilds the cache from disk
 - `Run Generation` launches `action_make_all.py` in a separate visible Windows `cmd` window
 - `/add` records a new manual entry into `working_manual.yaml` at the repo root
-- preview image selection is driven by `config_ui.yaml`
+- explore and detail previews use the catalogue's `photo.file` when available, with part-folder previews ordered by `config_ui.yaml`
 - image previews are served through a derived-image route when possible instead of always using full-size originals
 - clicking preview images opens an in-page popup viewer with previous and next controls
 - image viewer data is loaded on demand per part instead of being embedded for every explore result up front
@@ -59,12 +60,14 @@ Part source directories are configurable through `config_part_source.yaml`.
 - `config_ui.yaml` currently exposes `preview_priority`
 - `config_ui.yaml` also exposes `image_serving`
 - The list is evaluated from top to bottom
-- Exact filenames are matched before wildcard fallbacks
+- The default priority prefers raster images with any filename over SVG labels
 - `Reload All` always applies config changes
 - `Reload Fast` also applies config changes and will rebuild the cache if the UI config changed
 
 ## Image Serving
 
+- save a catalogue display photo anywhere beneath `source_file/` and set `photo.file` to its repo-relative path in the record, for example `source_file/images/my_printer.jpg`
+- use `Reload Fast` to pick up a declared photo that has been added or removed on disk
 - raster images are resized and cached for explore thumbnails, file popovers, detail previews, and popup viewing
 - the default machine-local cache path resolves under `%LOCALAPPDATA%\project_base\webserver_image_cache`
 - an explicit absolute cache path can be set with `image_serving.cache_dir`

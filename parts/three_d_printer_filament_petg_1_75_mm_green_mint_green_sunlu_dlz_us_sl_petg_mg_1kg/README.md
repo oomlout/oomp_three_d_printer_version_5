@@ -5,6 +5,10 @@
 
 SUNLU PETG in Mint Green.
 
+<img src="../../source_file/images/filament_sample_0a0074a3dc6f94d2_square.jpg" width="360" alt="SUNLU product-page colour sample for Mint Green; the colour sample is shown rather than the spool or refill.">
+
+SUNLU product-page colour sample for Mint Green; the colour sample is shown rather than the spool or refill. [SUNLU filament colour sample](https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll) by SUNLU. [Product image; reuse permission not established](https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_filament_petg_1_75_mm_green_mint_green_sunlu_dlz_us_sl_petg_mg_1kg`
@@ -59,6 +63,20 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: SUNLU PETG Mint Green, 1 kg with spool
 oomp_id: three_d_printer_filament_petg_1_75_mm_green_mint_green_sunlu_dlz_us_sl_petg_mg_1kg
+photo:
+  caption: SUNLU product-page colour sample for Mint Green; the colour sample is shown
+    rather than the spool or refill.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: SUNLU
+  credit_line: 'Source: SUNLU product page'
+  file: source_file/images/filament_sample_0a0074a3dc6f94d2_square.jpg
+  license: Product image; reuse permission not established
+  license_url: https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll
+  original_file: source_file/images/original/filament_sample_0a0074a3dc6f94d2.jpg
+  original_image_url: https://cdn.shopify.com/s/files/1/0152/6507/1190/files/PETG_mint_green_f346d598-fc45-429f-959c-9f5ae81b92b1.jpg?v=1776409644
+  source: https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll
+  source_checked: '2026-11-19'
+  title: SUNLU filament colour sample
 source_checked: '2026-11-18'
 sources:
   Manufacturer product page and variant SKU: https://store.sunlu.com/products/over-6kg-bundle-sale-petg-3d-printer-filament-1-75mm-1kg-roll

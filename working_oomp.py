@@ -1,4 +1,8 @@
 """Materialize source YAML with the standard OOMP identifiers and label action."""
+from hashlib import sha256
+from pathlib import Path
+from urllib.parse import urlsplit
+
 import oomp
 import oomlout_roboclick
 import yaml
@@ -42,6 +46,17 @@ def main(**kwargs):
                     source[key].update(value)
                 else:
                     source[key] = value
+        photo = source.get("photo")
+        if photo and not photo.get("original_file"):
+            photo = dict(photo)
+            original = photo["file"]
+            stem = Path(original).stem
+            identity = sha256(original.encode("utf-8")).hexdigest()[:8]
+            photo["original_file"] = original
+            photo["file"] = f"source_file/images/{stem}_{identity}_square.jpg"
+            photo["credit_line"] = f'Photo: {photo["creator"]} / {urlsplit(photo["source"]).netloc}'
+            photo["changes"] = photo.get("changes", "") + " Resized within a square white canvas and credited on the image."
+            source["photo"] = photo
         part = oomp.add_part(**source, make_files=False)
         part.pop("make_files", None)
         if part["id"] != path.parent.name:

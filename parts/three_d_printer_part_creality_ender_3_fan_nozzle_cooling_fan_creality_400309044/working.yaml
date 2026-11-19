@@ -2,6 +2,20 @@ compatible_printers:
 - three_d_printer_printer_creality_ender_3
 name_proper: Ender-3 Nozzle cooling fan
 oomp_id: three_d_printer_part_creality_ender_3_fan_nozzle_cooling_fan_creality_400309044
+photo:
+  caption: Creality 4010 radial fan replacement kit; wiring and included hardware
+    may differ from the original.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Creator not identified; product image supplied by 3DJake
+  credit_line: 'Source: 3DJake product page'
+  file: source_file/images/creality_replacement_radial_square.jpg
+  license: Retail product image; reuse permission not established
+  license_url: https://www.3djake.uk/creality-3d-printers-spare-parts/radial-fan-kit?sai=11411
+  original_file: source_file/images/original/creality_replacement_radial.jpg
+  original_image_url: https://3d.nice-cdn.com/upload/image/product/large/default/21265_ed044a61.jpg
+  source: https://www.3djake.uk/creality-3d-printers-spare-parts/radial-fan-kit?sai=11411
+  source_checked: '2026-11-19'
+  title: Creality replacement radial, 3DJake product image
 source_checked: '2026-11-18'
 sources:
   Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS

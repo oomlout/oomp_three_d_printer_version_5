@@ -5,6 +5,10 @@
 
 PLA Basic in Black.
 
+<img src="../../source_file/images/filament_sample_f5e0259e9755cc0f_square.jpg" width="360" alt="Bambu Lab product-page colour sample for Black; the colour sample is shown rather than the spool or refill.">
+
+Bambu Lab product-page colour sample for Black; the colour sample is shown rather than the spool or refill. [Bambu Lab filament colour sample](https://bambulab-eu.myshopify.com/products/pla-basic-filament) by Bambu Lab. [Product image; reuse permission not established](https://bambulab-eu.myshopify.com/products/pla-basic-filament). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_filament_pla_1_75_mm_black_black_bambu_lab_a00_k0_1_75_1000_spl`
@@ -59,6 +63,20 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: PLA Basic Black, 1 kg with spool
 oomp_id: three_d_printer_filament_pla_1_75_mm_black_black_bambu_lab_a00_k0_1_75_1000_spl
+photo:
+  caption: Bambu Lab product-page colour sample for Black; the colour sample is shown
+    rather than the spool or refill.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Bambu Lab
+  credit_line: 'Source: Bambu Lab product page'
+  file: source_file/images/filament_sample_f5e0259e9755cc0f_square.jpg
+  license: Product image; reuse permission not established
+  license_url: https://bambulab-eu.myshopify.com/products/pla-basic-filament
+  original_file: source_file/images/original/filament_sample_f5e0259e9755cc0f.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0645/5876/0155/products/PLA-Basic_Black_29c482c8-ccd6-4559-bf2b-058f7d0d798f.png?v=1737095626
+  source: https://bambulab-eu.myshopify.com/products/pla-basic-filament
+  source_checked: '2026-11-19'
+  title: Bambu Lab filament colour sample
 source_checked: '2026-11-18'
 sources:
   Manufacturer product page and variant SKU: https://bambulab-eu.myshopify.com/products/pla-basic-filament

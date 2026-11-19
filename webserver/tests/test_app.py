@@ -196,6 +196,84 @@ class WebserverAppTests(unittest.TestCase):
             self.assertIn(b'name="search_fields"', response.data)
             self.assertIn(b'value="id"', response.data)
 
+    def test_explore_follows_taxonomy_across_empty_slots(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            parts_dir = Path(temp_dir) / "parts"
+            family = {"taxonomy_1": "three_d_printer", "taxonomy_2": "printer"}
+            write_yaml(parts_dir / "bambu_p1s" / "working.yaml", {
+                **family, "taxonomy_14": "bambu_lab", "taxonomy_15": "p1s",
+            })
+            write_yaml(parts_dir / "bambu_a1_mini" / "working.yaml", {
+                **family, "taxonomy_14": "bambu_lab", "taxonomy_15": "a1_mini",
+            })
+            write_yaml(parts_dir / "other_model" / "working.yaml", {
+                **family, "taxonomy_15": "other_model",
+            })
+            app = create_app({"TESTING": True, "PARTS_DIR": parts_dir})
+            client = app.test_client()
+            family_url = "/explore?taxonomy_1=three_d_printer&taxonomy_2=printer"
+
+            response = client.get(family_url)
+            self.assertIn(b"taxonomy_14=bambu_lab", response.data)
+            self.assertIn(b"taxonomy_15=other_model", response.data)
+            response = client.get(family_url + "&taxonomy_14=bambu_lab")
+            self.assertIn(b"taxonomy_15=p1s", response.data)
+            self.assertIn(b"taxonomy_15=a1_mini", response.data)
+            self.assertNotIn(b"taxonomy_15=other_model", response.data)
+            response = client.get(family_url + "&taxonomy_14=bambu_lab&taxonomy_15=p1s")
+            self.assertIn(b'name="taxonomy_14" value="bambu_lab"', response.data)
+            self.assertIn(b'name="taxonomy_15" value="p1s"', response.data)
+            self.assertIn(b'bambu_p1s', response.data)
+            self.assertNotIn(b'bambu_a1_mini', response.data)
+
+    def test_catalogue_photo_is_used_in_previews_and_picked_up_on_fast_reload(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            parts_dir = root / "parts"
+            part_dir = parts_dir / "printer"
+            photo_path = "source_file/images/display photo.png"
+            write_yaml(part_dir / "working.yaml", {
+                "photo": {
+                    "file": photo_path,
+                    "caption": "Printer shown with feeder.",
+                    "creator": "Catalogue Photographer",
+                    "source": "https://example.com/photo",
+                    "license": "CC BY-SA 4.0",
+                    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+                },
+            })
+            (part_dir / "label_oomp.svg").write_text("<svg/>", encoding="utf-8")
+            write_image(part_dir / "assets" / "arbitrary-photo.JPG")
+            app = create_app({"TESTING": True, "PARTS_DIR": parts_dir})
+            cache = app.config["PARTS_CACHE"]
+            client = app.test_client()
+            base_url = "/parts/printer"
+            image_url = base_url + "/image/source_file/images/display%20photo.png"
+            self.assertEqual(cache.get_part("printer")["preview_file"], "assets/arbitrary-photo.JPG")
+
+            write_image(root / photo_path)
+            self.assertEqual(cache.reload_changed().changed, 1)
+            self.assertEqual(cache.reload_changed().changed, 0)
+            self.assertIn(image_url.encode(), client.get("/explore").data)
+            detail = client.get(base_url)
+            self.assertIn(image_url.encode(), detail.data)
+            self.assertIn(b"Printer shown with feeder.", detail.data)
+            self.assertIn(b"Catalogue Photographer", detail.data)
+            item = client.get(base_url + "/viewer-data").json["items"][0]
+            self.assertEqual(item["relativePath"], photo_path)
+            with client.get(image_url + "?preset=explore_thumb") as thumbnail:
+                self.assertEqual(thumbnail.status_code, 200)
+                self.assertEqual(thumbnail.mimetype, "image/webp")
+            with client.get(item["originalUrl"]) as original:
+                self.assertEqual(original.data, (root / photo_path).read_bytes())
+            write_image(root / "source_file" / "unassigned.png")
+            self.assertEqual(client.get(base_url + "/image/source_file/unassigned.png").status_code, 404)
+            self.assertEqual(client.post(item["originalUrl"] + "/actions/delete-file").status_code, 404)
+
+            (root / photo_path).unlink()
+            self.assertEqual(cache.reload_changed().changed, 1)
+            self.assertEqual(cache.get_part("printer")["preview_file"], "assets/arbitrary-photo.JPG")
+
     def test_explore_search_defaults_to_id_only(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             root = Path(temp_dir)

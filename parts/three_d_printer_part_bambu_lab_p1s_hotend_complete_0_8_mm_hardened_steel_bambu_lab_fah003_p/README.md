@@ -5,6 +5,10 @@
 
 Complete hotend with cooling fan, ceramic heater and thermistor
 
+<img src="../../source_file/images/p1_fah003_p_square.jpg" width="360" alt="Manufacturer product image for 0.8mm Hardened Steel / Complete Hotend.">
+
+Manufacturer product image for 0.8mm Hardened Steel / Complete Hotend. [Bambu Lab product image](https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series) by Bambu Lab. [Manufacturer product image; reuse permission not established](https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_part_bambu_lab_p1s_hotend_complete_0_8_mm_hardened_steel_bambu_lab_fah003_p`
@@ -62,6 +66,19 @@ compatible_printers:
 - three_d_printer_printer_bambu_lab_p1p
 name_proper: Bambu Lab P1 series complete hotend, 0.8 mm hardened steel
 oomp_id: three_d_printer_part_bambu_lab_p1s_hotend_complete_0_8_mm_hardened_steel_bambu_lab_fah003_p
+photo:
+  caption: Manufacturer product image for 0.8mm Hardened Steel / Complete Hotend.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Bambu Lab
+  credit_line: 'Source: Bambu Lab official product page'
+  file: source_file/images/p1_fah003_p_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series
+  original_file: source_file/images/original/p1_fah003_p.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0574/3116/2995/files/0.8mm_fb047cdc-29e2-4762-b34a-456af42050f9.png?v=1717129118
+  source: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series
+  source_checked: '2026-11-19'
+  title: Bambu Lab product image
 source_checked: '2026-11-18'
 sources:
   Bambu Lab P1 hotend, variants and compatibility: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series

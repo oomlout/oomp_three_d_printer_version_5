@@ -7,14 +7,14 @@ preview_priority:
   - 3dpr.png
   - 3dpr.jpg
   - 3dpr.webp
-  - label_oomp.svg
-  - 3dpr.svg
   - "*.png"
-  - "*.svg"
   - "*.jpg"
   - "*.jpeg"
   - "*.webp"
   - "*.gif"
+  - label_oomp.svg
+  - 3dpr.svg
+  - "*.svg"
 manual_fields:
   - name: content
     label: Content

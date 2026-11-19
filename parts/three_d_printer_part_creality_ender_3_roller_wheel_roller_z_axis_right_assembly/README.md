@@ -5,6 +5,10 @@
 
 Ender-3 Roller Z-Axis Right assembly
 
+<img src="../../source_file/images/creality_replacement_wheel_square.jpg" width="360" alt="Creality replacement roller with bearing; the complete installed assembly may include additional hardware.">
+
+Creality replacement roller with bearing; the complete installed assembly may include additional hardware. [Creality replacement wheel, 3DJake product image](https://www.3djake.uk/creality-3d-printers-spare-parts/roller-with-bearing?sai=4833) by Creator not identified; product image supplied by 3DJake. [Retail product image; reuse permission not established](https://www.3djake.uk/creality-3d-printers-spare-parts/roller-with-bearing?sai=4833). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_part_creality_ender_3_roller_wheel_roller_z_axis_right_assembly`
@@ -57,6 +61,20 @@ compatible_printers:
 - three_d_printer_printer_creality_ender_3
 name_proper: Ender-3 Roller Z-Axis Right assembly
 oomp_id: three_d_printer_part_creality_ender_3_roller_wheel_roller_z_axis_right_assembly
+photo:
+  caption: Creality replacement roller with bearing; the complete installed assembly
+    may include additional hardware.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Creator not identified; product image supplied by 3DJake
+  credit_line: 'Source: 3DJake product page'
+  file: source_file/images/creality_replacement_wheel_square.jpg
+  license: Retail product image; reuse permission not established
+  license_url: https://www.3djake.uk/creality-3d-printers-spare-parts/roller-with-bearing?sai=4833
+  original_file: source_file/images/original/creality_replacement_wheel.jpg
+  original_image_url: https://3d.nice-cdn.com/upload/image/product/large/default/6447_3742383e.jpg
+  source: https://www.3djake.uk/creality-3d-printers-spare-parts/roller-with-bearing?sai=4833
+  source_checked: '2026-11-19'
+  title: Creality replacement wheel, 3DJake product image
 source_checked: '2026-11-18'
 sources:
   Creality original mechanical design: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20Parts/ASM%20Roller%20Z-Axis%20Right.SLDASM

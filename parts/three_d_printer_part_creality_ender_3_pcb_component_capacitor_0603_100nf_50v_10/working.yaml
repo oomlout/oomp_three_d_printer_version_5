@@ -2,6 +2,20 @@ compatible_printers:
 - three_d_printer_printer_creality_ender_3
 name_proper: Ender-3 Capacitor-0603 100nF/50V/10%
 oomp_id: three_d_printer_part_creality_ender_3_pcb_component_capacitor_0603_100nf_50v_10
+photo:
+  caption: Representative selection of surface-mount and leaded capacitors; the value
+    and package may differ from this record.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Shaddack
+  credit_line: 'Photo: Shaddack / Wikimedia Commons - Public domain (author dedication)'
+  file: source_file/images/representative_capacitor_square.jpg
+  license: Public domain (author dedication)
+  license_url: https://commons.wikimedia.org/wiki/File:Photo-SMDcapacitors.jpg
+  original_file: source_file/images/original/representative_capacitor.jpg
+  original_image_url: https://upload.wikimedia.org/wikipedia/commons/8/86/Photo-SMDcapacitors.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  source: https://commons.wikimedia.org/wiki/File:Photo-SMDcapacitors.jpg
+  source_checked: '2026-11-19'
+  title: Photo-SMDcapacitors.jpg
 source_checked: '2026-11-18'
 sources:
   Creality Ender-3 PCBA bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20PCB/Ender-3%20PCBA%20BOM.xlsx

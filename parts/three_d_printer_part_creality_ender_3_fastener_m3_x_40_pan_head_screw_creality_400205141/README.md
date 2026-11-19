@@ -5,6 +5,10 @@
 
 Ender-3 M3 x 40 Pan Head Screw
 
+<img src="../../source_file/images/representative_pan_square.jpg" width="360" alt="Representative slotted pan-head screw; the drive and dimensions may differ from the Ender-3 part.">
+
+Representative slotted pan-head screw; the drive and dimensions may differ from the Ender-3 part. [Pan head slotted screw.jpg](https://commons.wikimedia.org/wiki/File:Pan_head_slotted_screw.jpg) by Andrew Pertsev. [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_part_creality_ender_3_fastener_m3_x_40_pan_head_screw_creality_400205141`
@@ -63,6 +67,20 @@ compatible_printers:
 - three_d_printer_printer_creality_ender_3
 name_proper: Ender-3 M3 x 40 Pan Head Screw
 oomp_id: three_d_printer_part_creality_ender_3_fastener_m3_x_40_pan_head_screw_creality_400205141
+photo:
+  caption: Representative slotted pan-head screw; the drive and dimensions may differ
+    from the Ender-3 part.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Andrew Pertsev
+  credit_line: 'Photo: Andrew Pertsev / Wikimedia Commons - CC0 1.0'
+  file: source_file/images/representative_pan_square.jpg
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  original_file: source_file/images/original/representative_pan.jpg
+  original_image_url: https://upload.wikimedia.org/wikipedia/commons/2/2e/Pan_head_slotted_screw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+  source: https://commons.wikimedia.org/wiki/File:Pan_head_slotted_screw.jpg
+  source_checked: '2026-11-19'
+  title: Pan head slotted screw.jpg
 source_checked: '2026-11-18'
 sources:
   Creality Ender-3 machine bill of materials: https://github.com/Creality3DPrinting/Ender-3/blob/88c7758cea9d0d00a54fdb238bedb3b33425f409/Ender-3%20Mechanical/Ender-3%20BOM.XLS

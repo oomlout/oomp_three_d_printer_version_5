@@ -5,6 +5,10 @@
 
 Creality Ender-3 V3 SE filament printer.
 
+<img src="../../source_file/images/creality_ender_3_v3_se_square.jpg" width="360" alt="Creality Ender-3 V3 SE shown with a filament spool.">
+
+Creality Ender-3 V3 SE shown with a filament spool. [Creality product image](https://store.creality.com/eu/products/ender-3-v3-se-3d-printer) by Creality. [Manufacturer product image; reuse permission not established](https://store.creality.com/eu/products/ender-3-v3-se-3d-printer). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_printer_creality_ender_3_v3_se`
@@ -57,6 +61,19 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: Creality Ender-3 V3 SE
 oomp_id: three_d_printer_printer_creality_ender_3_v3_se
+photo:
+  caption: Creality Ender-3 V3 SE shown with a filament spool.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Creality
+  credit_line: 'Source: Creality official product page'
+  file: source_file/images/creality_ender_3_v3_se_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://store.creality.com/eu/products/ender-3-v3-se-3d-printer
+  original_file: source_file/images/original/creality_ender_3_v3_se.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0593/2587/4251/files/Ender-3_V3_SE_03.png?v=1736930915
+  source: https://store.creality.com/eu/products/ender-3-v3-se-3d-printer
+  source_checked: '2026-11-19'
+  title: Creality product image
 source_checked: '2026-11-18'
 sources:
   Creality V3 series comparison: https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke

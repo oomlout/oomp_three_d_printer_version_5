@@ -5,6 +5,10 @@
 
 Hotend with nozzle. Heating assembly sold separately.
 
+<img src="../../source_file/images/a1_fah018_square.jpg" width="360" alt="Manufacturer product image for A1 Series / 0.2mm Stainless Steel.">
+
+Manufacturer product image for A1 Series / 0.2mm Stainless Steel. [Bambu Lab product image](https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series) by Bambu Lab. [Manufacturer product image; reuse permission not established](https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah018`
@@ -63,6 +67,19 @@ compatible_printers:
 - three_d_printer_printer_bambu_lab_a1
 name_proper: Bambu Lab A1 series hotend with 0.2 mm stainless steel nozzle
 oomp_id: three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah018
+photo:
+  caption: Manufacturer product image for A1 Series / 0.2mm Stainless Steel.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Bambu Lab
+  credit_line: 'Source: Bambu Lab official product page'
+  file: source_file/images/a1_fah018_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series
+  original_file: source_file/images/original/a1_fah018.png
+  original_image_url: https://cdn.shopify.com/s/files/1/0574/3116/2995/files/0.2.png?v=1712112758
+  source: https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series
+  source_checked: '2026-11-19'
+  title: Bambu Lab product image
 source_checked: '2026-11-18'
 sources:
   Bambu Lab A1 hotend and compatibility: https://bambu-lab-global.myshopify.com/products/hotend-with-nozzle-a1-series

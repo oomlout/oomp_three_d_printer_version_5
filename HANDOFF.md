@@ -1,5 +1,15 @@
 # Research queue and handoff
 
+## Photograph update, 19 November 2026
+
+The follow-up image pass added pictures to 140 filament records and 79 original Ender-3 component records. The filament variants use their exact SKU selectors; most are colour-sample pictures rather than photographs of spools, and their captions say so. For the Ender-3, 55 fastener, capacitor, resistor and motor entries use clearly labelled representative CC/public-domain photographs. Another 24 entries use pictures of Creality replacement thermistors, heater cartridge, rollers, endstops, fans or hotend kit components. The 3DJake replacement photographs are representative, and their creator and reuse permission are not established. Some related records share the same picture; a photographed replacement kit does not establish that it is identical to the original installed part.
+
+The 247 illustrated catalogue records include all 148 current filament records, 92 parts records, five printer records and two AMS records. The remaining 192 records lack pictures: 173 original Ender-3 part references and 19 printer models. [Photo coverage audit](PHOTO_COVERAGE.md) lists the exact updated and missing IDs. Prioritise identifiable photographs for frames, carriage assemblies, board components, wiring and the remaining printer models. Do not infer the fit, hardware size, electronic value or package from a representative photograph. Confirm commercial reuse rights for manufacturer and retailer product images, or replace them with licensed photographs. Credits on the images and README pages identify sources; credit alone does not establish reuse permission.
+
+The A1 mini and AMS lite share a CC0 photograph. P1S and the original AMS share a CC BY-SA 4.0 photograph. The catalogue displays credited square copies and retains the original files. Manufacturer product images now cover the Anycubic Vyper, Chiron, Ender-3 V3 SE, all thirteen catalogued Bambu P1/A1 hotend variants, and the eight catalogued PolyLite PLA colours. These product images have source attribution in the bottom-left corner and direct links on their record pages. Their reuse permission has not been established. Check a manufacturer’s variant-specific source before replacing a photograph, and prefer a documented free licence when available.
+
+Further image research can cover the other printer models and the missing Ender-3 parts. The existing licensed A1 showroom lead remains open because Wikimedia returned HTTP 429 when the original was requested.
+
 ## Deeper research update, 18 November 2026
 
 The EU manufacturer product data supplies the SKU for each of its 43 PLA Basic selector variants. The pre-existing Jade White spool and refill are retained. Every other selector variant is now represented, including variants shown as unavailable. The USA selector for SUNLU's standard PLA and PETG product pages provides shade-specific store SKUs for 1 kg spools. These are recorded with their USA market scope. Manufacturer regional listings can use different store codes, so a matching regional code needs its own evidence before treating it as a different product.
@@ -341,7 +351,7 @@ The examples are **PolyLite PLA Black, PA02001**, and **PolyLite Translucent PET
 | Rainbow | SUNLU PLA Rainbow-01 is present as 1 kg spool with the manufacturer EU store code DLZ-EU-SL-PLA-RB01-8M-1KG. |
 | Black, blue | The base already has an example. Add new variants only for distinct documented products. |
 
-Photographs of the two exact example spools are outstanding. The product pages supply specifications, but a redistribution licence for their photographs was not established. Also check the exact-line datasheets for diameter tolerance, spool dimensions and whether release information is available.
+Both PolyLite worked examples now have manufacturer product images with unverified reuse permission. Also check the exact-line datasheets for diameter tolerance, spool dimensions and whether release information is available.
 
 ## 3. Extend Bambu spare coverage
 
@@ -362,7 +372,7 @@ The [original Ender-3 reference catalogue](navigation/part/creality_ender_3/READ
 
 Both requested feeder models already have dimensions, spool fit, capacity, standalone reference price, host links and a credited photograph. For AMS lite, seek a dated standalone availability announcement. For both systems, identify any additional documented adapter or firmware requirements for the requested printers. If adding a newer feeder becomes a separate assignment, verify its official model before adding a new declaration.
 
-Two licensed originals currently cover four records. The 22 starter printers, two filament examples and two hotends still need individually identifiable, reusable photographs. If full-resolution product photography has no reusable licence, collect the original file-page URL as a lead, leave the catalogue image absent and state what is missing.
+Two licensed originals cover four records. The 19 November photograph update above describes the additional manufacturer images and their rights status. The other records still need individually identifiable images, with freely licensed photographs preferred where available.
 
 ## Prompt for the next model
 
@@ -388,9 +398,12 @@ unit for prices. Keep unknown fields absent. If identity, fit, SKU or image
 rights cannot be verified, write the candidate, source URL and missing fact in
 HANDOFF.md, then continue with the next independent item.
 
-Use only existing, redistribution-licensed photographs and include creator,
-source page, licence link and change status in the photo declaration. Keep CAD,
-illustration, product rendering and desktop image-generation actions disabled.
+Prefer existing, redistribution-licensed photographs. When none is found, the
+user has also allowed a credited product image with unverified reuse permission;
+state that status explicitly. Include the creator if known, source page, licence
+or rights status and change status in the photo declaration. Keep the original,
+make a square display copy and put the source credit in its lower-left corner.
+Keep CAD and desktop image-generation actions disabled.
 Run python action_make_all.py, python validate_catalogue.py and python -m pytest tests -q.
 Inspect a label and README in every edited family. Rebuild a second time and
 check generated file hashes for stability. Update this queue and report exact

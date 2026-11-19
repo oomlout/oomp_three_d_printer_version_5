@@ -5,6 +5,10 @@
 
 Anycubic Vyper filament printer.
 
+<img src="../../source_file/images/anycubic_vyper_square.jpg" width="360" alt="Anycubic Vyper shown with a printed model.">
+
+Anycubic Vyper shown with a printed model. [Anycubic product image](https://uk.anycubic.com/products/anycubic-vyper) by Anycubic. [Manufacturer product image; reuse permission not established](https://uk.anycubic.com/products/anycubic-vyper). Resized within a square white canvas and credited on the image.
+
 ## Details
 
 OOMP ID `three_d_printer_printer_anycubic_vyper`
@@ -56,6 +60,19 @@ Use the model-specific manufacturer documentation linked above for setup or serv
 ```yaml
 name_proper: Anycubic Vyper
 oomp_id: three_d_printer_printer_anycubic_vyper
+photo:
+  caption: Anycubic Vyper shown with a printed model.
+  changes: Resized within a square white canvas and credited on the image.
+  creator: Anycubic
+  credit_line: 'Source: Anycubic official product page'
+  file: source_file/images/anycubic_vyper_square.jpg
+  license: Manufacturer product image; reuse permission not established
+  license_url: https://uk.anycubic.com/products/anycubic-vyper
+  original_file: source_file/images/original/anycubic_vyper.webp
+  original_image_url: http://uk.anycubic3d.com/cdn/shop/files/Vyper_2_1800x1800_ecb46087-c933-4b74-b5ab-283258553747.webp?v=1788771373
+  source: https://uk.anycubic.com/products/anycubic-vyper
+  source_checked: '2026-11-19'
+  title: Anycubic product image
 source_checked: '2026-11-18'
 sources:
   Anycubic Vyper technical specifications: https://uk.anycubic.com/products/anycubic-vyper

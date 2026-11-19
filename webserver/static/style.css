@@ -983,6 +983,11 @@ a {
   aspect-ratio: 4 / 3;
 }
 
+.preview-credit {
+  margin: 0.75rem 0 0;
+  font-size: 0.875rem;
+}
+
 .file-list,
 .list-reset {
   list-style: none;
