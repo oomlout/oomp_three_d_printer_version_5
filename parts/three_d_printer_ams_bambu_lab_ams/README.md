@@ -15,6 +15,7 @@ OOMP ID `three_d_printer_ams_bambu_lab_ams`
 
 | Specification | Value |
 | --- | --- |
+| A1 series compatibility | Requires the AMS Hub for A1 Series and firmware supporting AMS. Bambu Lab announced support in A1-series public beta 01.06.10.33 on 2025-10-13. |
 | Filament diameter (mm) | 1.75 |
 | Housing | Enclosed, with desiccant |
 | Product dimensions (manufacturer order, mm) | 368 × 283 × 224 |
@@ -30,6 +31,7 @@ Also indexed as AMS 1, original AMS.
 Sources checked 2026-11-18.
 
 - [AMS specifications and price](https://bambu-lab-global.myshopify.com/products/ams-multicolor-printing)
+- [Bambu Lab A1 series AMS support announcement](https://forum.bambulab.com/t/a1-series-firmware-v01-06-10-33-now-in-public-beta/201055)
 - [P1 series compatibility](https://bambu-lab-global.myshopify.com/collections/p1-series)
 - [Standalone retail announcement](https://forum.bambulab.com/t/bambu-lab-ams-and-ams-hub-are-now-in-stock/846)
 
@@ -58,6 +60,8 @@ Confirmed printer models in this catalogue
 
 - [Bambu Lab P1S](../three_d_printer_printer_bambu_lab_p1s/)
 - [Bambu Lab P1P](../three_d_printer_printer_bambu_lab_p1p/)
+- [Bambu Lab A1](../three_d_printer_printer_bambu_lab_a1/)
+- [Bambu Lab A1 mini](../three_d_printer_printer_bambu_lab_a1_mini/)
 
 ## Assembly
 
@@ -73,6 +77,8 @@ aliases:
 compatible_printers:
 - three_d_printer_printer_bambu_lab_p1s
 - three_d_printer_printer_bambu_lab_p1p
+- three_d_printer_printer_bambu_lab_a1
+- three_d_printer_printer_bambu_lab_a1_mini
 name_proper: Bambu Lab AMS
 oomp_id: three_d_printer_ams_bambu_lab_ams
 photo:
@@ -87,9 +93,12 @@ photo:
 source_checked: '2026-11-18'
 sources:
   AMS specifications and price: https://bambu-lab-global.myshopify.com/products/ams-multicolor-printing
+  Bambu Lab A1 series AMS support announcement: https://forum.bambulab.com/t/a1-series-firmware-v01-06-10-33-now-in-public-beta/201055
   P1 series compatibility: https://bambu-lab-global.myshopify.com/collections/p1-series
   Standalone retail announcement: https://forum.bambulab.com/t/bambu-lab-ams-and-ams-hub-are-now-in-stock/846
 specifications:
+  a1_series_compatibility: Requires the AMS Hub for A1 Series and firmware supporting
+    AMS. Bambu Lab announced support in A1-series public beta 01.06.10.33 on 2025-10-13.
   filament_diameter_mm: 1.75
   housing: Enclosed, with desiccant
   machine_dimensions_mm:

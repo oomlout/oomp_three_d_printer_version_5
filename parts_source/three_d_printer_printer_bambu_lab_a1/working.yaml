@@ -8,6 +8,14 @@ specifications:
   - 256
   - 256
   - 256
+  filament_diameter_mm: 1.75
+  machine_dimensions_mm:
+  - 465
+  - 410
+  - 430
+  max_bed_c: 100
+  max_hotend_c: 300
+  net_mass_kg: 8.3
   stock_nozzle_mm: 0.4
 taxonomy_1: three_d_printer
 taxonomy_10: ''

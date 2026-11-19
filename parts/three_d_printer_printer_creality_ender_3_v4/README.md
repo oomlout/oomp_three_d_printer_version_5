@@ -12,9 +12,16 @@ OOMP ID `three_d_printer_printer_creality_ender_3_v4`
 | Specification | Value |
 | --- | --- |
 | Build volume (X × Y × Z, mm) | 220 × 220 × 235 |
+| Filament diameter (mm) | 1.75 |
+| Product dimensions (manufacturer order, mm) | 396 × 359 × 456 |
+| Max bed (°C) | 100 |
+| Max hotend (°C) | 300 |
+| Net mass (kg) | 6.8 |
+| Stock nozzle (mm) | 0.4 |
 
 Sources checked 2026-11-18.
 
+- [Creality Ender-3 V4 specifications](https://www.creality.com/products/ender-3-v4-3d-printer)
 - [Creality model reference](https://www.creality.com/products/ender-3-v4-3d-printer)
 
 | Taxonomy slot | Value |
@@ -51,12 +58,22 @@ name_proper: Creality Ender-3 V4
 oomp_id: three_d_printer_printer_creality_ender_3_v4
 source_checked: '2026-11-18'
 sources:
+  Creality Ender-3 V4 specifications: https://www.creality.com/products/ender-3-v4-3d-printer
   Creality model reference: https://www.creality.com/products/ender-3-v4-3d-printer
 specifications:
   build_volume_mm:
   - 220
   - 220
   - 235
+  filament_diameter_mm: 1.75
+  machine_dimensions_mm:
+  - 396
+  - 359
+  - 456
+  max_bed_c: 100
+  max_hotend_c: 300
+  net_mass_kg: 6.8
+  stock_nozzle_mm: 0.4
 taxonomy_1: three_d_printer
 taxonomy_10: ''
 taxonomy_11: ''

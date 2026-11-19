@@ -12,6 +12,10 @@ OOMP ID `three_d_printer_printer_creality_ender_3_v2_neo`
 | Specification | Value |
 | --- | --- |
 | Build volume (X × Y × Z, mm) | 220 × 220 × 250 |
+| Product dimensions (manufacturer order, mm) | 438 × 424 × 472 |
+| Max bed (°C) | 100 |
+| Max hotend (°C) | 260 |
+| Net mass (kg) | 7.8 |
 | Release month | 2022-07 |
 
 Sources checked 2026-11-18.
@@ -58,6 +62,13 @@ specifications:
   - 220
   - 220
   - 250
+  machine_dimensions_mm:
+  - 438
+  - 424
+  - 472
+  max_bed_c: 100
+  max_hotend_c: 260
+  net_mass_kg: 7.8
   release_month: 2022-07
 taxonomy_1: three_d_printer
 taxonomy_10: ''

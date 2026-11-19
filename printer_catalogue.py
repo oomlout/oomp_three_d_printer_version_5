@@ -35,7 +35,8 @@ LABEL_FORMATS = {
 }
 COLOR_BASES = (
     "white", "grey", "black", "red", "orange", "yellow", "green",
-    "blue", "indigo", "violet", "rainbow",
+    "blue", "indigo", "violet", "rainbow", "pink", "brown", "beige",
+    "metallic", "clear",
 )
 
 

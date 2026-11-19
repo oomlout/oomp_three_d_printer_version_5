@@ -12,6 +12,10 @@ OOMP ID `three_d_printer_printer_creality_ender_3_max`
 | Specification | Value |
 | --- | --- |
 | Build volume (X × Y × Z, mm) | 300 × 300 × 340 |
+| Product dimensions (manufacturer order, mm) | 513 × 563 × 590 |
+| Max bed (°C) | 110 |
+| Max hotend (°C) | 260 |
+| Net mass (kg) | 9.5 |
 | Release month | 2020-11 |
 
 Sources checked 2026-11-18.
@@ -58,6 +62,13 @@ specifications:
   - 300
   - 300
   - 340
+  machine_dimensions_mm:
+  - 513
+  - 563
+  - 590
+  max_bed_c: 110
+  max_hotend_c: 260
+  net_mass_kg: 9.5
   release_month: 2020-11
 taxonomy_1: three_d_printer
 taxonomy_10: ''

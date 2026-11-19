@@ -50,15 +50,172 @@ Bambu Lab A1 mini on the left and AMS lite with four spools on the right. [JD Ma
 
 | Record | Coverage |
 | --- | --- |
+| [SUNLU PETG Beige(Skin), 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_beige_beige_skin_sunlu_dlz_us_sl_petg_sk_1kg/) | Starter record |
+| [Bambu Lab PETG Basic Dark Beige, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_beige_dark_beige_bambu_lab_g00_y01_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Dark Beige, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_beige_dark_beige_bambu_lab_g00_y01_1_75_1000_splfree/) | Starter record |
+| [Bambu Lab PETG Basic Black, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_black_black_bambu_lab_g00_k00_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Black, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_black_black_bambu_lab_g00_k00_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG Black, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_black_black_sunlu_dlz_us_sl_petg_bk_1kg/) | Starter record |
+| [SUNLU PETG Blue(Klein Blue), 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_blue_blue_klein_blue_sunlu_dlz_us_sl_petg_bl_1kg/) | Starter record |
+| [SUNLU PETG Cyan, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_blue_cyan_sunlu_dlz_us_sl_petg_cy_1kg/) | Starter record |
+| [Bambu Lab PETG Basic Misty Blue, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_blue_misty_blue_bambu_lab_g00_d01_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Misty Blue, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_blue_misty_blue_bambu_lab_g00_d01_1_75_1000_splfree/) | Starter record |
+| [Bambu Lab PETG Basic Navy Blue, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_blue_navy_blue_bambu_lab_g00_b01_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Navy Blue, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_blue_navy_blue_bambu_lab_g00_b01_1_75_1000_splfree/) | Starter record |
+| [Bambu Lab PETG Basic Reflex Blue, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_blue_reflex_blue_bambu_lab_g00_b00_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Reflex Blue, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_blue_reflex_blue_bambu_lab_g00_b00_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG Sky Blue, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_blue_sky_blue_sunlu_dlz_us_sl_petg_sb_1kg/) | Starter record |
 | [Polymaker PolyLite PETG Translucent Blue](parts/three_d_printer_filament_petg_1_75_mm_blue_translucent_blue_polymaker_pb01032/) | Worked example |
+| [SUNLU PETG Transparent Blue, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_blue_transparent_blue_sunlu_dlz_us_sl_petg_tpbl_1kg/) | Starter record |
+| [SUNLU PETG Chocolate, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_brown_chocolate_sunlu_dlz_us_sl_petg_cc_1kg/) | Starter record |
+| [SUNLU PETG Coffee Brown, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_brown_coffee_brown_sunlu_dlz_us_sl_petg_cbn_1kg/) | Starter record |
+| [Bambu Lab PETG Basic Dark Brown, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Dark Brown, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_brown_dark_brown_bambu_lab_g00_n00_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG Oak(Wood), 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_brown_oak_wood_sunlu_dlz_us_sl_petg_ok_1kg/) | Starter record |
+| [SUNLU PETG Roasted Chestnut, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_brown_roasted_chestnut_sunlu_dlz_us_sl_petg_rcn_1kg/) | Starter record |
+| [SUNLU PETG Clear(Transparent), 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_clear_clear_transparent_sunlu_dlz_us_sl_petg_tp_1kg/) | Starter record |
+| [Bambu Lab PETG Basic Green, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_green_green_bambu_lab_g00_g00_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Green, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_green_green_bambu_lab_g00_g00_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG Green, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_green_green_sunlu_dlz_us_sl_petg_gn_1kg/) | Starter record |
+| [SUNLU PETG Mint Green, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_green_mint_green_sunlu_dlz_us_sl_petg_mg_1kg/) | Starter record |
+| [SUNLU PETG Oliver Green, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_green_oliver_green_sunlu_dlz_us_sl_petg_og_1kg/) | Starter record |
+| [Bambu Lab PETG Basic Pine Green, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_green_pine_green_bambu_lab_g00_g01_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Pine Green, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_green_pine_green_bambu_lab_g00_g01_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG Transparent Green, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_green_transparent_green_sunlu_dlz_us_sl_petg_tpgn_1kg/) | Starter record |
+| [Bambu Lab PETG Basic Gray, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_grey_gray_bambu_lab_g00_d00_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Gray, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_grey_gray_bambu_lab_g00_d00_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG Grey, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_grey_grey_sunlu_dlz_us_sl_petg_gy_1kg/) | Starter record |
+| [Bambu Lab PETG Basic Orange, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_orange_orange_bambu_lab_g00_a00_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Orange, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_orange_orange_bambu_lab_g00_a00_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG Orange, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_orange_orange_sunlu_dlz_us_sl_petg_or_1kg/) | Starter record |
+| [SUNLU PETG Sunny Orange, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_orange_sunny_orange_sunlu_dlz_us_sl_petg_so_1kg/) | Starter record |
+| [SUNLU PETG Transparent Orange, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_orange_transparent_orange_sunlu_dlz_us_sl_petg_tpor_1kg/) | Starter record |
+| [SUNLU PETG Magenta, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_pink_magenta_sunlu_dlz_us_sl_petg_mag_1kg/) | Starter record |
+| [SUNLU PETG Sakura Pink, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_pink_sakura_pink_sunlu_dlz_us_sl_petg_sp_1kg/) | Starter record |
+| [SUNLU PETG Cherry Red, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_petg_cr_1kg/) | Starter record |
+| [Bambu Lab PETG Basic Red, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_red_red_bambu_lab_g00_r00_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Red, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_red_red_bambu_lab_g00_r00_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG Red, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_red_red_sunlu_dlz_us_sl_petg_rd_1kg/) | Starter record |
+| [SUNLU PETG Transparent Red, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_red_transparent_red_sunlu_dlz_us_sl_petg_tprd_1kg/) | Starter record |
+| [SUNLU PETG Lavender Purple(Purple), 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_violet_lavender_purple_purple_sunlu_dlz_us_sl_petg_lp_1kg/) | Starter record |
+| [SUNLU PETG Transparent Purple, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_violet_transparent_purple_sunlu_dlz_us_sl_petg_tppp_1kg/) | Starter record |
+| [SUNLU PETG Bone White, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_white_bone_white_sunlu_dlz_us_sl_petg_bwt_1kg/) | Starter record |
+| [SUNLU PETG Ceramic White, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_white_ceramic_white_sunlu_dlz_us_sl_petg_cw_1kg/) | Starter record |
+| [Bambu Lab PETG Basic White, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_white_white_bambu_lab_g00_w00_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic White, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_white_white_bambu_lab_g00_w00_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG White, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_white_white_sunlu_dlz_us_sl_petg_wt_1kg/) | Starter record |
+| [SUNLU PETG Lemon Yellow, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_yellow_lemon_yellow_sunlu_dlz_us_sl_petg_ly_1kg/) | Starter record |
+| [SUNLU PETG Transparent Yellow, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_yellow_transparent_yellow_sunlu_dlz_us_sl_petg_tpyl_1kg/) | Starter record |
+| [SUNLU PETG Vivid yellow, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_yellow_vivid_yellow_sunlu_dlz_us_sl_petg_vy_1kg/) | Starter record |
+| [Bambu Lab PETG Basic Yellow, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_yellow_yellow_bambu_lab_g00_y00_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PETG Basic Yellow, 1 kg refill](parts/three_d_printer_filament_petg_1_75_mm_yellow_yellow_bambu_lab_g00_y00_1_75_1000_splfree/) | Starter record |
+| [SUNLU PETG Yellow, 1 kg with spool](parts/three_d_printer_filament_petg_1_75_mm_yellow_yellow_sunlu_dlz_us_sl_petg_yl_1kg/) | Starter record |
+| [PLA Basic Beige, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_beige_beige_bambu_lab_a00_p0_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Skin(Beige), 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_beige_skin_beige_sunlu_dlz_us_sl_pla_sk_1kg/) | Starter record |
+| [PLA Basic Black, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_black_black_bambu_lab_a00_k0_1_75_1000_spl/) | Starter record |
+| [PLA Basic Black, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_black_black_bambu_lab_a00_k0_1_75_1000_splfree/) | Starter record |
 | [Polymaker PolyLite PLA Black](parts/three_d_printer_filament_pla_1_75_mm_black_black_polymaker_pa02001/) | Worked example |
+| [SUNLU PLA Black, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_black_black_sunlu_dlz_us_sl_pla_bk_1kg/) | Starter record |
+| [PLA Basic Blue, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_blue_blue_bambu_lab_a00_b9_1_75_1000_spl/) | Starter record |
+| [PLA Basic Blue, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_blue_blue_bambu_lab_a00_b9_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Blue Grey, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_blue_blue_grey_bambu_lab_a00_b1_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Blue Grey, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_blue_blue_grey_sunlu_dlz_us_sl_pla_bg_1kg/) | Starter record |
+| [SUNLU PLA Blue(Klein Blue), 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_blue_blue_klein_blue_sunlu_dlz_us_sl_pla_bl_1kg/) | Starter record |
+| [PLA Basic Cobalt Blue, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_blue_cobalt_blue_bambu_lab_a00_b3_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Cyan, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_blue_cyan_bambu_lab_a00_b8_1_75_1000_spl/) | Starter record |
+| [PLA Basic Cyan, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_blue_cyan_bambu_lab_a00_b8_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Cyan, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_blue_cyan_sunlu_dlz_us_sl_pla_cy_1kg/) | Starter record |
+| [SUNLU PLA Sky Blue, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_blue_sky_blue_sunlu_dlz_us_sl_pla_sb_1kg/) | Starter record |
+| [SUNLU PLA Transparent Blue, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_blue_transparent_blue_sunlu_dlz_us_sl_pla_tpbl_1kg/) | Starter record |
+| [PLA Basic Turquoise, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_blue_turquoise_bambu_lab_a00_b5_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Brown, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_brown_brown_bambu_lab_a00_n0_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Cocoa Brown, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_brown_cocoa_brown_bambu_lab_a00_n1_1_75_1000_spl/) | Starter record |
+| [PLA Basic Cocoa Brown, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_brown_cocoa_brown_bambu_lab_a00_n1_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Coffee-Brown(Coffee), 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_brown_coffee_brown_coffee_sunlu_dlz_us_sl_pla_cbn_1kg/) | Starter record |
+| [SUNLU PLA Oak(Wood), 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_brown_oak_wood_sunlu_dlz_us_sl_pla_ok_1kg/) | Starter record |
+| [SUNLU PLA Roasted Chestnut Black, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_brown_roasted_chestnut_black_sunlu_dlz_us_sl_pla_rcn_1kg/) | Starter record |
+| [SUNLU PLA Transparent, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_clear_transparent_sunlu_dlz_us_sl_pla_tp_1kg/) | Starter record |
+| [PLA Basic Bambu Green, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_green_bambu_green_bambu_lab_a00_g6_1_75_1000_spl/) | Starter record |
+| [PLA Basic Bambu Green, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_green_bambu_green_bambu_lab_a00_g6_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Bright Green, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_green_bright_green_bambu_lab_a00_g3_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Grass Green, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_green_grass_green_sunlu_dlz_us_sl_pla_gg_1kg/) | Starter record |
+| [Polymaker PolyLite PLA Green, 1.75 mm, 1 kg](parts/three_d_printer_filament_pla_1_75_mm_green_green_polymaker_pa02006/) | Starter record |
+| [SUNLU PLA Green, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_green_green_sunlu_dlz_us_sl_pla_gn_1kg/) | Starter record |
+| [SUNLU PLA Mint Green, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_green_mint_green_sunlu_dlz_us_sl_pla_mg_1kg/) | Starter record |
+| [PLA Basic Mistletoe Green, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_green_mistletoe_green_bambu_lab_a00_g2_1_75_1000_spl/) | Starter record |
+| [PLA Basic Mistletoe Green, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_green_mistletoe_green_bambu_lab_a00_g2_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Oliver Green, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_green_oliver_green_sunlu_dlz_us_sl_pla_og_1kg/) | Starter record |
+| [SUNLU PLA Transparent Green, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_green_transparent_green_sunlu_dlz_us_sl_pla_tpgn_1kg/) | Starter record |
+| [PLA Basic Dark Gray, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_grey_dark_gray_bambu_lab_a00_d3_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Gray, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_grey_gray_bambu_lab_a00_d0_1_75_1000_spl/) | Starter record |
+| [PLA Basic Gray, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_grey_gray_bambu_lab_a00_d0_1_75_1000_splfree/) | Starter record |
+| [Polymaker PolyLite PLA Grey, 1.75 mm, 1 kg](parts/three_d_printer_filament_pla_1_75_mm_grey_grey_polymaker_pa02003/) | Starter record |
+| [SUNLU PLA Grey, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_grey_grey_sunlu_dlz_us_sl_pla_gy_1kg/) | Starter record |
+| [PLA Basic Light Gray, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_grey_light_gray_bambu_lab_a00_d2_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Indigo Purple, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_indigo_indigo_purple_bambu_lab_a00_p2_1_75_1000_spl/) | Starter record |
+| [PLA Basic Indigo Purple, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_indigo_indigo_purple_bambu_lab_a00_p2_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Bronze, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_metallic_bronze_bambu_lab_a00_y3_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Gold, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_metallic_gold_bambu_lab_a00_y4_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Gold, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_metallic_gold_sunlu_dlz_us_sl_pla_gd_1kg/) | Starter record |
+| [PLA Basic Silver, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_metallic_silver_bambu_lab_a00_d1_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Silver, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_metallic_silver_sunlu_dlz_us_sl_pla_sv_1kg/) | Starter record |
+| [PLA Basic Orange, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_orange_orange_bambu_lab_a00_a0_1_75_1000_splfree/) | Starter record |
+| [Polymaker PolyLite PLA Orange, 1.75 mm, 1 kg](parts/three_d_printer_filament_pla_1_75_mm_orange_orange_polymaker_pa02008/) | Starter record |
+| [SUNLU PLA Orange, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_orange_orange_sunlu_dlz_us_sl_pla_or_1kg/) | Starter record |
+| [PLA Basic Pumpkin Orange, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_orange_pumpkin_orange_bambu_lab_a00_a1_1_75_1000_spl/) | Starter record |
+| [PLA Basic Pumpkin Orange, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_orange_pumpkin_orange_bambu_lab_a00_a1_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Sunny Orange, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_orange_sunny_orange_sunlu_dlz_us_sl_pla_so_1kg/) | Starter record |
+| [SUNLU PLA Transparent Orange, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_orange_transparent_orange_sunlu_dlz_us_sl_pla_to2_1kg/) | Starter record |
+| [PLA Basic Hot Pink, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_pink_hot_pink_bambu_lab_a00_r3_1_75_1000_spl/) | Starter record |
+| [PLA Basic Hot Pink, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_pink_hot_pink_bambu_lab_a00_r3_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Magenta, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_pink_magenta_bambu_lab_a00_p6_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Magenta(Fuchsia), 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_pink_magenta_fuchsia_sunlu_dlz_us_sl_pla_mag_1kg/) | Starter record |
+| [PLA Basic Pink, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_pink_pink_bambu_lab_a00_p1_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Pink(Sakura Pink), 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_pink_pink_sakura_pink_sunlu_dlz_us_sl_pla_sp_1kg/) | Starter record |
+| [SUNLU PLA Rainbow 01, 1 kg spool](parts/three_d_printer_filament_pla_1_75_mm_rainbow_rainbow_01_sunlu_dlz_eu_sl_pla_rb01_8m_1kg/) | Starter record |
+| [SUNLU PLA Cherry Red, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_red_cherry_red_sunlu_dlz_us_sl_pla_cr_1kg/) | Starter record |
+| [PLA Basic Maroon Red, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_red_maroon_red_bambu_lab_a00_r2_1_75_1000_splfree/) | Starter record |
+| [PLA Basic Red, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_red_red_bambu_lab_a00_r0_1_75_1000_spl/) | Starter record |
+| [PLA Basic Red, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_red_red_bambu_lab_a00_r0_1_75_1000_splfree/) | Starter record |
+| [Polymaker PolyLite PLA Red, 1.75 mm, 1 kg](parts/three_d_printer_filament_pla_1_75_mm_red_red_polymaker_pa02004/) | Starter record |
+| [SUNLU PLA Red, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_red_red_sunlu_dlz_us_sl_pla_rd_1kg/) | Starter record |
+| [SUNLU PLA Transparent Red, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_red_transparent_red_sunlu_dlz_us_sl_pla_tprd_1kg/) | Starter record |
+| [PLA Basic Purple, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_violet_purple_bambu_lab_a00_p5_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Purple(Lavender Purple), 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_violet_purple_lavender_purple_sunlu_dlz_us_sl_pla_pp_1kg/) | Starter record |
+| [Polymaker PolyLite PLA Purple, 1.75 mm, 1 kg](parts/three_d_printer_filament_pla_1_75_mm_violet_purple_polymaker_pa02009/) | Starter record |
+| [SUNLU PLA Transparent Purple, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_violet_transparent_purple_sunlu_dlz_us_sl_pla_tpp2_1kg/) | Starter record |
+| [SUNLU PLA Bone White, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_white_bone_white_sunlu_dlz_us_sl_pla_bwt_1kg/) | Starter record |
+| [SUNLU PLA Ceramic White, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_white_ceramic_white_sunlu_dlz_us_sl_pla_cm_1kg/) | Starter record |
+| [Bambu Lab PLA Basic Jade White 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_spl/) | Starter record |
+| [Bambu Lab PLA Basic Jade White 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_white_jade_white_bambu_lab_a00_w1_1_75_1000_splfree/) | Starter record |
+| [Polymaker PolyLite PLA White, 1.75 mm, 1 kg](parts/three_d_printer_filament_pla_1_75_mm_white_white_polymaker_pa02002/) | Starter record |
+| [SUNLU PLA White, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_white_white_sunlu_dlz_us_sl_pla_wt_1kg/) | Starter record |
+| [SUNLU PLA Lemon Yellow, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_yellow_lemon_yellow_sunlu_dlz_us_sl_pla_ly_1kg/) | Starter record |
+| [PLA Basic Sunflower Yellow, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_yellow_sunflower_yellow_bambu_lab_a00_y2_1_75_1000_spl/) | Starter record |
+| [PLA Basic Sunflower Yellow, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_yellow_sunflower_yellow_bambu_lab_a00_y2_1_75_1000_splfree/) | Starter record |
+| [SUNLU PLA Transparent Yellow, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_yellow_transparent_yellow_sunlu_dlz_us_sl_pla_ty2_1kg/) | Starter record |
+| [SUNLU PLA Vivid Yellow, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_yellow_vivid_yellow_sunlu_dlz_us_sl_pla_vy_1kg/) | Starter record |
+| [PLA Basic Yellow, 1 kg refill](parts/three_d_printer_filament_pla_1_75_mm_yellow_yellow_bambu_lab_a00_y0_1_75_1000_splfree/) | Starter record |
+| [Polymaker PolyLite PLA Yellow, 1.75 mm, 1 kg](parts/three_d_printer_filament_pla_1_75_mm_yellow_yellow_polymaker_pa02007/) | Starter record |
+| [SUNLU PLA Yellow, 1 kg with spool](parts/three_d_printer_filament_pla_1_75_mm_yellow_yellow_sunlu_dlz_us_sl_pla_yl_1kg/) | Starter record |
 
 ### Spare parts
 
 | Record | Coverage |
 | --- | --- |
+| [Bambu Lab A1 series hotend with 0.2 mm stainless steel nozzle](parts/three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah018/) | Starter record |
+| [Bambu Lab A1 series hotend with 0.4 mm hardened steel nozzle](parts/three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah019/) | Starter record |
 | [Bambu Lab A1 series hotend with nozzle, 0.4 mm](parts/three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_stainless_steel_bambu_lab_fah007/) | Worked example |
+| [Bambu Lab A1 series hotend with 0.6 mm hardened steel nozzle](parts/three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah020/) | Starter record |
+| [Bambu Lab A1 series hotend with 0.8 mm hardened steel nozzle](parts/three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah021/) | Starter record |
+| [Bambu Lab P1 series complete hotend, 0.2 mm stainless steel](parts/three_d_printer_part_bambu_lab_p1s_hotend_complete_0_2_mm_stainless_steel_bambu_lab_fah004_p/) | Starter record |
 | [Bambu Lab P1 series complete hotend, 0.4 mm](parts/three_d_printer_part_bambu_lab_p1s_hotend_complete_0_4_mm_hardened_steel_bambu_lab_fah001_p/) | Worked example |
+| [Bambu Lab P1 series complete hotend, 0.6 mm hardened steel](parts/three_d_printer_part_bambu_lab_p1s_hotend_complete_0_6_mm_hardened_steel_bambu_lab_fah005_p/) | Starter record |
+| [Bambu Lab P1 series complete hotend, 0.8 mm hardened steel](parts/three_d_printer_part_bambu_lab_p1s_hotend_complete_0_8_mm_hardened_steel_bambu_lab_fah003_p/) | Starter record |
+| [Bambu Lab P1 series hotend with nozzle, 0.2 mm stainless steel](parts/three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah004_n_1/) | Starter record |
+| [Bambu Lab P1 series hotend with nozzle, 0.4 mm hardened steel](parts/three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah001_n_1/) | Starter record |
+| [Bambu Lab P1 series hotend with nozzle, 0.6 mm hardened steel](parts/three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah005_n_1/) | Starter record |
+| [Bambu Lab P1 series hotend with nozzle, 0.8 mm hardened steel](parts/three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah003_n_1/) | Starter record |
 | [Ender-3 X-Axis assembly](parts/three_d_printer_part_creality_ender_3_axis_assembly_x_axis_assembly/) | Design reference |
 | [Ender-3 Y-Axis assembly](parts/three_d_printer_part_creality_ender_3_axis_assembly_y_axis_assembly/) | Design reference |
 | [Ender-3 Z-Axis assembly](parts/three_d_printer_part_creality_ender_3_axis_assembly_z_axis_assembly/) | Design reference |

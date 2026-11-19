@@ -55,8 +55,13 @@ Sources checked 2026-11-18.
 
 Compatible spares and feeders in this catalogue
 
+- [Bambu Lab AMS](../three_d_printer_ams_bambu_lab_ams/)
 - [Bambu Lab AMS lite](../three_d_printer_ams_bambu_lab_ams_lite/)
+- [Bambu Lab A1 series hotend with 0.2 mm stainless steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah018/)
+- [Bambu Lab A1 series hotend with 0.4 mm hardened steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah019/)
 - [Bambu Lab A1 series hotend with nozzle, 0.4 mm](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_4_mm_stainless_steel_bambu_lab_fah007/)
+- [Bambu Lab A1 series hotend with 0.6 mm hardened steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah020/)
+- [Bambu Lab A1 series hotend with 0.8 mm hardened steel nozzle](../three_d_printer_part_bambu_lab_a1_mini_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah021/)
 
 ## Assembly
 

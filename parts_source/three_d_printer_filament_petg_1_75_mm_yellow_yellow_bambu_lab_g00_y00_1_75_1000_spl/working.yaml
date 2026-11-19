@@ -1,0 +1,29 @@
+name_proper: Bambu Lab PETG Basic Yellow, 1 kg with spool
+oomp_id: three_d_printer_filament_petg_1_75_mm_yellow_yellow_bambu_lab_g00_y00_1_75_1000_spl
+source_checked: '2026-11-18'
+sources:
+  Bambu Lab upgraded PETG Basic technical data sheet: https://store.bblcdn.com/s1/default/cb94589bf7994fdcbfa833badefae9cd/Bambu_PETG_Basic_Technical_Data_Sheet.pdf
+  Retailer exact variant SKU table: https://www.eshop.formwerk.ro/en/cumpara/filament-bambu-lab-petg-basic-3292
+specifications:
+  colour_code: '30402'
+  colour_name: Yellow
+  filament_diameter_mm: 1.75
+  manufacturer_part_number: G00-Y00-1.75-1000-SPL
+  net_mass_kg: 1
+  package_type: with spool
+  product_line: PETG Basic, upgraded formulation
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: bambu_lab
+taxonomy_15: g00_y00_1_75_1000_spl
+taxonomy_2: filament
+taxonomy_3: petg
+taxonomy_4: 1_75_mm
+taxonomy_5: yellow
+taxonomy_6: yellow
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

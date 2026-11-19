@@ -12,9 +12,16 @@ OOMP ID `three_d_printer_printer_anycubic_vyper`
 | Specification | Value |
 | --- | --- |
 | Build volume (X × Y × Z, mm) | 245 × 245 × 260 |
+| Machine dimension order | W x D x H; manufacturer states H x W x D |
+| Product dimensions (manufacturer order, mm) | 508 × 457 × 516 |
+| Max bed (°C) | 110 |
+| Max hotend (°C) | 260 |
+| Net mass (kg) | 10 |
+| Stock nozzle (mm) | 0.4 |
 
 Sources checked 2026-11-18.
 
+- [Anycubic Vyper technical specifications](https://uk.anycubic.com/products/anycubic-vyper)
 - [Anycubic Vyper user manual](https://media.elv.com/file/252518_um.pdf)
 
 | Taxonomy slot | Value |
@@ -51,12 +58,22 @@ name_proper: Anycubic Vyper
 oomp_id: three_d_printer_printer_anycubic_vyper
 source_checked: '2026-11-18'
 sources:
+  Anycubic Vyper technical specifications: https://uk.anycubic.com/products/anycubic-vyper
   Anycubic Vyper user manual: https://media.elv.com/file/252518_um.pdf
 specifications:
   build_volume_mm:
   - 245
   - 245
   - 260
+  machine_dimension_order: W x D x H; manufacturer states H x W x D
+  machine_dimensions_mm:
+  - 508
+  - 457
+  - 516
+  max_bed_c: 110
+  max_hotend_c: 260
+  net_mass_kg: 10
+  stock_nozzle_mm: 0.4
 taxonomy_1: three_d_printer
 taxonomy_10: ''
 taxonomy_11: ''

@@ -1,0 +1,28 @@
+compatible_printers:
+- three_d_printer_printer_bambu_lab_p1s
+- three_d_printer_printer_bambu_lab_p1p
+name_proper: Bambu Lab P1 series complete hotend, 0.8 mm hardened steel
+oomp_id: three_d_printer_part_bambu_lab_p1s_hotend_complete_0_8_mm_hardened_steel_bambu_lab_fah003_p
+source_checked: '2026-11-18'
+sources:
+  Bambu Lab P1 hotend, variants and compatibility: https://bambu-lab-global.myshopify.com/products/bambu-hotend-p1-series
+specifications:
+  assembly_scope: Complete hotend with cooling fan, ceramic heater and thermistor
+  manufacturer_part_number: FAH003-P
+  nozzle_diameter_mm: 0.8
+  nozzle_material: Hardened steel
+taxonomy_1: three_d_printer
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: bambu_lab
+taxonomy_15: fah003_p
+taxonomy_2: part
+taxonomy_3: bambu_lab_p1s
+taxonomy_4: hotend
+taxonomy_5: complete_0_8_mm_hardened_steel
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

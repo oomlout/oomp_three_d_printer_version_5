@@ -2,12 +2,23 @@ name_proper: Creality Ender-3 V3 SE
 oomp_id: three_d_printer_printer_creality_ender_3_v3_se
 source_checked: '2026-11-18'
 sources:
+  Creality V3 series comparison: https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke
   Creality model reference: https://www.creality.com/compare/compare-ender-3-v3-series
 specifications:
   build_volume_mm:
   - 220
   - 220
   - 250
+  filament_diameter_mm: 1.75
+  machine_dimensions_mm:
+  - 349
+  - 364
+  - 490
+  max_hotend_c: 260
+  motion_system: Cartesian
+  net_mass_kg: 7.12
+  release_month: 2023-08
+  stock_nozzle_mm: 0.4
 taxonomy_1: three_d_printer
 taxonomy_10: ''
 taxonomy_11: ''

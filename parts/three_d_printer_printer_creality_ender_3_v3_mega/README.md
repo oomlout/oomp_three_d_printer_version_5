@@ -12,9 +12,15 @@ OOMP ID `three_d_printer_printer_creality_ender_3_v3_mega`
 | Specification | Value |
 | --- | --- |
 | Build volume (X × Y × Z, mm) | 420 × 420 × 420 |
+| Machine dimension note | Without spool holder |
+| Product dimensions (manufacturer order, mm) | 590 × 588 × 697.5 |
+| Max bed (°C) | 100 |
+| Max hotend (°C) | 300 |
+| Net mass (kg) | 21.2 |
 
 Sources checked 2026-11-18.
 
+- [Creality Ender-3 V3 Mega FAQ](https://wiki.creality.com/en/ender-series/ender-3-v3-mega/FAQ)
 - [Creality model reference](https://store.creality.com/uk/blogs/buying-guides/ender-3-v3-neo-vs-mega)
 
 | Taxonomy slot | Value |
@@ -51,12 +57,21 @@ name_proper: Creality Ender-3 V3 Mega
 oomp_id: three_d_printer_printer_creality_ender_3_v3_mega
 source_checked: '2026-11-18'
 sources:
+  Creality Ender-3 V3 Mega FAQ: https://wiki.creality.com/en/ender-series/ender-3-v3-mega/FAQ
   Creality model reference: https://store.creality.com/uk/blogs/buying-guides/ender-3-v3-neo-vs-mega
 specifications:
   build_volume_mm:
   - 420
   - 420
   - 420
+  machine_dimension_note: Without spool holder
+  machine_dimensions_mm:
+  - 590
+  - 588
+  - 697.5
+  max_bed_c: 100
+  max_hotend_c: 300
+  net_mass_kg: 21.2
 taxonomy_1: three_d_printer
 taxonomy_10: ''
 taxonomy_11: ''

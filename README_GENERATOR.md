@@ -31,7 +31,7 @@ For a single family use, for example, `python -c "import working; working.main(f
 
 Slot 1 is always `three_d_printer`. Unused slots contain the empty string. IDs concatenate nonempty slots from left to right. Slugs use lower snake case, so `1.75 mm` becomes `1_75_mm` and `FAH001-P` becomes `fah001_p`. Keep the printed SKU, original shade and product styling in the readable fields. `bambu_lab` is the maker token across all four families.
 
-The base-colour list is `white`, `grey`, `black`, `red`, `orange`, `yellow`, `green`, `blue`, `indigo`, `violet` and `rainbow`. Use the last value for a spool sold as multicolour rainbow. For example, Translucent Blue uses `blue/translucent_blue`; Black uses `black/black`. Keep the exact shade even when the two tokens coincide. See the [standard spare parts categories](PARTS_TAXONOMY.md) and the [per-family research instructions](AGENTS.md).
+The base-colour list is `white`, `grey`, `black`, `red`, `orange`, `yellow`, `green`, `blue`, `indigo`, `violet`, `rainbow`, `pink`, `brown`, `beige`, `metallic` and `clear`. Use rainbow for a spool sold as multicolour rainbow. For example, Translucent Blue uses `blue/translucent_blue`; Black uses `black/black`. Keep the exact shade even when the two tokens coincide. See the [standard spare parts categories](PARTS_TAXONOMY.md) and the [per-family research instructions](AGENTS.md).
 
 ## Photographs and purchasing evidence
 

@@ -12,9 +12,17 @@ OOMP ID `three_d_printer_printer_creality_ender_3_v3`
 | Specification | Value |
 | --- | --- |
 | Build volume (X × Y × Z, mm) | 220 × 220 × 250 |
+| Filament diameter (mm) | 1.75 |
+| Product dimensions (manufacturer order, mm) | 358 × 374 × 498 |
+| Max hotend (°C) | 300 |
+| Motion system | CoreXZ |
+| Net mass (kg) | 7.83 |
+| Release month | 2024-02 |
+| Stock nozzle (mm) | 0.4 |
 
 Sources checked 2026-11-18.
 
+- [Creality V3 series comparison](https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke)
 - [Creality model reference](https://www.creality.com/compare/compare-ender-3-v3-series)
 
 | Taxonomy slot | Value |
@@ -51,12 +59,23 @@ name_proper: Creality Ender-3 V3
 oomp_id: three_d_printer_printer_creality_ender_3_v3
 source_checked: '2026-11-18'
 sources:
+  Creality V3 series comparison: https://store.creality.com/uk/blogs/tutorial/ender-3-v3-vs-v3-se-vs-v3-ke
   Creality model reference: https://www.creality.com/compare/compare-ender-3-v3-series
 specifications:
   build_volume_mm:
   - 220
   - 220
   - 250
+  filament_diameter_mm: 1.75
+  machine_dimensions_mm:
+  - 358
+  - 374
+  - 498
+  max_hotend_c: 300
+  motion_system: CoreXZ
+  net_mass_kg: 7.83
+  release_month: 2024-02
+  stock_nozzle_mm: 0.4
 taxonomy_1: three_d_printer
 taxonomy_10: ''
 taxonomy_11: ''

@@ -8,6 +8,13 @@ specifications:
   - 220
   - 220
   - 250
+  machine_dimensions_mm:
+  - 475
+  - 470
+  - 620
+  max_bed_c: 100
+  max_hotend_c: 260
+  net_mass_kg: 7.8
   release_month: 2020-05
 taxonomy_1: three_d_printer
 taxonomy_10: ''

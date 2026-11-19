@@ -12,7 +12,11 @@ OOMP ID `three_d_printer_printer_bambu_lab_p1p`
 | Specification | Value |
 | --- | --- |
 | Build volume (X × Y × Z, mm) | 256 × 256 × 256 |
+| Filament diameter (mm) | 1.75 |
 | Product dimensions (manufacturer order, mm) | 386 × 389 × 458 |
+| Max bed (°C) | 100 |
+| Max hotend (°C) | 300 |
+| Net mass (kg) | 9.65 |
 | Stock nozzle (mm) | 0.4 |
 
 Sources checked 2026-11-18.
@@ -44,7 +48,14 @@ Sources checked 2026-11-18.
 Compatible spares and feeders in this catalogue
 
 - [Bambu Lab AMS](../three_d_printer_ams_bambu_lab_ams/)
+- [Bambu Lab P1 series complete hotend, 0.2 mm stainless steel](../three_d_printer_part_bambu_lab_p1s_hotend_complete_0_2_mm_stainless_steel_bambu_lab_fah004_p/)
 - [Bambu Lab P1 series complete hotend, 0.4 mm](../three_d_printer_part_bambu_lab_p1s_hotend_complete_0_4_mm_hardened_steel_bambu_lab_fah001_p/)
+- [Bambu Lab P1 series complete hotend, 0.6 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_complete_0_6_mm_hardened_steel_bambu_lab_fah005_p/)
+- [Bambu Lab P1 series complete hotend, 0.8 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_complete_0_8_mm_hardened_steel_bambu_lab_fah003_p/)
+- [Bambu Lab P1 series hotend with nozzle, 0.2 mm stainless steel](../three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_2_mm_stainless_steel_bambu_lab_fah004_n_1/)
+- [Bambu Lab P1 series hotend with nozzle, 0.4 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_4_mm_hardened_steel_bambu_lab_fah001_n_1/)
+- [Bambu Lab P1 series hotend with nozzle, 0.6 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_6_mm_hardened_steel_bambu_lab_fah005_n_1/)
+- [Bambu Lab P1 series hotend with nozzle, 0.8 mm hardened steel](../three_d_printer_part_bambu_lab_p1s_hotend_hotend_with_nozzle_0_8_mm_hardened_steel_bambu_lab_fah003_n_1/)
 
 ## Assembly
 
@@ -64,10 +75,14 @@ specifications:
   - 256
   - 256
   - 256
+  filament_diameter_mm: 1.75
   machine_dimensions_mm:
   - 386
   - 389
   - 458
+  max_bed_c: 100
+  max_hotend_c: 300
+  net_mass_kg: 9.65
   stock_nozzle_mm: 0.4
 taxonomy_1: three_d_printer
 taxonomy_10: ''
